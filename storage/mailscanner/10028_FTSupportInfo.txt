@@ -1,0 +1,1269 @@
+Using SQLDMO.
+
+ComputerNamePhysicalNetBIOS MachineName ServerAndInstanceName IsClustered
+-------------------------------------------------------------------------
+TQ-4N4W43J                  TQ-4N4W43J  TQ-4N4W43J\CARDAXFT1             
+
+name                   minimum maximum    config_value run_value
+----------------------------------------------------------------
+min server memory (MB)       0 2147483647            0         0
+
+name                   minimum maximum    config_value run_value 
+-----------------------------------------------------------------
+max server memory (MB)      16 2147483647   2147483647 2147483647
+
+Name               SerialNumber IPAddress    Gateway       Subnet        Timezone                           CertType        CurrentDLLs
+---------------------------------------------------------------------------------------------------------------------------------------
+IT CONTROLLER      0x13A7       10.10.214.11 10.10.214.252 255.255.255.0 PST8PDT,M4.1.0/02:00,M10.5.0/02:00 Cardax Standard            
+Data Center        0x551E       10.10.214.9  10.10.214.252 255.255.255.0 PST8PDT,M4.1.0/02:00,M10.5.0/02:00 Cardax Standard            
+Salwa New DR  Site 0xA72D       10.20.72.33  10.20.72.1    255.255.255.0 PST8PDT,M4.1.0/02:00,M10.5.0/02:00 Cardax Standard            
+
+Name               SoftwareType AssignedVersion InstalledVersion
+----------------------------------------------------------------
+IT CONTROLLER                 0 vBT5.21b17      v5.21//bld17    
+IT CONTROLLER                 1                 BootMon-4.02    
+Data Center                   0 vBT5.21b17      v5.21//bld17    
+Data Center                   1                 BootMon-4.02    
+Salwa New DR  Site            0 vBT5.21b17      v5.21//bld17    
+Salwa New DR  Site            1                 BootMon-4.02    
+
+Name                       Total
+--------------------------------
+cardholder                   118
+club                          15
+card type                      7
+elmo                           1
+input                         17
+output                        14
+door                          14
+access zone                   21
+alarm zone                     3
+division                       1
+cardholder report              2
+activity report                4
+action plan                   12
+day category                   3
+calendar                       1
+icon set                     109
+operator privilege            47
+operator club                  3
+workstation                    2
+accessgroup report             1
+bert software                  3
+camera z181 software           1
+camera dsp software            1
+idt tiris software             2
+idt mifare software            3
+access report                  2
+time and attendance report     1
+Cardax IV Reader              17
+8-door interface software      2
+idt 125 software               2
+universal card format          8
+four door bert                 3
+archive                        1
+progboot software              3
+bert service                   1
+import/export service          1
+bootp service                  2
+bert custom software           3
+Salto Server                   1
+Access Schedule                3
+Access Zone Schedule           2
+Output Schedule                1
+
+Name               NumberOfMessages
+-----------------------------------
+IT CONTROLLER                     1
+Data Center                       1
+Salwa New DR  Site                1
+
+Name Version AppliesToWorkstation
+---------------------------------
+
+Version SiteSerialNumber
+------------------------
+5210120            11064
+
+UsedGraceTime LastUpdate             
+-------------------------------------
+           10 2016-11-07 06:19:05.000
+
+Operator Workstation LogonTime Orphaned
+---------------------------------------
+
+ID   Name                                     Type Digest                                     StartTime               EndTime                
+---------------------------------------------------------------------------------------------------------------------------------------------
+8748 DOHABANK-J2M73P_1980-01-01_001.FTArchive    8 0xD2CE96244671DD1B0F9A2CC7AB6A9151F2E4DF7D 1980-01-01 00:00:04.000 1980-01-01 00:03:40.000
+8797 DOHABANK-J2M73P_1980-01-01_002.FTArchive    8 0xE401761D816324A07853560FEF9802C52AF62D63 1980-01-01 00:00:04.000 1980-01-01 00:03:41.000
+8800 DOHABANK-J2M73P_1980-01-01_003.FTArchive    8 0xD37B251C9929701BB5686E326E6E1A51C7491B39 1980-01-01 00:00:04.000 1980-01-01 00:03:38.000
+8807 DOHABANK-J2M73P_1980-01-01_004.FTArchive    8 0xD202B52929F6FC5AFFAFEE4CD45B25B2770288E0 1980-01-01 00:00:04.000 1980-01-01 00:51:45.000
+8810 DOHABANK-J2M73P_1980-01-01_005.FTArchive    8 0xAFA6F5A4FCDC77A48A6238F2C9336E543182F3D3 1980-01-01 00:00:04.000 1980-01-01 00:15:13.000
+8821 DOHABANK-J2M73P_1980-01-01_006.FTArchive    8 0xDDAEB4E5B5C4FC7BD7046BA39F62676894D1DB18 1980-01-01 00:00:04.000 1980-01-01 00:19:38.000
+8874 DOHABANK-J2M73P_1980-01-01_007.FTArchive    8 0x4229596EE36B281F2619E50A346C68414966D878 1980-01-01 00:00:04.000 1980-01-01 00:03:41.000
+8998 DOHABANK-J2M73P_1980-01-01_008.FTArchive    8 0x2C045F06FCA947C59753ED481209EFF60C4C764D 1980-01-01 00:00:04.000 1980-01-01 15:15:35.000
+8999 DOHABANK-J2M73P_1980-01-02_001.FTArchive    8 0x8273E35E5A0BA15B1C501AE2871FD5AC42AE3C52 1980-01-02 14:14:00.000 1980-01-02 21:23:07.000
+
+FTInstallDate          
+-----------------------
+2005-01-16 06:06:41.750
+
+NumAlarms
+---------
+        1
+
+NumEvents
+---------
+        8
+
+SaltoLastEventTime
+------------------
+
+Version of files in the bin folder
+----------------------------------
+ActiveMKit_Enroll.dll       4.0.3.6
+Active_MACI.dll             4, 1, 7, 16
+atl90.dll                   9.00.30729.4148
+CCEIAdminUI.dll             6.10.684.0
+CCEIEngine.dll              6.10.684.0
+CCEIModel.dll               6.10.684.0
+CCFT.exe                    vEL6.10.684
+CCFTAperio.dll              vEL6.10.684
+CCFTArchiver.dll            vEL6.10.684
+CCFTBioMatcher.exe          vEL6.10.684
+CCFTBiometric.dll           vEL6.10.684
+CCFTBiometricCommunicator.exe vEL6.10.684
+CCFTBPS.exe                 vEL6.10.684
+CCFTBrand.dll               vEL6.10.684
+CCFTCardNumber.dll          vEL6.10.684
+CCFTClient.dll              6.10.684.0
+CCFTConman.dll              vEL6.10.684
+CCFTConstants.dll           6.10.684.0
+CCFTCtrl.dll                vEL6.10.684
+CCFTData.exe                vEL6.10.684
+CCFTDataManager.exe         vEL6.10.684
+CCFTDBTemplate.exe          vEL6.10.684
+CCFTDiagnostic.dll          vEL6.10.684
+CCFTEA.dll                  vEL6.10.684
+CCFTEDIConfiguration.dll    vEL6.10.684
+CCFTEnrolment.dll           vEL6.10.684
+CCFTES.dll                  vEL6.10.684
+CCFTGbusURI.dll             vEL6.10.684
+CCFTGuardTour.dll           vEL6.10.684
+CCFTImgSeq.dll              vEL6.10.684
+CCFTIntercomSystem.dll      vEL6.10.684
+CCFTInterCtrlMonitoring.dll vEL6.10.684
+CCFTInterop.dll             vEL6.10.684
+CCFTInteropAssist.dll       6.10.684.0
+CCFTItem.dll                vEL6.10.684
+CCFTItemPP.dll              vEL6.10.684
+CCFTMigration.dll           vEL6.10.684
+CCFTModuteq.dll             vEL6.10.684
+CCFTNotifications.dll       6.10.684.0
+CCFTOPCData.exe             vEL6.10.684
+CCFTOpcUa.dll               6.10.684.0
+CCFTProxy.dll               vEL6.10.684
+CCFTReport.dll              vEL6.10.684
+CCFTRestore.exe             vEL6.10.684
+CCFTSD.dll                  vEL6.10.684
+CCFTSiteItem.dll            vEL6.10.684
+CCFTSiteItemPP.dll          vEL6.10.684
+CCFTSP.dll                  vEL6.10.684
+CCFTSPCtrl.dll              vEL6.10.684
+CCFTStatesman.dll           vEL6.10.684
+CCFTTrophy.dll              vEL6.10.684
+CCFTUpgrade.dll             vEL6.10.684
+CCFTViewers.dll             vEL6.10.684
+CCFTVisitorMgmt.dll         vEL6.10.684
+CCFTWizards.dll             vEL6.10.684
+CCNTBadStandard.dll         vEL6.10.684
+CCNTBertCom.dll             vEL6.10.684
+CCNTBertDisp.dll            vEL6.10.684
+CCNTBertServ.exe            vEL6.10.684
+CCNTCD.dll                  vEL6.10.684
+CCNTCI.dll                  vEL6.10.684
+CCNTColl.dll                vEL6.10.684
+CCNTMsg.dll                 vEL6.10.684
+CCNTPref.dll                vEL6.10.684
+CCNTSad.exe                 vEL6.10.684
+CCNTStdW.dll                vEL6.10.684
+CCNTWks.dll                 vEL6.10.684
+DataCard.dll                vEL6.10.684
+dbghelp.dll                 6.9.0003.113
+DCSP55Mifare.dll            vEL6.10.684
+Eltron.dll                  vEL6.10.684
+EventInputAPI.dll           vEL6.10.684
+Fargo.dll                   vEL6.10.684
+FargoMifare.dll             vEL6.10.684
+FargoOmnikey.dll            vEL6.10.684
+FargoPrinterSDK12.dll       1.2.1.0
+FT DCOM Setup.exe           vEL6.10.684
+FTClientWrapper.dll         6.10.684.0
+Interlocking.dll            vEL6.10.684
+jccpdll.dll                 V2.12
+Lib_Mat_CA.dll              3, 2, 1, 0
+MailBee.NET.dll             5.8.2.180
+MorphoKit.dll               4.0.3.6
+msvcp90.dll                 9.00.30729.4148
+msvcr90.dll                 9.00.30729.4148
+MTDB.dll                    1. 3
+NiscaMifare.dll             vEL6.10.684
+NLog.dll                    1.0.0.505
+nsoftware.IPWorksSSNMP.dll  6.1.2755.0
+nsp.dll                     4, 5, 2, 82
+nspa6.dll                   4, 5, 2, 82
+nspm5.dll                   4, 5, 2, 82
+nspm6.dll                   4, 5, 2, 82
+nspp6.dll                   4, 5, 2, 82
+nsppx.dll                   4, 5, 2, 82
+NumericUpDownLibrary.dll    0.0.0.0
+Opc.Ua.Core.dll             1.01.313.0
+Opc.Ua.Server.dll           1.01.313.0
+OpcAeClient.dll             6.10.684.0
+PhotoID.dll                 vEL6.10.684
+PhotoIDRsn.dll              vEL6.10.684
+Sagem.ImageLibrary.dll      4, 0, 3, 6
+Sagem.MorphoKit.AcquisitionComponent.dll 4.0.3.6
+Sagem.MorphoKit.dll         4, 0, 3, 6
+SDI010Mifare.dll            vEL6.10.684
+SnmpUiConfig.dll            6.10.684.0
+System.ComponentModel.Composition.dll 2010.2.11.0
+System.CoreEx.dll           1.0.2317.0
+System.Interactive.dll      1.0.2317.0
+System.Reactive.dll         1.0.2317.0
+System.Threading.dll        1.0.2317.0
+Uninstall.exe               vEL6.10.684
+Utils.dll                   6.10.684.0
+WinDES.dll                  2.03
+WPFToolkit.dll              3.5.40619.1
+XID440Mifare.dll            vEL6.10.684
+zlib1.dll                   1.2.1
+
+     PID Thread Count Image Name
+======== ============ ========================================
+       0            2 [System Process]
+       4           86 System
+     664            3 smss.exe
+     768           12 csrss.exe
+     792           19 winlogon.exe
+     836           17 services.exe
+     848           23 lsass.exe
+    1020           20 svchost.exe
+    1068           10 svchost.exe
+    1108           82 svchost.exe
+    1148            5 svchost.exe
+    1216            6 svchost.exe
+    1240            3 svchost.exe
+    1392           11 svchost.exe
+    1416           13 svchost.exe
+    1592           55 AvastSvc.exe
+    1884           13 spoolsv.exe
+    1964            7 svchost.exe
+     164            3 svchost.exe
+     228            4 btwdins.exe
+     464            6 GoogleUpdate.exe
+     496            3 Iris_Pro_Monitor.exe
+     540            5 jqs.exe
+     696           30 sqlservr.exe
+     764            3 sqlwriter.exe
+    1312            2 PAStiSvc.exe
+    1320            5 svchost.exe
+    2512            5 alg.exe
+    2992            9 rundll32.exe
+    3000           15 explorer.exe
+    3404           25 chrome.exe
+    3620            4 rundll32.exe
+    3664            2 stsystra.exe
+    3704            3 igfxsrvc.exe
+    3712            2 hkcmd.exe
+    3784            3 igfxpers.exe
+    3888            4 SynTPEnh.exe
+    3928            5 ZCfgSvc.exe
+    3968            8 AvastUI.exe
+    4040            1 ctfmon.exe
+     480            9 BTTray.exe
+     532            1 IrisInfoWindow.exe
+    1376           16 BTSTAC~1.EXE
+    2608            8 chrome.exe
+    2968            5 mmc.exe
+    3120            7 sqlbrowser.exe
+    2800            3 locator.exe
+    2228            4 CCFTBPS.exe
+    4012            7 CCNTBertServ.exe
+     564           14 CCFTData.exe
+    3208            5 CCFTOPCData.exe
+    3372            2 unsecapp.exe
+     444            6 LogViewer.exe
+    3136           10 wmiprvse.exe
+    2752            6 wmiprvse.exe
+    2836            2 FTSupportTool v0.4.exe
+======== ============ ========================================
+      56          639 Total
+
+Begin FT License File
+[Site]
+Name=Doha Bank - IT Department
+SerialNumber=11064
+MultiServerSerialNumber=
+OriginalSerialNumber=
+Edition=Standard Command Centre
+Expiry=2Dec2034
+Version=6.10
+CertTypes=Cardax Standard
+Brand=Cardax
+MAC Ranges=000000-5FFFFF
+
+[Limit Info]
+{D6A08FA6-D0D6-4237-AF43-68189A36EA44},Event Sources,*,0
+{43BEB12A-04B2-43b7-A2CF-1D9CE5DBED51},Event Sources,Event Sources,0
+{DE9F44B8-5ADD-439D-BFA0-A1DDEC42D96D},Fence Controllers,Fence Controllers,0
+{09AF15F0-EC31-4AB4-9B34-D16E27ACF3DB},Fence Controllers,Fence Controllers,0
+{69A1949A-C0AB-4880-BF6A-C52F42CAD5DA},Fence Controllers,Fence Controllers,0
+{64A1DC77-9E34-4769-84F3-52C69792F575},Fence Controllers,Fence Zones,0
+{F6A9EFA4-2C11-4739-837C-FE5089D04765},Fence Controllers,*,-1
+{83833751-492E-4585-B600-76CD095B4071},Fence Controllers,*,-1
+{DB512AD8-9C46-4745-8802-58A26C530A09},Sagem Fingerprint Readers,Sagem Fingerprint Types,1
+{3D5B95F0-9938-4989-B7C5-5A0F8A4FA846},Sagem Fingerprint Readers,Sagem Fingerprint Readers,0
+{58E76EC8-7CDD-40ea-A616-35D0B5D191A5},Salto Doors,Salto Doors,0
+{949DAFBB-D052-4121-ACF4-8C907950E1B0},Salto Doors,*,-1
+{5924710D-F387-4237-9379-2EDB1D34804B},Salto Doors,*,-1
+{F6FD4B28-12C8-4c2b-89AD-14AFFEBBD8B7},SchindlerID Systems,SchindlerID Systems,0
+{D2D16A55-A5C4-40F1-9093-F5E507F22AC6},VisitorManagement,VisitorManagement,0
+{ED38F703-6ABB-4E25-92BC-5EC8C646A208},VisitorManagement,VisitorManagement,0
+{82AFE1E9-6DD5-4626-920C-628945F0A883},YCS Interface,YCS Interface,0
+{96937392-0451-4383-9810-BD47DA08BD4E},Aperio Doors,Aperio Doors,0
+{CB858A83-B1DF-4ca8-BBB0-4165BA07692E},Guard Tours,Guard Tours,0
+{2566C3B5-F696-48c6-BF91-B6E84CC18E4C},Guard Tours,*,0
+{8476C43A-C046-4761-A314-77EC27101941},Disturbance Sensors,Disturbance Sensors,0
+{0B8BB250-F7C8-4f48-B97E-CA5F3D0CB779},Disturbance Sensors,Disturbance Sensors,0
+{1D69FFD4-13B5-4a20-9A76-5AD2ACCEABEE},Fuel Pumps,Fuel Pumps,0
+{2370DCB7-041C-4a9e-B987-5D5AB167E733},Fuel Pumps,*,0
+{AA62A839-D635-4E77-8E00-44F346A51E3A},Austco Intercom Systems,Austco Intercom Systems,0
+{574D6A19-DEDF-4425-AED3-5F30771A33D1},Austco Intercom,Austco Intercom,0
+{C63CC28E-4983-4C93-9759-7C1D76907313},Car Parks,Car Parks,0
+{A018B8F7-D09C-4AA1-9921-15A7EE9281F3},Car Parks,*,0
+{F67FD522-4460-42FB-912D-F0BE01707322},Bookable Resource,Bookable Resource,0
+{520DA721-0691-4E47-ACAE-B313E87D4888},Fatigue Zones,Fatigue Zones,0
+{7A58156D-C54D-46AA-815F-D70B6944FA0F},Alcolizer,Alcolizer,0
+{3B71A5CF-354E-49F2-90B7-18FE98B4018C},BACnet Devices,BACnet Devices,0
+{2D3E2928-3C19-42D4-9BE0-D4CEA7C04EBF},BACnet Objects,BACnet Objects,0
+{AB4DD6C8-CA26-42A9-B827-77247D2E9859},Regulated Zones,Regulated Zones,0
+
+[Limits]
+Cardholders=100000
+Controller 3000s=250
+Controller 5000s=250
+Workstations=4
+Communication Servers=20
+Divisions=200
+Commanders=60
+Doors=19
+DVR Cameras=10000
+EnrolmentTemplates=99
+HLI Lift Cars=100
+Intercoms=99
+Event Sources=100
+
+[Features]
+ImportExport=1
+LogPrinting=1
+ControllerContactID=1
+CCTV=1
+T&AReport=1
+EnableHID=1
+EncryptionOn=0
+Challenge=1
+EnrolmentWizard=1
+IntercomSystem=1
+scheduleimport=1
+
+[Customisations]
+
+
+[Plugin]
+
+[KeyDevice]
+SerialNumber1=00 90 1D 00 13 A7
+SerialNumber2=00 90 1D 00 1B 73
+
+[Configuration]
+FacilityCode=
+BureauFacilityCode=
+CryptSeed=
+
+[PrivateKeyCardax Standard]
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: RC4,29531AB5B6C3335B
+
+eC5eGc78tEAjR9AYRal1gVUWCteGIyer4TjyKo2AdbbTPULV9kBQOivJTp0WrWrZ
+7YDjmDtbSEqFEeFZEecyzb4DbWrb/WlY0DD/5RXD8IsEAQ709KMEBPvbhP2fFkYG
+FLb+2lufZtJvgr+wRZHPq7QeWsi4XtOrqUgLzKhGG3jOi9uOjUpUiTTa0AE+gKwU
+P7PSNBnB7ZjdPoHNiXQ0YS4bz5MKU3e1ukHDJewyHg30ELIVyvLegZDRw9GVig5s
+YxB2JLh9AC0AFc+w1pae6JxEfktf8O8co/MPl3jOr0ALWTHLjyzi0nlg/aCbWNGj
+KwLmsyDNy3BFVIgluNhIAWIo7/JaTl9QrqQ86KwyM6HgLr/k0dj02AoezhrdLXGu
+sP1gPUujxLvpij+ZPZchUGZyoNEtSmnWOJzJsnavv9U50RIYhoxLjVRRaYMw2BY5
+PMxY8NM505Txik4Qzkje87brY0VfXJSTXp91QYlmk7veSlC4W3oK3mXmwx/H7UP0
+Bv0WuZW0C1cXd2G/cbxo8udgHk2ynKvRaz0WhaZPybHreJVcheiOke/zneWi7Bc5
+fYAbMUsH4oqbZFI+MLRJVGVT15yigDFxuPUZsXV4r9fdiNszXXITH4C0ElAij8Yz
+3CCPq0+D9Uo7iwYW6o7EKFaaX8FDXISoRgma+f9DyOYTx5Q8DP+pPXdWlYFif2/b
+3taAwcwZS6IM24lJ7meQEWsx/6jqW1HDhmTPdzB4FVFi+4GPY4SFqoJJzf46ugyH
+YRQSKa8+MdlNyxsfCwOL/Y6fSkt9JMi3wh72JDRx4jYv
+-----END RSA PRIVATE KEY-----
+
+[CertificateCardax Standard]
+-----BEGIN CERTIFICATE-----
+MIID2jCCA0OgAwIBAgIDARBkMA0GCSqGSIb3DQEBBQUAMIGhMQswCQYDVQQGEwJO
+WjEQMA4GA1UECBMHV2Fpa2F0bzERMA8GA1UEBxMISGFtaWx0b24xJDAiBgNVBAoT
+G0NhcmRheCAoSW50ZXJuYXRpb25hbCkgTHRkLjEUMBIGA1UECxMLRGV2ZWxvcG1l
+bnQxDzANBgNVBAMTBkNhcmRheDEgMB4GCSqGSIb3DQEJARYRY2FyZGF4QGNhcmRh
+eC5jb20wHhcNMTYwODA0MjIwNzI4WhcNMzcxMjMxMDAwMDAwWjCBkDELMAkGA1UE
+BhMCTloxEDAOBgNVBAgTB1dhaWthdG8xJDAiBgNVBAoTG0NhcmRheCAoSW50ZXJu
+YXRpb25hbCkgTHRkLjEaMBgGA1UECxMRQ29tbWFuZCBDZW50cmUgRlQxDTALBgNV
+BAMTBEVsbW8xHjAcBgkqhkiG9w0BCQEWD2VsbW9AY2FyZGF4LmNvbTCBnzANBgkq
+hkiG9w0BAQEFAAOBjQAwgYkCgYEAvfxgcSUsfLmRuaHBTnKzN+vyvsY0lgwGC1Iq
+2d34Fk6RjsGq7WY0DG4w4zL9lyOJc6hmqWT8jj7B8ofY1ZgJsDVYTjGXVNIFxlT1
+lDRRxj0/4GZy+37Jj3JyFRT4tl51/39tj3rykqJpzjjllgXChYskl6oxI/Ti8XV9
+6WxhthsCAwEAAaOCAS0wggEpMAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9w
+ZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBQDFQXnEND/QXxn
+2XiiUpkUKfK7yTCBzgYDVR0jBIHGMIHDgBQsPUrCxVW/JzKlOACKUu+j9sxH5KGB
+p6SBpDCBoTELMAkGA1UEBhMCTloxEDAOBgNVBAgTB1dhaWthdG8xETAPBgNVBAcT
+CEhhbWlsdG9uMSQwIgYDVQQKExtDYXJkYXggKEludGVybmF0aW9uYWwpIEx0ZC4x
+FDASBgNVBAsTC0RldmVsb3BtZW50MQ8wDQYDVQQDEwZDYXJkYXgxIDAeBgkqhkiG
+9w0BCQEWEWNhcmRheEBjYXJkYXguY29tggEAMA0GCSqGSIb3DQEBBQUAA4GBAMFD
+GZYdBN6gcDxuC00H1gfdX00rh9UwFl4G9gaK8WQivsMGFiF+XzYwmSKP+TH1FsYS
+oSGnOpW+N9MldjfhO+XKpiFyi9EzQg/kPFMpEmB8P6CY9S8e3OVOmnbpKFV+9iyT
+ir82J0SO1cN2GpvfXUZGb4iADQxkucsFm9AGf1tt
+-----END CERTIFICATE-----
+
+[MasterCardax Standard]
+-----BEGIN CERTIFICATE-----
+MIIDvTCCAyagAwIBAgIBADANBgkqhkiG9w0BAQUFADCBoTELMAkGA1UEBhMCTlox
+EDAOBgNVBAgTB1dhaWthdG8xETAPBgNVBAcTCEhhbWlsdG9uMSQwIgYDVQQKExtD
+YXJkYXggKEludGVybmF0aW9uYWwpIEx0ZC4xFDASBgNVBAsTC0RldmVsb3BtZW50
+MQ8wDQYDVQQDEwZDYXJkYXgxIDAeBgkqhkiG9w0BCQEWEWNhcmRheEBjYXJkYXgu
+Y29tMB4XDTAwMDcyNjIyMTAyN1oXDTMwMDcxOTIyMTAyN1owgaExCzAJBgNVBAYT
+Ak5aMRAwDgYDVQQIEwdXYWlrYXRvMREwDwYDVQQHEwhIYW1pbHRvbjEkMCIGA1UE
+ChMbQ2FyZGF4IChJbnRlcm5hdGlvbmFsKSBMdGQuMRQwEgYDVQQLEwtEZXZlbG9w
+bWVudDEPMA0GA1UEAxMGQ2FyZGF4MSAwHgYJKoZIhvcNAQkBFhFjYXJkYXhAY2Fy
+ZGF4LmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzJAd6FKpNW7y6orj
+ZK9SGamnz6yKSl/qMFDCKfpc6YEi0M6nmYiyuiEQNHeZliCIPbEr46jpiSKQw84Y
+Ru463Mpzimtc8Vw+eMudoRXIOJPxe//WQZ9+sPfLIPIJafttaj6ontR4WVMwZd2v
+d1LOiDO533DYYZ2pj/+HLUNrJyECAwEAAaOCAQEwgf4wHQYDVR0OBBYEFCw9SsLF
+Vb8nMqU4AIpS76P2zEfkMIHOBgNVHSMEgcYwgcOAFCw9SsLFVb8nMqU4AIpS76P2
+zEfkoYGnpIGkMIGhMQswCQYDVQQGEwJOWjEQMA4GA1UECBMHV2Fpa2F0bzERMA8G
+A1UEBxMISGFtaWx0b24xJDAiBgNVBAoTG0NhcmRheCAoSW50ZXJuYXRpb25hbCkg
+THRkLjEUMBIGA1UECxMLRGV2ZWxvcG1lbnQxDzANBgNVBAMTBkNhcmRheDEgMB4G
+CSqGSIb3DQEJARYRY2FyZGF4QGNhcmRheC5jb22CAQAwDAYDVR0TBAUwAwEB/zAN
+BgkqhkiG9w0BAQUFAAOBgQCt1Ou0IX4DwcNN21VAxU+fiiZOrRpsq7mRELwVZ6u8
+3ScbZQAA+7yG4taWPhZkA2g6sv3FIlpKvsa6kXma6DfKqXYUkm2A2zY5I4LRLWBp
+cxM8UrDvgiTZSyaDSZ5ugMDRVJv4RVQve5RX6NUiFD3EhHXqm9y+ivKt81R1o3L/
+ww==
+-----END CERTIFICATE-----
+
+[Validation]
+mKIL17Y+5HNQxmwppicouhQ9HKxtSIv1PkwapRLT3T9wpggzp8N0F2NRnE5Sbfw7ozRcNzdQ6YqWDWTybfQTbudIuX6pCf7q3DOsppdptWnodhFBWLiOSS0JLx/p9yfm1F1BeXUNI5hdhftj5QjKTlrNlMwErAn4XEnJIJjzZqA=
+
+End FT License File
+
+Other information
+-----------------
+
+Host Name:                 TQ-4N4W43J
+OS Name:                   Microsoft Windows XP Professional
+OS Version:                5.1.2600 Service Pack 3 Build 2600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Member Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          IT Officer
+Registered Organization:   Techno Q
+Product ID:                76487-641-9274481-23532
+Original Install Date:     12/30/2008, 4:25:32 PM
+System Up Time:            0 Days, 6 Hours, 31 Minutes, 50 Seconds
+System Manufacturer:       Dell Inc.
+System Model:              MM061                           
+System type:               X86-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: x86 Family 6 Model 14 Stepping 12 GenuineIntel ~1994 Mhz
+BIOS Version:              DELL   - 27d7060d
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-gb;English (United Kingdom)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (GMT+03:00) Kuwait, Riyadh
+Total Physical Memory:     1,014 MB
+Available Physical Memory: 388 MB
+Virtual Memory: Max Size:  2,048 MB
+Virtual Memory: Available: 1,995 MB
+Virtual Memory: In Use:    53 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    Techno-Q.local
+Logon Server:              \\SRVVDC02
+Hotfix(s):                 481 Hotfix(s) Installed.
+                           [01]: File 1
+                           [02]: File 1
+                           [03]: File 1
+                           [04]: File 1
+                           [05]: File 1
+                           [06]: File 1
+                           [07]: File 1
+                           [08]: File 1
+                           [09]: File 1
+                           [10]: File 1
+                           [11]: File 1
+                           [12]: File 1
+                           [13]: File 1
+                           [14]: File 1
+                           [15]: File 1
+                           [16]: File 1
+                           [17]: File 1
+                           [18]: File 1
+                           [19]: File 1
+                           [20]: File 1
+                           [21]: File 1
+                           [22]: File 1
+                           [23]: File 1
+                           [24]: File 1
+                           [25]: File 1
+                           [26]: File 1
+                           [27]: File 1
+                           [28]: File 1
+                           [29]: File 1
+                           [30]: File 1
+                           [31]: File 1
+                           [32]: File 1
+                           [33]: File 1
+                           [34]: File 1
+                           [35]: File 1
+                           [36]: File 1
+                           [37]: File 1
+                           [38]: File 1
+                           [39]: File 1
+                           [40]: File 1
+                           [41]: File 1
+                           [42]: File 1
+                           [43]: File 1
+                           [44]: File 1
+                           [45]: File 1
+                           [46]: File 1
+                           [47]: File 1
+                           [48]: File 1
+                           [49]: File 1
+                           [50]: File 1
+                           [51]: File 1
+                           [52]: File 1
+                           [53]: File 1
+                           [54]: File 1
+                           [55]: File 1
+                           [56]: File 1
+                           [57]: File 1
+                           [58]: File 1
+                           [59]: File 1
+                           [60]: File 1
+                           [61]: File 1
+                           [62]: File 1
+                           [63]: File 1
+                           [64]: File 1
+                           [65]: File 1
+                           [66]: File 1
+                           [67]: File 1
+                           [68]: File 1
+                           [69]: File 1
+                           [70]: File 1
+                           [71]: File 1
+                           [72]: File 1
+                           [73]: File 1
+                           [74]: File 1
+                           [75]: File 1
+                           [76]: File 1
+                           [77]: File 1
+                           [78]: File 1
+                           [79]: File 1
+                           [80]: File 1
+                           [81]: File 1
+                           [82]: File 1
+                           [83]: File 1
+                           [84]: File 1
+                           [85]: File 1
+                           [86]: File 1
+                           [87]: File 1
+                           [88]: File 1
+                           [89]: File 1
+                           [90]: File 1
+                           [91]: File 1
+                           [92]: File 1
+                           [93]: File 1
+                           [94]: File 1
+                           [95]: File 1
+                           [96]: File 1
+                           [97]: File 1
+                           [98]: File 1
+                           [99]: File 1
+                           [100]: File 1
+                           [101]: File 1
+                           [102]: File 1
+                           [103]: File 1
+                           [104]: File 1
+                           [105]: File 1
+                           [106]: File 1
+                           [107]: File 1
+                           [108]: File 1
+                           [109]: File 1
+                           [110]: File 1
+                           [111]: File 1
+                           [112]: File 1
+                           [113]: File 1
+                           [114]: File 1
+                           [115]: File 1
+                           [116]: File 1
+                           [117]: File 1
+                           [118]: File 1
+                           [119]: File 1
+                           [120]: File 1
+                           [121]: File 1
+                           [122]: File 1
+                           [123]: File 1
+                           [124]: File 1
+                           [125]: File 1
+                           [126]: File 1
+                           [127]: File 1
+                           [128]: File 1
+                           [129]: File 1
+                           [130]: File 1
+                           [131]: File 1
+                           [132]: File 1
+                           [133]: File 1
+                           [134]: File 1
+                           [135]: File 1
+                           [136]: File 1
+                           [137]: File 1
+                           [138]: File 1
+                           [139]: File 1
+                           [140]: File 1
+                           [141]: File 1
+                           [142]: File 1
+                           [143]: File 1
+                           [144]: File 1
+                           [145]: File 1
+                           [146]: File 1
+                           [147]: File 1
+                           [148]: File 1
+                           [149]: File 1
+                           [150]: File 1
+                           [151]: File 1
+                           [152]: File 1
+                           [153]: File 1
+                           [154]: File 1
+                           [155]: File 1
+                           [156]: File 1
+                           [157]: File 1
+                           [158]: File 1
+                           [159]: File 1
+                           [160]: File 1
+                           [161]: File 1
+                           [162]: File 1
+                           [163]: File 1
+                           [164]: File 1
+                           [165]: File 1
+                           [166]: File 1
+                           [167]: File 1
+                           [168]: File 1
+                           [169]: File 1
+                           [170]: File 1
+                           [171]: File 1
+                           [172]: File 1
+                           [173]: File 1
+                           [174]: File 1
+                           [175]: File 1
+                           [176]: File 1
+                           [177]: File 1
+                           [178]: File 1
+                           [179]: File 1
+                           [180]: File 1
+                           [181]: File 1
+                           [182]: File 1
+                           [183]: File 1
+                           [184]: File 1
+                           [185]: File 1
+                           [186]: File 1
+                           [187]: File 1
+                           [188]: File 1
+                           [189]: File 1
+                           [190]: File 1
+                           [191]: File 1
+                           [192]: File 1
+                           [193]: File 1
+                           [194]: File 1
+                           [195]: File 1
+                           [196]: File 1
+                           [197]: File 1
+                           [198]: File 1
+                           [199]: File 1
+                           [200]: File 1
+                           [201]: File 1
+                           [202]: File 1
+                           [203]: File 1
+                           [204]: File 1
+                           [205]: File 1
+                           [206]: File 1
+                           [207]: File 1
+                           [208]: File 1
+                           [209]: File 1
+                           [210]: File 1
+                           [211]: File 1
+                           [212]: File 1
+                           [213]: File 1
+                           [214]: File 1
+                           [215]: File 1
+                           [216]: File 1
+                           [217]: File 1
+                           [218]: File 1
+                           [219]: File 1
+                           [220]: File 1
+                           [221]: File 1
+                           [222]: File 1
+                           [223]: File 1
+                           [224]: File 1
+                           [225]: File 1
+                           [226]: File 1
+                           [227]: File 1
+                           [228]: File 1
+                           [229]: File 1
+                           [230]: File 1
+                           [231]: File 1
+                           [232]: File 1
+                           [233]: Q147222
+                           [234]: KB968930 - Update
+                           [235]: Q954430
+                           [236]: Q973688
+                           [237]: Q2758694
+                           [238]: KB929399
+                           [239]: KB2378111_WM9
+                           [240]: KB2834904-v2_WM11
+                           [241]: KB2834904_WM11
+                           [242]: KB952069_WM9
+                           [243]: KB954155_WM9
+                           [244]: KB973540_WM9
+                           [245]: KB975558_WM8
+                           [246]: KB978695_WM9
+                           [247]: KB939683
+                           [248]: KB954154_WM11
+                           [249]: KB941569
+                           [250]: KB2510531-IE8 - Update
+                           [251]: KB2544521-IE8 - Update
+                           [252]: KB2559049-IE8 - Update
+                           [253]: KB2586448-IE8 - Update
+                           [254]: KB2598845-IE8 - Update
+                           [255]: KB2618444-IE8 - Update
+                           [256]: KB2647516-IE8 - Update
+                           [257]: KB2675157-IE8 - Update
+                           [258]: KB2699988-IE8 - Update
+                           [259]: KB2722913-IE8 - Update
+                           [260]: KB2744842-IE8 - Update
+                           [261]: KB2761465-IE8 - Update
+                           [262]: KB2792100-IE8 - Update
+                           [263]: KB2797052-IE8 - Update
+                           [264]: KB2799329-IE8 - Update
+                           [265]: KB2809289-IE8 - Update
+                           [266]: KB2817183-IE8 - Update
+                           [267]: KB2838727-IE8 - Update
+                           [268]: KB2846071-IE8 - Update
+                           [269]: KB2862772-IE8 - Updat
+                                                      
+NetWork Card(s):           4 NIC(s) Installed.
+                           [01]: Broadcom 440x 10/100 Integrated Controller
+                                 Connection Name: Local Area Connection 5
+                                 Status:          Media disconnected
+                           [02]: Dell Wireless 1390 WLAN Mini-Card
+                                 Connection Name: Wireless Network Connection 3
+                           [03]: Bluetooth LAN Access Server Driver
+                                 Connection Name: Bluetooth Network
+                                 Status:          Media disconnected
+                           [04]: 1394 Net Adapter
+                                 Connection Name: 1394 Connection 2
+These Windows services are started:
+
+   Application Layer Gateway Service
+   Automatic Updates
+   avast! Antivirus
+   avast! Mail Scanner
+   avast! Web Scanner
+   Background Intelligent Transfer Service
+   Bluetooth Service
+   Bluetooth Support Service
+   Client Service for NetWare
+   COM+ Event System
+   Computer Browser
+   Cryptographic Services
+   DCOM Server Process Launcher
+   DHCP Client
+   Distributed Link Tracking Client
+   DNS Client
+   Error Reporting Service
+   Event Log
+   Extensible Authentication Protocol Service
+   FT Bootstrap Protocol Service
+   FT Controller Service
+   FT Import - Export Service
+   FT OPC Data 3.0 Service
+   Help and Support
+   HID Input Service
+   IPSEC Services
+   IrisMngSrv
+   Java Quick Starter
+   Logical Disk Manager
+   Net Logon
+   Network Connections
+   Network Location Awareness (NLA)
+   Plug and Play
+   Print Spooler
+   Protected Storage
+   Remote Access Connection Manager
+   Remote Procedure Call (RPC)
+   Remote Procedure Call (RPC) Locator
+   Remote Registry
+   Secondary Logon
+   Security Accounts Manager
+   Server
+   Shell Hardware Detection
+   SQL Server (CARDAXFT1)
+   SQL Server Browser
+   SQL Server VSS Writer
+   SSDP Discovery Service
+   STI Simulator
+   System Event Notification
+   System Restore Service
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   Telephony
+   Terminal Services
+   Themes
+   WebClient
+   Windows Audio
+   Windows Driver Foundation - User-mode Driver Framework
+   Windows Firewall/Internet Connection Sharing (ICS)
+   Windows Image Acquisition (WIA)
+   Windows Management Instrumentation
+   Windows Time
+   Wired AutoConfig
+   Wireless Zero Configuration
+   Workstation
+
+The command completed successfully.
+
+
+Image Name                   PID Session Name     Session#    Mem Usage
+========================= ====== ================ ======== ============
+System Idle Process            0 Console                 0         28 K
+System                         4 Console                 0        236 K
+smss.exe                     664 Console                 0        432 K
+csrss.exe                    768 Console                 0      5,160 K
+winlogon.exe                 792 Console                 0      7,628 K
+services.exe                 836 Console                 0      8,416 K
+lsass.exe                    848 Console                 0      3,692 K
+svchost.exe                 1020 Console                 0      5,548 K
+svchost.exe                 1068 Console                 0      4,956 K
+svchost.exe                 1108 Console                 0     26,480 K
+svchost.exe                 1148 Console                 0      3,536 K
+svchost.exe                 1216 Console                 0      3,216 K
+svchost.exe                 1240 Console                 0      3,836 K
+svchost.exe                 1392 Console                 0      4,084 K
+svchost.exe                 1416 Console                 0      6,004 K
+AvastSvc.exe                1592 Console                 0     50,992 K
+spoolsv.exe                 1884 Console                 0      8,608 K
+svchost.exe                 1964 Console                 0      5,280 K
+svchost.exe                  164 Console                 0      3,488 K
+btwdins.exe                  228 Console                 0      2,524 K
+GoogleUpdate.exe             464 Console                 0      1,736 K
+Iris_Pro_Monitor.exe         496 Console                 0      4,576 K
+jqs.exe                      540 Console                 0      1,428 K
+sqlservr.exe                 696 Console                 0     35,084 K
+sqlwriter.exe                764 Console                 0      3,708 K
+PAStiSvc.exe                1312 Console                 0      1,124 K
+svchost.exe                 1320 Console                 0      4,892 K
+alg.exe                     2512 Console                 0      3,776 K
+rundll32.exe                2992 Console                 0     19,396 K
+explorer.exe                3000 Console                 0     24,752 K
+chrome.exe                  3404 Console                 0     49,740 K
+rundll32.exe                3620 Console                 0      3,740 K
+stsystra.exe                3664 Console                 0      4,372 K
+igfxsrvc.exe                3704 Console                 0      3,612 K
+hkcmd.exe                   3712 Console                 0      3,080 K
+igfxpers.exe                3784 Console                 0      3,176 K
+SynTPEnh.exe                3888 Console                 0      5,736 K
+ZCfgSvc.exe                 3928 Console                 0     13,912 K
+AvastUI.exe                 3968 Console                 0      2,312 K
+ctfmon.exe                  4040 Console                 0      3,596 K
+BTTray.exe                   480 Console                 0      6,636 K
+IrisInfoWindow.exe           532 Console                 0      5,668 K
+BTSTAC~1.EXE                1376 Console                 0      8,700 K
+chrome.exe                  2608 Console                 0     51,592 K
+mmc.exe                     2968 Console                 0      3,004 K
+sqlbrowser.exe              3120 Console                 0      2,480 K
+locator.exe                 2800 Console                 0      2,876 K
+CCFTBPS.exe                 2228 Console                 0     12,508 K
+CCNTBertServ.exe            4012 Console                 0     10,596 K
+CCFTData.exe                 564 Console                 0     12,092 K
+CCFTOPCData.exe             3208 Console                 0     14,152 K
+unsecapp.exe                3372 Console                 0      4,420 K
+LogViewer.exe                444 Console                 0      1,604 K
+wmiprvse.exe                3136 Console                 0      9,020 K
+FTSupportTool v0.4.exe      2836 Console                 0      7,072 K
+wmiprvse.exe                4092 Console                 0      5,092 K
+cmd.exe                     3040 Console                 0      2,776 K
+tasklist.exe                2852 Console                 0      4,728 K
+
+Image Name                   PID Modules                                      
+========================= ====== =============================================
+CCFTBPS.exe                 2228 ntdll.dll, kernel32.dll, IPHLPAPI.DLL,       
+                                 ADVAPI32.dll, RPCRT4.dll, Secur32.dll,       
+                                 msvcrt.dll, USER32.dll, GDI32.dll,           
+                                 WS2_32.dll, WS2HELP.dll, ccntmsg.dll,        
+                                 COMCTL32.dll, CRYPT32.dll, MSASN1.dll,       
+                                 ole32.dll, OLEAUT32.dll, SHLWAPI.dll,        
+                                 MSIMG32.dll, PSAPI.DLL, CCFTCommonLib.dll,   
+                                 CCFTDiagnostic.dll, WTSAPI32.dll,            
+                                 WINSTA.dll, NETAPI32.dll, SHELL32.dll,       
+                                 MSVCP90.dll, MSVCR90.dll, VERSION.dll,       
+                                 WINMM.dll, AVIFIL32.dll, MSACM32.dll,        
+                                 MSVFW32.dll, WinSCard.dll, WINSPOOL.DRV,     
+                                 ATL90.DLL, IMM32.DLL, LPK.DLL, USP10.dll,    
+                                 comctl32.dll, dbghelp.dll, uxtheme.dll,      
+                                 xpsp2res.dll, CLBCATQ.DLL, COMRes.dll,       
+                                 mlang.dll, rsaenh.dll, CCNTWks.rll,          
+                                 CCFT.rll, PhotoID.rll, Uninstall.rll,        
+                                 CCFTInstall.rll, CCFTBrand.rll,              
+                                 CCFTGbusURI.rll, EventInputAPI.rll,          
+                                 CCFTInterCtrlMonitoring.rll, CCFTTrophy.rll, 
+                                 CCFTRestore.rll, Interlocking.rll,           
+                                 CCFTBiometric.rll, CCNTMsg.rll,              
+                                 CCFTSalto.rll, CCFTCardNumber.rll,           
+                                 CCFTVisitorMgmt.rll, CCFTAperio.rll,         
+                                 CCFTGuardTour.rll, CCFTModuteq.rll,          
+                                 CCFTCtrl.rll, CCFTSiteItemPP.rll,            
+                                 CCFTDataManager.rll, CCFTDBTemplate.rll,     
+                                 CCFTEnrolment.rll, CCFTIntercomSystem.rll,   
+                                 CCFTItemPP.rll, CCFTReport.rll, CCFTSP.rll,  
+                                 CCFTSPCtrl.rll, CCFTUpgrade.rll,             
+                                 CCFTViewers.rll, CCFTWizards.rll,            
+                                 CCNTSad.rll, CCNTStdW.rll, wshbth.dll,       
+                                 SETUPAPI.dll, mswsock.dll, DNSAPI.dll,       
+                                 winrnr.dll, WLDAP32.dll, hnetcfg.dll,        
+                                 wshtcpip.dll, CCFTProxy.dll                  
+CCNTBertServ.exe            4012 ntdll.dll, kernel32.dll, CCFTCommonLib.dll,  
+                                 ccntmsg.dll, COMCTL32.dll, ADVAPI32.dll,     
+                                 RPCRT4.dll, Secur32.dll, GDI32.dll,          
+                                 USER32.dll, CRYPT32.dll, MSASN1.dll,         
+                                 msvcrt.dll, ole32.dll, OLEAUT32.dll,         
+                                 SHLWAPI.dll, MSIMG32.dll, PSAPI.DLL,         
+                                 CCFTDiagnostic.dll, WTSAPI32.dll,            
+                                 WINSTA.dll, NETAPI32.dll, SHELL32.dll,       
+                                 MSVCP90.dll, MSVCR90.dll, VERSION.dll,       
+                                 WS2_32.dll, WS2HELP.dll, WINMM.dll,          
+                                 AVIFIL32.dll, MSACM32.dll, MSVFW32.dll,      
+                                 WinSCard.dll, WINSPOOL.DRV, ATL90.DLL,       
+                                 IMM32.DLL, LPK.DLL, USP10.dll, comctl32.dll, 
+                                 dbghelp.dll, xpsp2res.dll, CLBCATQ.DLL,      
+                                 COMRes.dll, mlang.dll, rsaenh.dll,           
+                                 CCNTWks.rll, CCFT.rll, PhotoID.rll,          
+                                 Uninstall.rll, CCFTInstall.rll,              
+                                 CCFTBrand.rll, CCFTGbusURI.rll,              
+                                 EventInputAPI.rll,                           
+                                 CCFTInterCtrlMonitoring.rll, CCFTTrophy.rll, 
+                                 CCFTRestore.rll, Interlocking.rll,           
+                                 CCFTBiometric.rll, CCNTMsg.rll,              
+                                 CCFTSalto.rll, CCFTCardNumber.rll,           
+                                 CCFTVisitorMgmt.rll, CCFTAperio.rll,         
+                                 CCFTGuardTour.rll, CCFTModuteq.rll,          
+                                 CCFTCtrl.rll, CCFTSiteItemPP.rll,            
+                                 CCFTDataManager.rll, CCFTDBTemplate.rll,     
+                                 CCFTEnrolment.rll, CCFTIntercomSystem.rll,   
+                                 CCFTItemPP.rll, CCFTReport.rll, CCFTSP.rll,  
+                                 CCFTSPCtrl.rll, CCFTUpgrade.rll,             
+                                 CCFTViewers.rll, CCFTWizards.rll,            
+                                 CCNTSad.rll, CCNTStdW.rll, CCFTConman.dll,   
+                                 RASAPI32.dll, rasman.dll, TAPI32.dll,        
+                                 rtutils.dll, mswsock.dll, uxtheme.dll,       
+                                 hnetcfg.dll, wshtcpip.dll, CCFTProxy.dll     
+CCFTData.exe                 564 ntdll.dll, kernel32.dll, ccntmsg.dll,        
+                                 COMCTL32.dll, ADVAPI32.dll, RPCRT4.dll,      
+                                 Secur32.dll, GDI32.dll, USER32.dll,          
+                                 CRYPT32.dll, MSASN1.dll, msvcrt.dll,         
+                                 ole32.dll, OLEAUT32.dll, SHLWAPI.dll,        
+                                 MSIMG32.dll, PSAPI.DLL, CCFTCommonLib.dll,   
+                                 CCFTDiagnostic.dll, WTSAPI32.dll,            
+                                 WINSTA.dll, NETAPI32.dll, SHELL32.dll,       
+                                 MSVCP90.dll, MSVCR90.dll, VERSION.dll,       
+                                 WS2_32.dll, WS2HELP.dll, WINMM.dll,          
+                                 AVIFIL32.dll, MSACM32.dll, MSVFW32.dll,      
+                                 WinSCard.dll, WINSPOOL.DRV, ATL90.DLL,       
+                                 IMM32.DLL, LPK.DLL, USP10.dll, comctl32.dll, 
+                                 dbghelp.dll, uxtheme.dll, xpsp2res.dll,      
+                                 CLBCATQ.DLL, COMRes.dll, mlang.dll,          
+                                 rsaenh.dll, CCNTWks.rll, CCFT.rll,           
+                                 PhotoID.rll, Uninstall.rll, CCFTInstall.rll, 
+                                 CCFTBrand.rll, CCFTGbusURI.rll,              
+                                 EventInputAPI.rll,                           
+                                 CCFTInterCtrlMonitoring.rll, CCFTTrophy.rll, 
+                                 CCFTRestore.rll, Interlocking.rll,           
+                                 CCFTBiometric.rll, CCNTMsg.rll,              
+                                 CCFTSalto.rll, CCFTCardNumber.rll,           
+                                 CCFTVisitorMgmt.rll, CCFTAperio.rll,         
+                                 CCFTGuardTour.rll, CCFTModuteq.rll,          
+                                 CCFTCtrl.rll, CCFTSiteItemPP.rll,            
+                                 CCFTDataManager.rll, CCFTDBTemplate.rll,     
+                                 CCFTEnrolment.rll, CCFTIntercomSystem.rll,   
+                                 CCFTItemPP.rll, CCFTReport.rll, CCFTSP.rll,  
+                                 CCFTSPCtrl.rll, CCFTUpgrade.rll,             
+                                 CCFTViewers.rll, CCFTWizards.rll,            
+                                 CCNTSad.rll, CCNTStdW.rll, CCFTProxy.dll     
+
+! REG.EXE VERSION 3.0
+
+HKEY_LOCAL_MACHINE\SOFTWARE\CARDAX\Command Centre FT
+    ServerLocale	REG_DWORD	0x409
+    Serial	REG_DWORD	0xfe194bf4
+    InstallType	REG_DWORD	0x3f
+    InstalledSeries	REG_DWORD	0x5
+    Version	REG_SZ	vEL6.10.684
+    BarcodeNarrowBarWidth	REG_DWORD	0x19
+    BarcodeNarrowToWideRatio	REG_SZ	2.5
+    BarcodeBarWidthReduction	REG_SZ	0
+    ServerMachine	REG_SZ	TQ-4N4W43J
+    Install Path	REG_SZ	C:\Program Files\CARDAX\Command Centre
+    DatabaseServerMachine	REG_SZ	TQ-4N4W43J\CARDAXFT1
+    DatabaseName	REG_SZ	CCFTCentral
+    EventDatabaseServer	REG_SZ	TQ-4N4W43J\CARDAXFT1
+    EventDatabaseName	REG_SZ	CCFTEvent
+    LogFileSize	REG_DWORD	0x2800
+    LogFileCount	REG_DWORD	0x1
+    DumpCount	REG_DWORD	0xa
+    TraceOn	REG_DWORD	0x0
+    AssertPopupOn	REG_DWORD	0x0
+    AssertDumpOn	REG_DWORD	0x1
+    AssertDumpType	REG_DWORD	0x0
+    AssertCommand	REG_SZ	
+    UHEDumpOn	REG_DWORD	0x1
+    UHEDumpType	REG_DWORD	0x0
+    UHECommand	REG_SZ	
+    StartupTraceOn	REG_DWORD	0x0
+    GeneralOn	REG_DWORD	0x0
+    Enable_UHE_Popups	REG_DWORD	0x0
+    SimulateRightClickTime	REG_DWORD	0x0
+    InstallShortCuts	REG_MULTI_SZ	C:\Documents and Settings\All Users\Start Menu\Programs\Command Centre.lnk\0C:\Documents and Settings\All Users\Desktop\Command Centre.lnk\0C:\Documents and Settings\All Users\Start Menu\Programs\Command Centre Restore.lnk\0\0
+    TimeBetweenServerPings	REG_DWORD	0x7d0
+    IncludeCommander	REG_DWORD	0x1
+
+HKEY_LOCAL_MACHINE\SOFTWARE\CARDAX\Command Centre FT\AddIns
+    FindTool	REG_SZ	{9043D397-BE19-11D2-B1DB-006097CA0286}
+    Cardholder MLW	REG_SZ	{7D8411A0-D8C8-11d2-B1EE-006097CA0286}
+    Backup	REG_SZ	{459D7841-E547-11d2-8B72-006097A452A8}
+    Hardware MLW	REG_SZ	{66655862-4C44-11d3-889B-008048E71AC9}
+    Status Viewer	REG_SZ	{0F682C86-51D2-11d3-889D-008048E71AC9}
+    ReportDescription MLW	REG_SZ	{A2B70826-6EFD-11D3-AABD-0060971DE60D}
+    Schedule MLW	REG_SZ	{353EBF06-748B-11D3-92BC-0000C0F23599}
+    AlarmZone MLW	REG_SZ	{89ADB490-8662-11d3-92C4-0000C0F23599}
+    Access Group MLW	REG_SZ	{3E2EAA04-73BC-11d3-8BBF-006097A452A8}
+    ActionPlan MLW	REG_SZ	{C354C6E0-868C-11d3-92C4-0000C0F23599}
+    Door MLW	REG_SZ	{B4DB4AD2-DDB3-11d3-88F8-008048E71AC9}
+    SitePlan MLW	REG_SZ	{FEED52C0-E4B3-11d3-A356-00A0C9E24E97}
+    CardType MLW	REG_SZ	{0B8F46B0-E8CF-11d3-B7C0-00104B652B06}
+    LiftCar MLW	REG_SZ	{0F29AFA0-F4A4-11d3-9F65-006008949EEC}
+    Intercom	REG_SZ	{B36F6A99-E356-11D3-B7C0-00104B652B06}
+    OperatorPrivilege MLW	REG_SZ	{9001B7E0-2C60-11d4-AB52-0060971DE60D}
+    Division MLW	REG_SZ	{78A805EE-2F68-11d4-891F-008048E71AC9}
+    Personal Data Field MLW	REG_SZ	{8931F691-367A-11d4-8922-008048E71AC9}
+    Day Category MLW	REG_SZ	{0BA659B1-583A-11d4-92D2-00104B700B16}
+    Access Zone MLW	REG_SZ	{87A07310-FD09-11d2-B220-006097CA0286}
+    Operator Club MLW	REG_SZ	{8F8F9E20-7E19-11d4-AB7C-0060971DE60D}
+    Software Process MLW	REG_SZ	{1ED3D5C2-8F74-11D4-84E5-00600894A05C}
+    AlarmInstructions MLW	REG_SZ	{4B84EAC0-A478-11d4-9BFA-00609734231E}
+    InsertionTag MLW	REG_SZ	{2D0834B7-2E5F-45f7-A117-CFDCD9EE7EFE}
+    Calendar MLW	REG_SZ	{9A880563-F163-40e5-9FA6-4029E2A71C09}
+    Event Viewer	REG_SZ	{AFFEF8E4-8C0D-11d3-88C4-008048E71AC9}
+    Alarm Viewer	REG_SZ	{45308340-A44A-11d3-88D3-008048E71AC9}
+    EscalatedAlarm Viewer	REG_SZ	{7FD02934-7513-4bf7-88FE-9595C17C424B}
+    AlarmBeeper	REG_SZ	{FDDDFA04-5ACF-4a55-B5F5-4E7F8FE2941C}
+    Device Software MLW	REG_SZ	{2EA89B09-396A-40ff-AE81-4EED5B3C62C7}
+    SitePlanHidden	REG_SZ	{B96F071E-A709-43c6-8238-21340806608B}
+    Universal Card Format MLW	REG_SZ	{31AA9551-CA8D-40e5-B25E-D07B2816FBA3}
+    Archive MLW	REG_SZ	{4A7FB2A0-ED5C-4ab1-8667-278C2782C55E}
+    EnrolmentTemplate MLW	REG_SZ	{F047CF28-7F91-4c13-9420-E9771849BD8B}
+    Icon Set MLW	REG_SZ	{D0E07D11-7594-421e-A215-CD3A65B8FAF1}
+    Macro MLW	REG_SZ	{387F063B-05E6-405d-9F83-4A5DFAB55AB4}
+    BulkChange MLW	REG_SZ	{432C2E01-BEFA-4437-BEB7-D5784636EEFA}
+    Logic Block MLW	REG_SZ	{D602FF6D-7249-4d54-8E48-99C02FB7CE3A}
+    CompetencyMLW Class	REG_SZ	{49067B25-602D-4252-98CA-C5F59AA2C3A6}
+    NotificationFilterMLW Class	REG_SZ	{950BCE87-E1D9-44df-9313-5CB7ECBD2DDE}
+    RoleMLW Class	REG_SZ	{79D1D61F-EC75-4da4-A89B-B1D0343DE14D}
+    Challenge Viewer	REG_SZ	{388933F7-1B5B-4702-8261-F7FF0A8B58C2}
+    Wizard Template MLW	REG_SZ	{9F334F6C-4E8F-43B0-9504-73D95568C43A}
+    Camera Viewer	REG_SZ	{BFB11F70-E3ED-11D3-9312-00104B1C204C}
+    Property Page Module	REG_SZ	{2D5678F0-FF50-11d2-B22E-006097CA0286}
+    PhotoID	REG_SZ	{040C4DFC-7BCA-4b4f-B921-6B9B6DFED86B}
+    Read Mifare Card	REG_SZ	{1464D6E9-6BC2-4f93-8252-E9CE9C834737}
+    Quick Start Wizard	REG_SZ	{d3de5dd2-94ca-4903-a729-644fa69aedb9}
+    Configuration Wizard Addin	REG_SZ	{00C3E4F4-F089-4710-8E25-873F99B2F035}
+    Enrolment Wizards	REG_SZ	{29D5640C-CCD9-48a1-A394-9829468EC9E4}
+    IntercomSystem Window	REG_SZ	{744F7FE8-57E8-4905-9B07-E15727DCBC09}
+    ExternalSystem MLW	REG_SZ	{5AE6DDEB-3394-4927-BDE3-50F7E47CB82F}
+    InterlockGroup MLW	REG_SZ	{8C202220-8BA9-4e2c-ACEE-3C295DF48183}
+    Visit MLW	REG_SZ	{3C92B5BA-C4D1-4279-A6C1-83B9849DA438}
+    Guard Tours MLW	REG_SZ	{2D8811BE-01CF-4eda-93FB-E599886F83F1}
+    Enterprise Data Interface	REG_SZ	{773eea58-c59a-4a5d-947f-3716bb254286}
+
+HKEY_LOCAL_MACHINE\SOFTWARE\CARDAX\Command Centre FT\EventDLLs
+    CCFTTrophy	REG_SZ	C:\Program Files\CARDAX\Command Centre\Bin\CCFTTrophy.dll
+    CCFTInterCtrlMonitoring	REG_SZ	C:\Program Files\CARDAX\Command Centre\Bin\CCFTInterCtrlMonitoring.dll
+    CCFTVisitorMgmt	REG_SZ	C:\Program Files\CARDAX\Command Centre\Bin\CCFTVisitorMgmt.dll
+    CCFTGuardTour	REG_SZ	C:\Program Files\CARDAX\Command Centre\Bin\CCFTGuardTour.dll
+
+Connection Name Network Adapter Physical Address    Transport Name                                            
+=============== =============== =================== ==========================================================
+Local Area Conn Broadcom 440x 1 00-1C-23-9D-09-1A   Media disconnected                                        
+Wireless Networ Dell Wireless 1 Disabled            Disconnected                                              
+Bluetooth Netwo Bluetooth LAN A 00-1C-26-EF-D1-FF   Media disconnected                                        
+1394 Connection 1394 Net Adapte Disabled            Disconnected                                              
+
+Windows IP Configuration
+
+        Host Name . . . . . . . . . . . . : tq-4n4w43j
+        Primary Dns Suffix  . . . . . . . : Techno-Q.local
+        Node Type . . . . . . . . . . . . : Hybrid
+        IP Routing Enabled. . . . . . . . : Yes
+        WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Local Area Connection 5:
+
+        Media State . . . . . . . . . . . : Media disconnected
+        Description . . . . . . . . . . . : Broadcom 440x 10/100 Integrated Controller
+        Physical Address. . . . . . . . . : 00-1C-23-9D-09-1A
+
+Ethernet adapter Bluetooth Network:
+
+        Media State . . . . . . . . . . . : Media disconnected
+        Description . . . . . . . . . . . : Bluetooth LAN Access Server Driver
+        Physical Address. . . . . . . . . : 00-1C-26-EF-D1-FF
+===========================================================================
+Interface List
+0x1 ........................... MS TCP Loopback interface
+0x2 ...00 1c 23 9d 09 1a ...... Broadcom 440x 10/100 Integrated Controller - Packet Scheduler Miniport
+0x10004 ...00 1c 26 ef d1 ff ...... Bluetooth LAN Access Server Driver - Packet Scheduler Miniport
+===========================================================================
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+        127.0.0.0        255.0.0.0        127.0.0.1       127.0.0.1	  1
+  255.255.255.255  255.255.255.255  255.255.255.255           10004	  1
+  255.255.255.255  255.255.255.255  255.255.255.255               2	  1
+===========================================================================
+Persistent Routes:
+  None
+
+Route Table
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1068
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:1072           0.0.0.0:0              LISTENING       4012
+  TCP    127.0.0.1:1028         0.0.0.0:0              LISTENING       2512
+  TCP    127.0.0.1:5152         0.0.0.0:0              LISTENING       540
+  TCP    127.0.0.1:12025        0.0.0.0:0              LISTENING       1592
+  TCP    127.0.0.1:12080        0.0.0.0:0              LISTENING       1592
+  TCP    127.0.0.1:12110        0.0.0.0:0              LISTENING       1592
+  TCP    127.0.0.1:12119        0.0.0.0:0              LISTENING       1592
+  TCP    127.0.0.1:12143        0.0.0.0:0              LISTENING       1592
+  TCP    127.0.0.1:12465        0.0.0.0:0              LISTENING       1592
+  TCP    127.0.0.1:12563        0.0.0.0:0              LISTENING       1592
+  TCP    127.0.0.1:12993        0.0.0.0:0              LISTENING       1592
+  TCP    127.0.0.1:12995        0.0.0.0:0              LISTENING       1592
+  UDP    0.0.0.0:67             *:*                                    2228
+  UDP    0.0.0.0:445            *:*                                    4
+  UDP    0.0.0.0:500            *:*                                    848
+  UDP    0.0.0.0:1094           *:*                                    1884
+  UDP    0.0.0.0:1434           *:*                                    3120
+  UDP    0.0.0.0:4500           *:*                                    848
+  UDP    127.0.0.1:123          *:*                                    1108
+  UDP    127.0.0.1:1900         *:*                                    1392
+Interface Statistics
+
+                           Received            Sent
+
+Bytes                          3273            3273
+Unicast packets                  65              65
+Non-unicast packets               0               1
+Discards                          0               0
+Errors                            0               0
+Unknown protocols                 0
+
+IPv4 Statistics
+
+  Packets Received                   = 65
+  Received Header Errors             = 0
+  Received Address Errors            = 0
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 0
+  Received Packets Delivered         = 65
+  Output Requests                    = 65
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 0
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  32          32        
+  Errors                    0           0         
+  Destination Unreachable   0           0         
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Source Quenches           0           0         
+  Redirects                 0           0         
+  Echos                     16          16        
+  Echo Replies              16          16        
+  Timestamps                0           0         
+  Timestamp Replies         0           0         
+  Address Masks             0           0         
+  Address Mask Replies      0           0         
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 0
+  Passive Opens                       = 0
+  Failed Connection Attempts          = 0
+  Reset Connections                   = 0
+  Current Connections                 = 0
+  Segments Received                   = 0
+  Segments Sent                       = 0
+  Segments Retransmitted              = 0
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 33
+  No Ports              = 16
+  Receive Errors        = 0
+  Datagrams Sent        = 33
+
+Pinging Server
+--------------
+Pinging tq-4n4w43j.Techno-Q.local [127.0.0.1] with 32 bytes of data:
+
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms

@@ -1,0 +1,47 @@
+card format : third party(0xFD)
+Number of Bits:26
+
+Raw Card Data (Hexadecimal):
+47 00 00 80
+
+Raw Card Data (Binary):
+01000111 00000000 00000000 10
+
+serial :*00001 42101034439-4
+-------------------------------------------------------------
+
+card format : third party(0xFD)
+Number of Bits:26
+
+Raw Card Data (Hexadecimal):
+47 00 0E 00 
+
+Raw Card Data (Binary):
+01000111 00000000 00001110 00
+
+serial :*00028 42101034439-4
+
+------------------------------------------------------------------
+card format : third party(0xFD)
+Number of Bits:26
+
+Raw Card Data (Hexadecimal):
+47 00 19 00
+
+Raw Card Data (Binary):
+01000111 00000000 00011001 00
+
+serial :*00050 42101034439-4
+-----------------------------------------------------------------------
+
+
+card format : third party(0xFD)
+Number of Bits:26
+
+Raw Card Data (Hexadecimal):
+47 00 27 80
+
+Raw Card Data (Binary):
+01000111 00000000 00100111 10
+
+serial :*00079 42101034439-4

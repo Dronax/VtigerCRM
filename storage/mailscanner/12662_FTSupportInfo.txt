@@ -1,0 +1,1889 @@
+Host name:  OETC-ESF
+Local time: 2017-04-04 14:28:18
+UTC time:   2017-04-04 10:28:18
+
+
+
+----------------------------------
+- System Environment Information -
+----------------------------------
+SQL_Server_Version
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Microsoft SQL Server 2012 - 11.0.5058.0 (X64)   May 14 2014 18:34:29   Copyright (c) Microsoft Corporation  Express Edition (64-bit) on Windows NT 6.1 <X64> (Build 7601: Service Pack 1) 
+
+ComputerNamePhysicalNetBIOS | MachineName | ServerAndInstanceName | IsClustered | Collation                    | LCID
+----------------------------+-------------+-----------------------+-------------+------------------------------+-----
+OETC-ESF                    | OETC-ESF    | OETC-ESF              | 0           | SQL_Latin1_General_CP1_CI_AS | 1033
+
+Configuration option 'show advanced options' changed from 0 to 1. Run the RECONFIGURE statement to install.
+name                   | minimum |    maximum | config_value | run_value
+-----------------------+---------+------------+--------------+----------
+min server memory (MB) |       0 | 2147483647 |            0 |        16
+
+name                   | minimum |    maximum | config_value |  run_value
+-----------------------+---------+------------+--------------+-----------
+max server memory (MB) |     128 | 2147483647 |   2147483647 | 2147483647
+
+Configuration option 'show advanced options' changed from 1 to 0. Run the RECONFIGURE statement to install.
+ 
+--------------------
+- Site Information -
+--------------------
+Version | SiteSerialNumber | FTInstallDate           | UsedGraceTime | LastGraceTimeUpdate
+--------+------------------+-------------------------+---------------+------------------------
+7400756 |            19743 | 2015-04-16 07:56:29.593 |         40930 | 2017-04-04 10:27:29.000
+
+Controller                       | SerialNumber | IPAddress   | Gateway   | Subnet        | Timezone | CertType        | CurrentDLLs
+---------------------------------+--------------+-------------+-----------+---------------+----------+-----------------+------------
+Al Qurum - IDC Controller 6000   |       0134A6 | 10.1.68.12  | 10.1.68.1 | 255.255.255.0 | AST-4    | Cardax Standard | 
+Yiti - IDC Controller 6000       |       0134A3 | 10.1.70.12  | 10.1.70.1 | 255.255.255.0 | AST-4    | Cardax Standard | 
+Al Hamriya - IDC Controller 6000 |       013A6F | 10.1.69.12  | 10.1.69.1 | 255.255.255.0 | AST-4    | Cardax Standard | 
+Blue City - IDC Controller 6000  |       013F3B | 10.1.72.12  | 10.1.72.1 | 255.255.255.0 | AST-4    | Cardax Standard | 
+Quriyat - IDC Controller 6000    |       000000 | 10.1.71.100 | 10.1.71.1 | 255.255.255.0 | AST-4    | Cardax Standard | 
+Nakhal - IDC Controller 6000     |       013F3A | 10.1.73.12  | 10.1.73.1 | 255.255.255.0 | AST-4    | Cardax Standard | 
+Misfah - IDC Controller 6000     |       013F3D | 10.1.75.12  | 10.1.75.1 | 255.255.255.0 | AST-4    | Cardax Standard | 
+Muttrah - IDC Controller 6000    |       013F39 | 10.1.74.12  | 10.1.74.1 | 255.255.255.0 | AST-4    | Cardax Standard | 
+Controller 6000 1                |       013F3C | 10.1.71.12  | 10.1.71.1 | 255.255.255.0 | AST-4    | Cardax Standard | 
+
+Device                                             | SoftwareType | AssignedVersion | InstalledVersion | ItemType
+---------------------------------------------------+--------------+-----------------+------------------+-------------------
+Al Qurum - IDC Controller 6000                     |            0 | vGR7.40b308     | vGR7.50b144      | Controller Grover
+Al Qurum - IDC Controller 6000                     |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Al Qurum - IDC Controller 6000                     |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Al Qurum - IDC Controller 6000                     |            3 | <NULL>          | v1.03//b11       | Controller Grover
+Al Qurum - IDC Controller 6000                     |            4 | <NULL>          | v2.30//b6        | Controller Grover
+Al Qurum : Fence Zone 1                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Qurum : Fence Zone 2                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Qurum : Fence Zone 3                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Qurum : Fence Zone 4                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Qurum : Fence Zone 5                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Qurum : Fence Zone 6                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Qurum - Padestrian Gate Disturbance Sensor      |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Al Qurum - Vehicle Gate Disturbance Sensor         |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Yiti - IDC Controller 6000                         |            0 | vGR7.40b308     | v7.50//b144      | Controller Grover
+Yiti - IDC Controller 6000                         |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Yiti - IDC Controller 6000                         |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Yiti - IDC Controller 6000                         |            3 | <NULL>          | v1.03//b11       | Controller Grover
+Yiti - IDC Controller 6000                         |            4 | <NULL>          | v2.30//b6        | Controller Grover
+Yiti : Fence Zone 1                                |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Hamriya - IDC Controller 6000                   |            0 | vGR7.40b308     | vGR7.50b144      | Controller Grover
+Al Hamriya - IDC Controller 6000                   |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Al Hamriya - IDC Controller 6000                   |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Al Hamriya - IDC Controller 6000                   |            3 | <NULL>          | v1.03//b11       | Controller Grover
+Al Hamriya - IDC Controller 6000                   |            4 | <NULL>          | v2.30//b6        | Controller Grover
+Al Hamriya : Fence Zone 1                          |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Hamriya : Fence Zone 2                          |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Hamriya : Fence Zone 3                          |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Hamriya : Fence Zone 4                          |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Hamriya : Fence Zone 5                          |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Hamriya : Fence Zone 6                          |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Hamriya : Fence Zone 7                          |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Hamriya : Fence Zone 8                          |            0 | <NULL>          | v2.01//b29       | Frazzle
+Al Hamriya - Left V.Gate Sensor                    |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Al Hamriya - Right V.Gate Sensor                   |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Al Hamriya - Pedestrian Gate Sensor                |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Al Hamriya - Rear Entrance Gate 1                  |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Al Hamriya - Rear Entrance Gate 2                  |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Yiti : Fence Zone 2                                |            0 | <NULL>          | v2.01//b29       | Frazzle
+Yiti : Fence Zone 3                                |            0 | <NULL>          | v2.01//b29       | Frazzle
+Yiti : Fence Zone 4                                |            0 | <NULL>          | v2.01//b29       | Frazzle
+Yiti : Fence Zone 5                                |            0 | <NULL>          | v2.01//b29       | Frazzle
+Yiti : Fence Zone 6                                |            0 | <NULL>          | v2.01//b29       | Frazzle
+Blue City - IDC Controller 6000                    |            0 | vGR7.40b308     | v7.50//b144      | Controller Grover
+Blue City - IDC Controller 6000                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Blue City - IDC Controller 6000                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Blue City - IDC Controller 6000                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+Blue City - IDC Controller 6000                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+Bluecity : Fence Zone 1                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Bluecity : Fence Zone 2                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Bluecity : Fence Zone 3                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Bluecity : Fence Zone 4                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Bluecity : Fence Zone 5                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Bluecity : Fence Zone 6                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Bluecity : Fence Zone 7                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Bluecity : Fence Zone 8                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Bluecity : Fence Zone 9                            |            0 | <NULL>          | v2.01//b29       | Frazzle
+Bluecity : Fence Zone 10                           |            0 | <NULL>          | v2.01//b29       | Frazzle
+Quriyat - IDC Controller 6000                      |            0 | vGR7.40b308     | vGR7.40b308      | Controller Grover
+Quriyat - IDC Controller 6000                      |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Quriyat - IDC Controller 6000                      |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Quriyat - IDC Controller 6000                      |            3 | <NULL>          | v1.03//b11       | Controller Grover
+Quriyat - IDC Controller 6000                      |            4 | <NULL>          | v2.30//b6        | Controller Grover
+Quriyat : Fence Zone 1                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Quriyat : Fence Zone 2                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Quriyat : Fence Zone 3                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Quriyat : Fence Zone 4                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Quriyat : Fence Zone 5                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Quriyat : Fence Zone 6                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Nakhal - IDC Controller 6000                       |            0 | vGR7.40b308     | vGR7.50b144      | Controller Grover
+Nakhal - IDC Controller 6000                       |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Nakhal - IDC Controller 6000                       |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Nakhal - IDC Controller 6000                       |            3 | <NULL>          | v1.03//b11       | Controller Grover
+Nakhal - IDC Controller 6000                       |            4 | <NULL>          | v2.30//b6        | Controller Grover
+Nakhal : Fence Zone 1                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Nakhal : Fence Zone 2                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Nakhal : Fence Zone 3                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Nakhal : Fence Zone 4                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Nakhal : Fence Zone 5                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Nakhal : Fence Zone 6                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah - IDC Controller 6000                       |            0 | vGR7.40b308     | v7.40//b308      | Controller Grover
+Misfah - IDC Controller 6000                       |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Misfah - IDC Controller 6000                       |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Misfah - IDC Controller 6000                       |            3 | <NULL>          | Unavailable      | Controller Grover
+Misfah - IDC Controller 6000                       |            4 | <NULL>          | v2.30//b6        | Controller Grover
+Muttrah - IDC Controller 6000                      |            0 | vGR7.40b308     | vGR7.50b144      | Controller Grover
+Muttrah - IDC Controller 6000                      |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Muttrah - IDC Controller 6000                      |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Muttrah - IDC Controller 6000                      |            3 | <NULL>          | v1.03//b11       | Controller Grover
+Muttrah - IDC Controller 6000                      |            4 | <NULL>          | v2.30//b6        | Controller Grover
+Muttrah : Fence Zone 1                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Muttrah : Fence Zone 2                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Muttrah : Fence Zone 3                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Muttrah : Fence Zone 4                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Muttrah : Fence Zone 5                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 1                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 2                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 3                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 4                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 5                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 6                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 7                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 8                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 9                              |            0 | <NULL>          | v2.01//b29       | Frazzle
+Misfah : Fence Zone 10                             |            0 | <NULL>          | v2.01//b29       | Frazzle
+Yiti - Padestrian Gate Disturbance Sensor          |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Yiti - Vehicle Gate Disturbance Sensor             |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Yiti - Service Gate Disturbance Sensor             |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Quriyat - Right V.Gate Disturbance Sensor          |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Quriyat - Left V.Gate Disturbance Sensor           |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Quriyat - Pedestrian Gate Disturbance Sensor       |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Nakhal - Right V.Gate Disturbance Sensor           |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Nakhal - Left V.Gate Disturbance Sensor            |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Nakhal - Pedestrian Gate Disturbance Sensor        |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Misfah - Left V.Gate Disturbance Sensor            |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Misfah - Right V.Gate Disturbance Sensor           |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Misfah - Pedestrain Gate Disturbance Sensor        |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Bluecity - Pedestrian Gate Disturbance Sensor      |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Bluecity - Right Vehicle Gate Disturbance Sensor   |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Bluecity - Left Vehicle Gate Disturbance Sensor    |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Bluecity - Right Emergency Gate Disturbance Sensor |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Bluecity - Left Emergency Gate Disturbance Sensor  |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Muttrah - Pedestrain Gate Disturbance Sensor       |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Muttrah - Left V.Gate Disturbance Sensor           |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Muttrah - Right V.Gate Disturbance Sensor          |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Misfah - Right Service Gate Disturbance Sensor     |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Misfah - Left Service Gate Disturbance Sensor      |            0 | <NULL>          | v1.24//b0        | Disturbance Sensor
+Controller 6000 1                                  |            0 | <NULL>          | <NULL>           | Controller Grover
+Controller 6000 1                                  |            1 | <NULL>          | <NULL>           | Controller Grover
+Controller 6000 1                                  |            2 | <NULL>          | <NULL>           | Controller Grover
+Controller 6000 1                                  |            3 | <NULL>          | <NULL>           | Controller Grover
+Controller 6000 1                                  |            4 | <NULL>          | <NULL>           | Controller Grover
+
+Type                            | Total
+--------------------------------+------
+8-door interface software       |     1
+Access Schedule                 |     1
+Access Zone Schedule            |     1
+action plan                     |   255
+alarm instruction               |     1
+alarm keypad                    |     8
+Alarm Viewer                    |     1
+alarm zone                      |    73
+Alarm Zone Schedule             |     2
+archive                         |     1
+bert service                    |     1
+bert software                   |     2
+bootp service                   |     2
+calendar                        |     1
+camera dsp software             |     1
+camera z181 software            |     1
+Card Workflow                   |     1
+cardholder                      |    12
+Cardholder Viewer               |     1
+club                            |     8
+Controller Grover               |     9
+day category                    |     1
+Disturbance Sensor              |    29
+division                        |    10
+elmo                            |     1
+External Event Source           |    88
+External System                 |     1
+Fence Zone                      |   114
+Frazzle                         |    57
+Grover software                 |     2
+Guard Tour                      |     1
+HVLF Schedule                   |     1
+icon set                        |   171
+idt 125 software                |     1
+idt mifare software             |     1
+idt tiris software              |     1
+import/export service           |     2
+input                           |    24
+Macro                           |   138
+Mobile Device                   |     1
+Monitor Site Viewer             |     3
+Notification Schedule           |     1
+operator club                   |    12
+operator privilege              |    80
+Output Schedule                 |     1
+PIV Card Type                   |     1
+Premier Report                  |     6
+Premier Summary Activity Report |     4
+Premier Voltage Report          |     1
+progboot software               |     2
+Role                            |     1
+Salto Server                    |     1
+site plan                       |    10
+Temperature Report              |     2
+universal card format           |     4
+Voltage Report                  |     2
+workstation                     |     2
+
+Device                           | NumberOfMessages
+---------------------------------+-----------------
+Al Qurum - IDC Controller 6000   |              653
+Yiti - IDC Controller 6000       |              656
+Al Hamriya - IDC Controller 6000 |              726
+Blue City - IDC Controller 6000  |              762
+Quriyat - IDC Controller 6000    |              664
+Nakhal - IDC Controller 6000     |              697
+Muttrah - IDC Controller 6000    |              653
+Controller 6000 1                |                6
+
+Operator        | Workstation                | LogonTime
+----------------+----------------------------+------------------------
+Bati, Omar      | FT Workstation on OETC-ESF | 2017-03-28 12:00:11.117
+System Operator | FT Workstation on OETC-ESF | 2017-04-04 10:21:09.200
+
+ID | Name | Type | Digest | StartTime | EndTime
+---+------+------+--------+-----------+--------
+
+NumEvents | NumAlarms
+----------+----------
+  2056251 |       162
+
+SaltoLastEventTime
+------------------
+
+Server | NumUnappliedChangeSets | NumNotYetAttemptedChangeSets
+-------+------------------------+-----------------------------
+
+ChangeSetRecords | ChangeSetItemRecords | ChangeSetFieldRecords | RedundantPDFChangeSetFieldRecords
+-----------------+----------------------+-----------------------+----------------------------------
+            3010 |                 5839 |                 40211 |                                 0
+
+NumberOfCards | NumberOfCardholders
+--------------+--------------------
+
+TableName                 | SchemaName | RowCounts | TotalSpaceKB | UsedSpaceKB | UnusedSpaceKB
+--------------------------+------------+-----------+--------------+-------------+--------------
+DeviceSoftware            | dbo        |        12 |       106264 |      106248 |            16
+SharedBinary              | dbo        |       203 |        11176 |       11144 |            32
+ChangeSetField            | dbo        |     40211 |         3336 |        3112 |           224
+ChangeSetItem             | dbo        |      5839 |         1624 |        1200 |           424
+ChangeSet                 | dbo        |      3010 |          984 |         736 |           248
+OperatorPreference        | dbo        |       500 |          904 |         664 |           240
+ElmoMessage               | dbo        |      4817 |          840 |         560 |           280
+IconSetStateSetting       | dbo        |       243 |          624 |         608 |            16
+BertConnections           | dbo        |      2297 |          528 |         344 |           184
+FTItem                    | dbo        |      1298 |          528 |         464 |            64
+FTItemType                | dbo        |       179 |          528 |         504 |            24
+SessionPermission         | dbo        |      5451 |          456 |         288 |           168
+SitePlanGraphic           | dbo        |      1063 |          368 |         304 |            64
+DefaultOperatorPreference | dbo        |       230 |          336 |         280 |            56
+ConfigDispatchRoute       | dbo        |      2991 |          200 |         152 |            48
+SharedText                | dbo        |       357 |          168 |         112 |            56
+ActionPlanState           | dbo        |      1530 |          136 |          96 |            40
+ArchiveFile               | dbo        |       610 |          136 |          96 |            40
+ArchiveFileDivision       | dbo        |      4045 |          136 |          88 |            48
+BertDependents            | dbo        |        87 |          136 |          80 |            56
+
+TableName               | SchemaName | RowCounts | TotalSpaceKB | UsedSpaceKB | UnusedSpaceKB
+------------------------+------------+-----------+--------------+-------------+--------------
+Event                   | dbo        |   2056251 |       756512 |      752000 |          4512
+RelatedItems            | dbo        |   2175809 |       226192 |      204784 |         21408
+AlarmHistory            | dbo        |     59285 |         7432 |        7016 |           416
+AlarmUpdate             | dbo        |     29987 |         3344 |        2552 |           792
+AlarmStack              | dbo        |       162 |           56 |          56 |             0
+CardEvent               | dbo        |         0 |           16 |          16 |             0
+Image                   | dbo        |         0 |           16 |          16 |             0
+EventReturnToNormal     | dbo        |        36 |           16 |          16 |             0
+OnlineArchiveFile       | dbo        |       118 |           16 |          16 |             0
+SingleValues            | dbo        |         1 |           16 |          16 |             0
+Sequence                | dbo        |         0 |            0 |           0 |             0
+SALTOLastEvent          | dbo        |         0 |            0 |           0 |             0
+UnlinkedAck             | dbo        |         0 |            0 |           0 |             0
+TriggerSequencePair     | dbo        |         0 |            0 |           0 |             0
+TriggerSequenceLocation | dbo        |         0 |            0 |           0 |             0
+Trigger                 | dbo        |         0 |            0 |           0 |             0
+NotificationAlarm       | dbo        |         0 |            0 |           0 |             0
+Lookup                  | dbo        |         0 |            0 |           0 |             0
+DVRData                 | dbo        |         0 |            0 |           0 |             0
+
+ 
+-----------------------------
+- Customisation Information -
+-----------------------------
+Name | Version | AppliesToWorkstation
+-----+---------+---------------------
+
+FTItemTypeName | ComponentID
+---------------+------------
+
+SadPluginName                    |                          ComponentID
+---------------------------------+-------------------------------------
+PIV Certificate Validator        | E0A391AB-939E-49DD-97DA-0B68CD3F83C2
+Enterprise Integration Engine    | 28E5363A-6F86-40C9-9907-8D3601D55F28
+Sagem Fingerprint Matcher        | 0A4CFD6F-9053-4D07-A6D8-92F5C5CA5907
+Auto Alarm Processor Sad Plugin  | B3D0E17B-C4B1-4430-90D9-9838498808FD
+CStandardVisitInvitationProvider | 2C4B63F8-D5D1-439C-8D7D-9874A95275F1
+Austco SAD Plugin                | 399F0D86-B14E-4ED6-B9DA-AC5EE2DB5867
+VisitorManagementSADPlugin       | 45142255-E4DA-4A3C-93EA-DE9DEC017B41
+
+ 
+-------------------------------
+- SQL Server Lock Information -
+-------------------------------
+SPID | Status   | Login  | Host     | Program        | ProcessID |  BlkBy | ElapsedMS | CPUTime | IOReads | IOWrites | RowCount | Protocol      | IsolationLevel | ConnectionReads | ConnectionWrites | ClientAddress   | Authentication | WaitType | WaitTime | StartTime | LastRead                | LastWrite               | DBName      | CommandType | LastCommand
+-----+----------+--------+----------+----------------+-----------+--------+-----------+---------+---------+----------+----------+---------------+----------------+-----------------+------------------+-----------------+----------------+----------+----------+-----------+-------------------------+-------------------------+-------------+-------------+----------------------
+  51 | sleeping | ccftsa | OETC-ESF | Command Centre |      5548 | <NULL> |         6 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |               8 |                7 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2017-04-04 14:27:50.400 | 2017-04-04 14:27:50.407 | CCFTCentral | <NULL>      | sessionSetLastContact
+  52 | sleeping | ccftsa | OETC-ESF | Command Centre |      5548 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |             707 |              706 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2017-04-04 14:27:41.590 | 2017-04-04 14:27:41.590 | CCFTCentral | <NULL>      | elmoMessageGet
+  53 | sleeping | ccftsa | OETC-ESF | Command Centre |      5548 | <NULL> |        13 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |               5 |                4 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2017-04-04 14:27:19.443 | 2017-04-04 14:27:19.457 | CCFTEvent   | <NULL>      | eventLoggerIDSetID
+  55 | sleeping | ccftsa | OETC-ESF | Command Centre |      5548 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              43 |               42 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2017-04-04 14:28:07.987 | 2017-04-04 14:28:07.987 | CCFTCentral | <NULL>      | elmoMessageGet
+
+SPID | Status | Resource | Type | Mode | Database | OwnerType | ResourceDescription
+-----+--------+----------+------+------+----------+-----------+--------------------
+
+ Count |  Reads | LastReads | Writes | LastWrites |     Cpu | LastCpu | Elapsed | LastElapsed | LastExecuted            | Query
+-------+--------+-----------+--------+------------+---------+---------+---------+-------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   748 | 515449 |       390 |      4 |          0 | 5367739 |    6397 |       6 |           0 | 2017-04-02 00:09:53.787 | removeArchivedEvents
+    69 | 376045 |       483 |   1188 |          3 |  982448 |    4454 |       2 |           0 | 2017-04-02 00:09:53.743 | removeArchivedEvents
+114224 | 309985 |         3 |      0 |          0 | 6453327 |      45 |      19 |           0 | 2017-04-04 14:28:07.990 | elmoMessageGet
+     2 | 115420 |     57710 |      0 |          0 |  666991 |  100999 |       1 |           0 | 2017-04-02 10:01:42.160 | deviceSoftwareFileDataRead
+    10 |  67073 |     32504 |     66 |         29 |  272814 |   83195 |       0 |           0 | 2017-04-02 00:10:08.780 | archiveEventReadXml
+  4284 |  47402 |        11 |    138 |          0 |  274002 |     108 |       1 |           0 | 2017-04-04 14:21:40.833 | eventRelationAdd
+     8 |  43160 |      6607 |     32 |          7 |   80810 |   18408 |       0 |           0 | 2017-04-04 14:21:09.213 | sessionUpdatePermissions
+  2089 |  31006 |        13 |   2210 |          1 |  491785 |     213 |      30 |           0 | 2017-04-04 14:21:40.833 | eventAdd
+ 10249 |  30747 |         3 |      0 |          0 |  908932 |      60 |       0 |           0 | 2017-04-04 14:27:19.443 | eventLoggerIDSetID
+     3 |  27012 |      7833 |      2 |          0 |   28028 |    9272 |       0 |           0 | 2017-04-03 05:13:14.613 | eventReadSurrounding
+     8 |  24889 |      3745 |     26 |          8 |   63350 |   13742 |       0 |           0 | 2017-04-04 14:21:09.200 | sessionUpdatePermissions
+ 11673 |  23347 |         2 |      9 |          0 |  897872 |      71 |       0 |           0 | 2017-04-04 14:27:50.400 | sessionSetLastContact
+  4490 |  18211 |         7 |     57 |          1 |  324453 |     151 |      14 |           0 | 2017-04-04 14:21:44.643 | elmoMessageAdd
+     2 |  13110 |      6555 |      0 |          0 |   53936 |   28940 |       0 |           0 | 2017-04-04 14:28:18.300 | SELECT TOP (20)      t.NAME AS TableName,      s.Name AS SchemaName,      MIN(p.rows) AS RowCounts,      SUM(a.total_pages) * 8 AS TotalSpaceKB,       SUM(a.used_pages) * 8 AS UsedSpaceKB,       (SUM(
+  1097 |  12232 |        13 |     23 |          2 |   92769 |      92 |       0 |           0 | 2017-04-04 14:21:40.800 | eventAggregationAlarmUpdate
+  2963 |  11990 |        15 |     11 |          0 |  184018 |     108 |       6 |           0 | 2017-04-03 00:14:08.583 | elmoMessageDelete
+  3417 |  10977 |         4 |      0 |          0 |  125517 |      24 |       0 |           0 | 2017-03-29 12:25:13.227 | controllerItemTypeFromBertDatabaseRecord
+  1626 |   9772 |         6 |      0 |          0 |   79046 |      66 |       0 |           0 | 2017-04-04 14:21:40.810 | eventRead
+     1 |   9040 |      9040 |      0 |          0 |  251597 |  251597 |       4 |           4 | 2017-04-02 00:09:53.950 | eventGetUnarchivedDateList
+  3099 |   6785 |         2 |      0 |          0 |   56273 |      11 |       0 |           0 | 2017-03-29 12:25:13.233 | bertLocalConnections
+
+Version of files in the bin folder
+----------------------------------
+api-ms-win-core-console-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-datetime-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-debug-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-errorhandling-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-file-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-file-l1-2-0.dll 10.0.10240.16384
+api-ms-win-core-file-l2-1-0.dll 10.0.10240.16384
+api-ms-win-core-handle-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-heap-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-interlocked-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-libraryloader-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-localization-l1-2-0.dll 10.0.10240.16384
+api-ms-win-core-memory-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-namedpipe-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-processenvironment-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-processthreads-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-processthreads-l1-1-1.dll 10.0.10240.16384
+api-ms-win-core-profile-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-rtlsupport-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-string-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-synch-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-synch-l1-2-0.dll 10.0.10240.16384
+api-ms-win-core-sysinfo-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-timezone-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-util-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-conio-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-convert-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-environment-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-filesystem-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-heap-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-locale-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-math-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-multibyte-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-private-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-process-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-runtime-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-stdio-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-string-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-time-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-utility-l1-1-0.dll 10.0.10240.16384
+CCEIAdminUI.dll             7.40.756.0
+CCEIEngine.dll              7.40.756.0
+CCEIModel.dll               7.40.756.0
+CCFT.exe                    vEL7.40.756
+CCFTAperio.dll              vEL7.40.756
+CCFTAustco.dll              vEL7.40.756
+CCFTBioMatcher.exe          vEL7.40.756
+CCFTBiometric.dll           vEL7.40.756
+CCFTBiometricCommunicator.exe vEL7.40.756
+CCFTBPS.exe                 vEL7.40.756
+CCFTCardNumber.dll          vEL7.40.756
+CCFTClient.dll              7.40.756.0
+CCFTCommon.dll              vEL7.40.756
+CCFTCommonLib.dll           vEL7.40.756
+CCFTConstants.dll           7.40.756.0
+CCFTCtrl.dll                vEL7.40.756
+CCFTData.exe                vEL7.40.756
+CCFTDataManager.exe         vEL7.40.756
+CCFTDBTemplate.exe          vEL7.40.756
+CCFTDiagnostic.dll          vEL7.40.756
+CCFTDump.exe                vEL7.40.756
+CCFTEA.dll                  vEL7.40.756
+CCFTEDIConfiguration.dll    vEL7.40.756
+CCFTEnrolment.dll           vEL7.40.756
+CCFTES.dll                  vEL7.40.756
+CCFTGBusURI.dll             vEL7.40.756
+CCFTGuardTour.dll           vEL7.40.756
+CCFTIntercomSystem.dll      vEL7.40.756
+CCFTInterCtrlMonitoring.dll vEL7.40.756
+CCFTInterop.dll             vEL7.40.756
+CCFTInteropAssist.dll       7.40.756.0
+CCFTItem.dll                vEL7.40.756
+CCFTItemPP.dll              vEL7.40.756
+CCFTModuteq.dll             vEL7.40.756
+CCFTNotifications.dll       7.40.756.0
+CCFTOPCData.dll             vEL7.40.756
+CCFTProxy.dll               vEL7.40.756
+CCFTReport.dll              vEL7.40.756
+CCFTRestore.exe             vEL7.40.756
+CCFTSalto.dll               vEL7.40.756
+CCFTSD.dll                  vEL7.40.756
+CCFTServiceManager.exe      vEL7.40.756
+CCFTSiteItem.dll            vEL7.40.756
+CCFTSiteItemPP.dll          vEL7.40.756
+CCFTSP.dll                  vEL7.40.756
+CCFTStatesman.dll           vEL7.40.756
+CCFTTrophy.dll              vEL7.40.756
+CCFTUpgrade.dll             vEL7.40.756
+CCFTViewers.dll             vEL7.40.756
+CCFTVisitorMgmt.dll         vEL7.40.756
+CCFTWizards.dll             vEL7.40.756
+CCNTBertServ.exe            vEL7.40.756
+CCNTCD.dll                  vEL7.40.756
+CCNTCI.dll                  vEL7.40.756
+CCNTColl.dll                vEL7.40.756
+CCNTMsg.dll                 vEL7.40.756
+CCNTSad.exe                 vEL7.40.756
+CCNTStdW.dll                vEL7.40.756
+CCNTWks.dll                 vEL7.40.756
+CD800SingleWire.dll         vEL7.40.756
+dbghelp.dll                 6.12.0002.633
+DCSP55Mifare.dll            vEL7.40.756
+DesfireLib.dll              vEL7.40.756
+DualCardDll.dll             1.0.0.2
+EventInputAPI.dll           vEL7.40.756
+Fargo.dll                   vEL7.40.756
+FargoOmnikey.dll            vEL7.40.756
+FargoPrinterSDK.dll         1.5.0.3
+FT DCOM Setup.exe           vEL7.40.756
+FTClientWrapper.dll         7.40.756.0
+ImageCompress.dll           6,2,4,0
+Interlocking.dll            vEL7.40.756
+ISO14443-4NET_I2.dll        1, 0, 0, 1
+Itf32.dll                   0, 0, 0, 0
+jccpdll.dll                 V4.59.0
+KeyDerivation.exe           7.40.756.0
+lfbmp14N.dll                14.5.0.082
+LFCMP14N.DLL                14.5.0.082
+lfgif14N.dll                14.5.0.082
+Lfwmf14n.dll                14.5.0.082
+libeay32.dll                1.0.1p
+LTCLR14n.dll                14.5.0.082
+LTDIS14N.dll                14.5.0.082
+ltefx14N.dll                14.5.0.082
+ltfil14N.DLL                14.5.0.082
+ltimg14N.dll                14.5.0.082
+ltkrn14N.dll                14.5.0.082
+ltocx14N.ocx                14.5.0.082
+LTR14n.dll                  14.5.0.082
+LTRTW14N.DLL                14.5.0.082
+LTRVR14n.dll                14.5.0.082
+lttwn14n.dll                14.5.0.082
+maci-core.dll               6.0.43.0
+maci_dotnet_native.dll      6.0.43.0
+MagicardRio.dll             vEL7.40.756
+MailBee.NET.dll             5.8.2.180
+Morpho.MorphoAccess.dll     6.0.43.0
+Morpho.MorphoAccess.Maci.dll 6.0.43.0
+Morpho.MorphoAcquisition.dll 1.2.1.0
+Morpho.MorphoKit_FVP.dll    5.2.3.0
+MorphoKeyDerivation.dll     1.0.0.0
+MorphoKeyDerivationWrapperDotNet.dll 1.0.0.0
+MorphoKit.dll               5.2.3.0
+MorphoKit_FVP.dll           5.2.3.0
+MORPHO_SDK.dll              6,2,4,0
+MSO100.dll                  6,2,4,0
+MSO_SpUsb.dll               6,2,4,0
+msvcp140.dll                14.00.23026.0
+msvcp71.dll                 7.10.3077.0
+msvcr71.dll                 7.10.3052.4
+Newtonsoft.Json.dll         6.0.8.18111
+NLog.dll                    1.0.1.506
+nsoftware.IPWorksSSNMP.dll  6.1.2755.0
+nsp.dll                     4, 5, 2, 82
+nspa6.dll                   4, 5, 2, 82
+nspm5.dll                   4, 5, 2, 82
+nspm6.dll                   4, 5, 2, 82
+nspp6.dll                   4, 5, 2, 82
+nsppx.dll                   4, 5, 2, 82
+NumericUpDownLibrary.dll    7.40.756.0
+olch2x8.ocx                 8.0.20061.64
+Opc.Ua.Core.dll             1.02.335.0
+Opc.Ua.Server.dll           1.02.335.0
+OpcAeClient.dll             7.40.756.0
+opccomn_ps.dll              1.10.105.1
+opcproxy.dll                3.00.105.1
+opcSec_PS.dll               1.00.105.1
+OpcUaServer.dll             7.40.756.0
+opc_aeps.dll                1.10.105.1
+OSDPIntegration.dll         vEL7.40.756
+phMfpLibDll.dll             vEL7.40.756
+PhotoID.dll                 vEL7.40.756
+PivCertManager.dll          vEL7.40.756
+PsgCcDipLibNET_I3.dll       1, 0, 0, 1
+QRCodeEncodeDLL.dll         3, 0, 2, 1
+ReportCommon.dll            7.40.756.0
+Sagem.MorphoKit.dll         5.2.3.0
+SautinSoft.RtfToHtml.dll    4.0.9.26
+SchindlerID.dll             vEL7.40.756
+SchlageIntegration.dll      vEL7.40.756
+SDI010Mifare.dll            vEL7.40.756
+SnmpUiConfig.dll            7.40.756.0
+SR300.dll                   vEL7.40.756
+ssleay32.dll                1.0.1p
+Stimulsoft.Base.dll         2015.1.0.0
+Stimulsoft.Report.dll       2015.1.0.0
+Stimulsoft.Report.Wpf.dll   2015.1.0.0
+symsrv.dll                  6.12.0002.633
+System.Interactive.dll      1.2.5
+System.Net.Http.Formatting.dll 5.2.3-30128 (0e974218e12a67d4
+System.Reactive.Core.dll    2.2.5
+System.Reactive.Interfaces.dll 2.2.5
+System.Reactive.Linq.dll    2.2.5
+System.Reactive.PlatformServices.dll 2.2.5
+System.Web.Http.dll         5.2.3-30128 (0e974218e12a67d4
+System.Web.Http.SelfHost.dll 5.2.3-30128 (0e974218e12a67d4
+TALBarCd.OCX                1, 0, 0, 1
+Talbcmx.dll                 1, 0, 3, 0
+ucrtbase.dll                10.0.10240.16384
+Uninstall.exe               vEL7.40.756
+Utils.dll                   7.40.756.0
+vcruntime140.dll            14.00.23026.0
+vspdf8.ocx                  8, 0, 20082, 148
+vsprint8.ocx                8, 0, 20082, 148
+WebServer.dll               7.40.756.0
+WPFToolkit.dll              7.40.756.0
+XID8300Mifare.dll           vEL7.40.756
+
+Version of files in the Client folder
+----------------------------------
+AddInContract.dll           7.40.756.0
+AdminControls.dll           7.40.756.0
+AlarmList.dll               7.40.756.0
+api-ms-win-core-console-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-datetime-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-debug-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-errorhandling-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-file-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-file-l1-2-0.dll 10.0.10240.16384
+api-ms-win-core-file-l2-1-0.dll 10.0.10240.16384
+api-ms-win-core-handle-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-heap-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-interlocked-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-libraryloader-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-localization-l1-2-0.dll 10.0.10240.16384
+api-ms-win-core-memory-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-namedpipe-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-processenvironment-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-processthreads-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-processthreads-l1-1-1.dll 10.0.10240.16384
+api-ms-win-core-profile-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-rtlsupport-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-string-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-synch-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-synch-l1-2-0.dll 10.0.10240.16384
+api-ms-win-core-sysinfo-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-timezone-l1-1-0.dll 10.0.10240.16384
+api-ms-win-core-util-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-conio-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-convert-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-environment-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-filesystem-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-heap-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-locale-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-math-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-multibyte-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-private-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-process-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-runtime-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-stdio-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-string-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-time-l1-1-0.dll 10.0.10240.16384
+api-ms-win-crt-utility-l1-1-0.dll 10.0.10240.16384
+AxInterop.AXVLC.dll         1.0.0.0
+CardholderManagementControls.dll 7.40.756.0
+CCFTCardNumber.dll          vEL7.40.756
+CCFTCommonLib.dll           vEL7.40.756
+CCFTConstants.dll           7.40.756.0
+CCFTDiagnostic.dll          vEL7.40.756
+CCFTDump.exe                vEL7.40.756
+CCFTInterop.dll             vEL7.40.756
+CCNTMsg.dll                 vEL7.40.756
+CD800SingleWire.dll         vEL7.40.756
+ClientBase.dll              7.40.756.0
+ClientConfigControls.dll    7.40.756.0
+ClientControls.dll          7.40.756.0
+ClientDataModel.dll         7.40.756.0
+ClientLogon.dll             7.40.756.0
+CommandCentreClient.exe     7.40.756.0
+CommandCentreClient_Audio.exe 7.40.756.0
+CommandCentreClient_DvrHost.exe vEL7.40.756
+CommandCentreClient_Morpho.exe 7.40.756.0
+CommandCentreClient_UrlHost.exe 7.40.756.0
+CrashDialog.exe             7.40.756.0
+dbghelp.dll                 6.12.0002.633
+DCSP55Mifare.dll            vEL7.40.756
+DesfireLib.dll              vEL7.40.756
+DualCardDll.dll             1.0.0.2
+Fargo.dll                   vEL7.40.756
+FargoOmnikey.dll            vEL7.40.756
+FargoPrinterSDK.dll         1.5.0.3
+FargoPrinterSDK12.dll       1.2.1.0
+ImageCompress.dll           6,2,4,0
+Interfaces.dll              7.40.756.0
+Interop.AXVLC.dll           1.0.0.0
+ISO14443-4NET_I2.dll        1, 0, 0, 1
+Itf32.dll                   0, 0, 0, 0
+JacquesLiveViewer.dll       7.40.756.0
+jccpdll.dll                 V4.59.0
+KeyDerivation.exe           7.40.756.0
+lfbmp14n.dll                14.5.0.082
+lfcmp14n.dll                14.5.0.082
+lfwmf14n.dll                14.5.0.082
+ltdis14n.dll                14.5.0.082
+ltefx14n.dll                14.5.0.082
+ltfil14n.dll                14.5.0.082
+ltimg14n.dll                14.5.0.082
+ltkrn14n.dll                14.5.0.082
+ltocx14n.ocx                14.5.0.082
+MagicardRio.dll             vEL7.40.756
+MappableDataPlugins.dll     7.40.756.0
+Morpho.MorphoAcquisition.dll 1.2.1.0
+Morpho.MorphoKit_FVP.dll    5.2.3.0
+MorphoKeyDerivation.dll     1.0.0.0
+MorphoKeyDerivationWrapperDotNet.dll 1.0.0.0
+MorphoKit.dll               5.2.3.0
+MorphoKit_FVP.dll           5.2.3.0
+MORPHO_SDK.dll              6,2,4,0
+MSO100.dll                  6,2,4,0
+MSO_SpUsb.dll               6,2,4,0
+msvcp100.dll                10.00.40219.325
+msvcp120.dll                12.00.21005.1
+msvcp140.dll                14.00.23026.0
+msvcp71.dll                 7.10.3077.0
+msvcr100.dll                10.00.40219.325
+msvcr120.dll                12.00.21005.1
+msvcr71.dll                 7.10.3052.4
+NLog.dll                    1.0.1.506
+Opc.Ua.Core.dll             1.02.335.0
+OpcUaClient.dll             7.40.756.0
+phMfpLibDll.dll             vEL7.40.756
+PhotoID.dll                 vEL7.40.756
+PSGCCDIPLIBNET_I3.dll       1, 0, 0, 1
+QRCodeEncodeDLL.dll         3, 0, 2, 1
+ReportCommon.dll            7.40.756.0
+ReportControls.dll          7.40.756.0
+Sagem.MorphoKit.dll         5.2.3.0
+SDI010Mifare.dll            vEL7.40.756
+SR300.dll                   vEL7.40.756
+Stimulsoft.Base.dll         2015.1.0.0
+Stimulsoft.Report.dll       2015.1.0.0
+Stimulsoft.Report.Wpf.dll   2015.1.0.0
+System.Interactive.dll      1.2.5
+System.Reactive.Core.dll    2.2.5
+System.Reactive.Interfaces.dll 2.2.5
+System.Reactive.Linq.dll    2.2.5
+System.Reactive.PlatformServices.dll 2.2.5
+System.Reactive.Windows.Threading.dll 2.2.5
+TALBarCd.ocx                1, 0, 0, 1
+talbcmx.dll                 1, 0, 3, 0
+TopLevelControls.dll        7.40.756.0
+ucrtbase.dll                10.0.10240.16384
+Utils.dll                   7.40.756.0
+vcruntime140.dll            14.00.23026.0
+WPFToolkit.dll              7.40.756.0
+XID8300Mifare.dll           vEL7.40.756
+
+
+Log and Dump File Folders
+----------------------------------
+
+C:\ProgramData\Gallagher\Command Centre
+
+C:\ProgramData\Gallagher\Command Centre\MiniDump
+
+C:\Users\Administrator\AppData\Local\Gallagher\Command Centre
+
+
+     PID Thread Count Image Name
+======== ============ ========================================
+       0            8 [System Process]
+       4          179 System
+     364            3 smss.exe
+     564            9 csrss.exe
+     640            3 wininit.exe
+     660           12 csrss.exe
+     696            7 services.exe
+     724           11 lsass.exe
+     732           11 lsm.exe
+     844            3 winlogon.exe
+     876           11 svchost.exe
+     936            7 nvvsvc.exe
+     980           10 svchost.exe
+     580           21 svchost.exe
+     420           27 svchost.exe
+     396           13 svchost.exe
+    1052           45 svchost.exe
+    1292            4 RtkAudioService64.exe
+    1300            9 nvxdsync.exe
+    1312            5 nvvsvc.exe
+    1368            7 RAVBg64.exe
+    1392           23 svchost.exe
+    1680           14 spoolsv.exe
+    1728           18 svchost.exe
+    1892           16 CCFTData.exe
+    1992            4 IPROSetMonitor.exe
+    1448           72 sqlservr.exe
+     652            4 sqlwriter.exe
+    2440            5 svchost.exe
+    3088            8 WUDFHost.exe
+    3272           25 taskhost.exe
+    3408            5 dwm.exe
+    3432           43 explorer.exe
+    3548           11 RAVCpl64.exe
+    3756            4 iusb3mon.exe
+    3772            9 IAStorIcon.exe
+    3788            6 CLMLSvc_P2G8.exe
+    3128           16 SearchIndexer.exe
+    3344            9 wmpnetwk.exe
+    4004            9 svchost.exe
+    3912            8 HPSupportSolutionsFrameworkService.exe
+    2924            8 IAStorDataMgrSvc.exe
+    1632            4 jhi_service.exe
+    3868           10 LMS.exe
+    1488           15 svchost.exe
+    3524            6 PrivacyIconClient.exe
+    4200           11 mmc.exe
+    5232           30 CCNTBertServ.exe
+    5548           85 CCNTSad.exe
+    5516            6 CCFTBPS.exe
+    2888            1 nvtray.exe
+    5316          128 CommandCentreClient.exe
+    4248           16 CommandCentreClient_Audio.exe
+    1864           12 audiodg.exe
+    4184            9 CCFT.exe
+    5268           10 WmiPrvSE.exe
+     808            4 TrustedInstaller.exe
+    3984            7 WmiPrvSE.exe
+    6052            8 SearchProtocolHost.exe
+    5192            5 SearchFilterHost.exe
+    4164            2 FTSupportTool1_1_59.exe
+    4256            2 conhost.exe
+======== ============ ========================================
+      62         1093 Total
+
+Begin FT License File
+[Site]
+Name=OETC S.A.O.C
+SerialNumber=19743
+MultiServerSerialNumber=
+OriginalSerialNumber=
+Edition=Standard Command Centre
+Expiry=18Mar2045
+Version=7.40
+CertTypes=Cardax Standard
+Brand=Gallagher
+MAC Ranges=000000-7FFFFF
+
+[Limit Info]
+{D6A08FA6-D0D6-4237-AF43-68189A36EA44},Event Sources,*,0
+{43BEB12A-04B2-43b7-A2CF-1D9CE5DBED51},Event Sources,Event Sources,0
+{DE9F44B8-5ADD-439D-BFA0-A1DDEC42D96D},Fence Controllers,Fence Controllers,0
+{09AF15F0-EC31-4AB4-9B34-D16E27ACF3DB},Fence Controllers,Fence Controllers,0
+{69A1949A-C0AB-4880-BF6A-C52F42CAD5DA},Fence Controllers,Fence Controllers,0
+{64A1DC77-9E34-4769-84F3-52C69792F575},Fence Controllers,Fence Zones,0
+{F6A9EFA4-2C11-4739-837C-FE5089D04765},Fence Controllers,*,-1
+{83833751-492E-4585-B600-76CD095B4071},Fence Controllers,*,-1
+{DB512AD8-9C46-4745-8802-58A26C530A09},Sagem Fingerprint Readers,Sagem Fingerprint Types,1
+{3D5B95F0-9938-4989-B7C5-5A0F8A4FA846},Sagem Fingerprint Readers,Sagem Fingerprint Readers,0
+{58E76EC8-7CDD-40ea-A616-35D0B5D191A5},Salto Doors,Salto Doors,0
+{949DAFBB-D052-4121-ACF4-8C907950E1B0},Salto Doors,*,-1
+{5924710D-F387-4237-9379-2EDB1D34804B},Salto Doors,*,-1
+{F6FD4B28-12C8-4c2b-89AD-14AFFEBBD8B7},SchindlerID Systems,SchindlerID Systems,0
+{D2D16A55-A5C4-40F1-9093-F5E507F22AC6},VisitorManagement,VisitorManagement,0
+{ED38F703-6ABB-4E25-92BC-5EC8C646A208},VisitorManagement,VisitorManagement,0
+{82AFE1E9-6DD5-4626-920C-628945F0A883},YCS Interface,YCS Interface,0
+{96937392-0451-4383-9810-BD47DA08BD4E},Aperio Doors,Aperio Doors,0
+{CB858A83-B1DF-4ca8-BBB0-4165BA07692E},Guard Tours,Guard Tours,0
+{2566C3B5-F696-48c6-BF91-B6E84CC18E4C},Guard Tours,*,0
+{8476C43A-C046-4761-A314-77EC27101941},Disturbance Sensors,Disturbance Sensors,0
+{0B8BB250-F7C8-4f48-B97E-CA5F3D0CB779},Disturbance Sensors,Disturbance Sensors,0
+{1D69FFD4-13B5-4a20-9A76-5AD2ACCEABEE},Fuel Pumps,Fuel Pumps,0
+{2370DCB7-041C-4a9e-B987-5D5AB167E733},Fuel Pumps,*,0
+{AA62A839-D635-4E77-8E00-44F346A51E3A},Austco Intercom Systems,Austco Intercom Systems,0
+{574D6A19-DEDF-4425-AED3-5F30771A33D1},Austco Intercom,Austco Intercom,0
+{C63CC28E-4983-4C93-9759-7C1D76907313},Car Parks,Car Parks,0
+{A018B8F7-D09C-4AA1-9921-15A7EE9281F3},Car Parks,*,0
+{F67FD522-4460-42FB-912D-F0BE01707322},Bookable Resource,Bookable Resource,0
+{520DA721-0691-4E47-ACAE-B313E87D4888},Fatigue Zones,Fatigue Zones,0
+{7A58156D-C54D-46AA-815F-D70B6944FA0F},Alcolizer,Alcolizer,0
+{3B71A5CF-354E-49F2-90B7-18FE98B4018C},BACnet Devices,BACnet Devices,0
+{2D3E2928-3C19-42D4-9BE0-D4CEA7C04EBF},BACnet Objects,BACnet Objects,0
+{AB4DD6C8-CA26-42A9-B827-77247D2E9859},Regulated Zones,Regulated Zones,0
+
+[Limits]
+Cardholders=100000
+Controller 3000s=250
+Controller 5000s=250
+Workstations=2
+Communication Servers=20
+Divisions=200
+Commanders=60
+Doors=16
+DVR Cameras=10000
+EnrolmentTemplates=99
+HLI Lift Cars=100
+Fence Controllers=1000
+Event Sources=200
+Competencies=1
+Disturbance Sensors=31
+Z10 Tension Sensors=36
+Mobile Clients=1
+Fence Zones=174
+
+[Features]
+ImportExport=1
+LogPrinting=1
+ControllerContactID=1
+CCTV=1
+T&AReport=1
+EnableHID=1
+EncryptionOn=0
+Challenge=1
+EnrolmentWizard=1
+scheduleimport=1
+Notifications=1
+Guard Tours=1
+EnterpriseDataInterface=1
+
+[Customisations]
+
+
+[Plugin]
+
+[KeyDevice]
+SerialNumber1=00 90 1D 01 34 A3
+SerialNumber2=00 90 1D 00 00 00
+
+[Configuration]
+FacilityCode=G09843
+BureauFacilityCode=
+CryptSeed=11866
+
+[PrivateKeyCardax Standard]
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: RC4,7A654497EE835656
+
+TIEKhGbILdiMJau6eNCoevRzHrqDUzN6gZ8TL8AV7DjvBgWVhLZBZyRs82CK4WPo
++gjTLH6QFmRa2KTOjyPTBEGDb8HMRBrQu/1Bx6Ps0KoaJ5fbxm/XUpSqAKXzhMDu
+YtJdrbcDSiQKGIrpbOkcQYwaOwNDfoE0ACGZbQX4ghzhFlgH7sTav3o0iokJZD6q
+689aNsS0aFljWN3Y6MJPBvWmG8jqElCjXJm1YsBm7oqWot2B0+nWW2TM/F/PtGCO
+cs9ad+UTS0vVpqKYKZgfPsyt5tI1h4yNMyzbOo9jQ8P0RPlAj2vaX4550R86sD/q
+i77bSu66/p48VsBEjAcqFi2As1DiJp8OMK41kOwRVj1nIJaGWR0zfkl6iDCbwb+S
+RazVs/CMgiAW4i31szZlTsmrFsZDD0H7K9VQY7LrHqniszItspXleIm2pq3hljZC
+KlkMGfKKMoFSs7k/JoRCIKIUQ6j2fdrKEfAeQ9LWNPfY+2CcUWDqUVJ1lTXgjf9a
+rzLMnDHXXpYT51HWp3mEe9y4907l90Sj+EwqHQS/Ez/uLhgqmARTYl4IwqRYD3rT
+pjF59WsjNNFOB4/S6okUdTLfj8qjFEfI1Ydn/1Z6X7GqG0YLU94fJTt9h1iUR1DK
+g2UrW8SdKndiuEMiwdNIp3XL2h1XVmnWctdY4to8gSIRuG15CBYH7Qs7lnDVr2GZ
+xzreQh8dRurTfCtZ0u5ZA/qLRc3IyQZuXq1ZPMhyRfNvJTmCvjvo8B+7yrrYwAZu
+1hhwmzqw2JJDkz56CFY4BFsAU4g2668SUtb4kocM3mQ=
+-----END RSA PRIVATE KEY-----
+
+[CertificateCardax Standard]
+-----BEGIN CERTIFICATE-----
+MIID2jCCA0OgAwIBAgIDAZdDMA0GCSqGSIb3DQEBBQUAMIGhMQswCQYDVQQGEwJO
+WjEQMA4GA1UECBMHV2Fpa2F0bzERMA8GA1UEBxMISGFtaWx0b24xJDAiBgNVBAoT
+G0NhcmRheCAoSW50ZXJuYXRpb25hbCkgTHRkLjEUMBIGA1UECxMLRGV2ZWxvcG1l
+bnQxDzANBgNVBAMTBkNhcmRheDEgMB4GCSqGSIb3DQEJARYRY2FyZGF4QGNhcmRh
+eC5jb20wHhcNMTYwNDA1MjM1ODQzWhcNMzcxMjMxMDAwMDAwWjCBkDELMAkGA1UE
+BhMCTloxEDAOBgNVBAgTB1dhaWthdG8xJDAiBgNVBAoTG0NhcmRheCAoSW50ZXJu
+YXRpb25hbCkgTHRkLjEaMBgGA1UECxMRQ29tbWFuZCBDZW50cmUgRlQxDTALBgNV
+BAMTBEVsbW8xHjAcBgkqhkiG9w0BCQEWD2VsbW9AY2FyZGF4LmNvbTCBnzANBgkq
+hkiG9w0BAQEFAAOBjQAwgYkCgYEAt+QdtCY/lsuJvi2B+BjuSeE/j2kH1phz4PnK
+ojQLz+c4p5+yRhDtHQnEBdUepEXfMUaWqPTTW9MpkSHTVPQYjdBCcaYVAX108SBr
+Cw8177F5ZdvDjg/mYnBeiU7VzZ8MNCuKGzf36/OhkxUmE6Bk/F5waTrW1dCiLGtG
+lRm6XVkCAwEAAaOCAS0wggEpMAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9w
+ZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBTzewEdrfLMeXhx
+HxXmJA4PDjGzQzCBzgYDVR0jBIHGMIHDgBQsPUrCxVW/JzKlOACKUu+j9sxH5KGB
+p6SBpDCBoTELMAkGA1UEBhMCTloxEDAOBgNVBAgTB1dhaWthdG8xETAPBgNVBAcT
+CEhhbWlsdG9uMSQwIgYDVQQKExtDYXJkYXggKEludGVybmF0aW9uYWwpIEx0ZC4x
+FDASBgNVBAsTC0RldmVsb3BtZW50MQ8wDQYDVQQDEwZDYXJkYXgxIDAeBgkqhkiG
+9w0BCQEWEWNhcmRheEBjYXJkYXguY29tggEAMA0GCSqGSIb3DQEBBQUAA4GBALzi
+Z+xf2bpH8A02t6bfgFQKD75Fx6xGoriT34QMfMOZ5MFR7Bio7TPVU2oJhSpU9/A8
+MiEWEoJqASN0rupDJ+r/+5rl+fVcTL0MpGUObgafh2PSwo256oTmPGS870WdqDwF
+mA8/VplGGhfEqHbAHxeoF45Zxg1tidbDhcSzus7k
+-----END CERTIFICATE-----
+
+[MasterCardax Standard]
+-----BEGIN CERTIFICATE-----
+MIIDvTCCAyagAwIBAgIBADANBgkqhkiG9w0BAQUFADCBoTELMAkGA1UEBhMCTlox
+EDAOBgNVBAgTB1dhaWthdG8xETAPBgNVBAcTCEhhbWlsdG9uMSQwIgYDVQQKExtD
+YXJkYXggKEludGVybmF0aW9uYWwpIEx0ZC4xFDASBgNVBAsTC0RldmVsb3BtZW50
+MQ8wDQYDVQQDEwZDYXJkYXgxIDAeBgkqhkiG9w0BCQEWEWNhcmRheEBjYXJkYXgu
+Y29tMB4XDTAwMDcyNjIyMTAyN1oXDTMwMDcxOTIyMTAyN1owgaExCzAJBgNVBAYT
+Ak5aMRAwDgYDVQQIEwdXYWlrYXRvMREwDwYDVQQHEwhIYW1pbHRvbjEkMCIGA1UE
+ChMbQ2FyZGF4IChJbnRlcm5hdGlvbmFsKSBMdGQuMRQwEgYDVQQLEwtEZXZlbG9w
+bWVudDEPMA0GA1UEAxMGQ2FyZGF4MSAwHgYJKoZIhvcNAQkBFhFjYXJkYXhAY2Fy
+ZGF4LmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzJAd6FKpNW7y6orj
+ZK9SGamnz6yKSl/qMFDCKfpc6YEi0M6nmYiyuiEQNHeZliCIPbEr46jpiSKQw84Y
+Ru463Mpzimtc8Vw+eMudoRXIOJPxe//WQZ9+sPfLIPIJafttaj6ontR4WVMwZd2v
+d1LOiDO533DYYZ2pj/+HLUNrJyECAwEAAaOCAQEwgf4wHQYDVR0OBBYEFCw9SsLF
+Vb8nMqU4AIpS76P2zEfkMIHOBgNVHSMEgcYwgcOAFCw9SsLFVb8nMqU4AIpS76P2
+zEfkoYGnpIGkMIGhMQswCQYDVQQGEwJOWjEQMA4GA1UECBMHV2Fpa2F0bzERMA8G
+A1UEBxMISGFtaWx0b24xJDAiBgNVBAoTG0NhcmRheCAoSW50ZXJuYXRpb25hbCkg
+THRkLjEUMBIGA1UECxMLRGV2ZWxvcG1lbnQxDzANBgNVBAMTBkNhcmRheDEgMB4G
+CSqGSIb3DQEJARYRY2FyZGF4QGNhcmRheC5jb22CAQAwDAYDVR0TBAUwAwEB/zAN
+BgkqhkiG9w0BAQUFAAOBgQCt1Ou0IX4DwcNN21VAxU+fiiZOrRpsq7mRELwVZ6u8
+3ScbZQAA+7yG4taWPhZkA2g6sv3FIlpKvsa6kXma6DfKqXYUkm2A2zY5I4LRLWBp
+cxM8UrDvgiTZSyaDSZ5ugMDRVJv4RVQve5RX6NUiFD3EhHXqm9y+ivKt81R1o3L/
+ww==
+-----END CERTIFICATE-----
+
+[Validation]
+oOP2EYdmH41Jh7OZt4RPTt8qW7eAq8ULTkNuuobxD2jWyco++aWhX9kCQn2R3+iSoGakvIdhD1Im/ckoXJfA3TRsNlFD5xgo0fnytTUKlJHzuYLtFXiu/CMQQos4u4QjclHgRkN0xEbJFjiKCP3lm6zFhGPZaXV6e/lid+48530=
+
+End FT License File
+
+Other information
+-----------------
+
+Host Name:                 OETC-ESF
+OS Name:                   Microsoft Windows 7 Professional 
+OS Version:                6.1.7601 Service Pack 1 Build 7601
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          OETC1
+Registered Organization:   Hewlett-Packard Company
+Product ID:                00371-OEM-8992671-00008
+Original Install Date:     7/29/2015, 9:59:53 PM
+System Boot Time:          3/28/2017, 11:37:23 AM
+System Manufacturer:       Hewlett-Packard
+System Model:              HP Z440 Workstation
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 63 Stepping 2 GenuineIntel ~1995 Mhz
+BIOS Version:              Hewlett-Packard M60 v01.53, 4/2/2015
+Windows Directory:         C:\windows
+System Directory:          C:\windows\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+04:00) Abu Dhabi, Muscat
+Total Physical Memory:     16,292 MB
+Available Physical Memory: 12,575 MB
+Virtual Memory: Max Size:  32,581 MB
+Virtual Memory: Available: 28,513 MB
+Virtual Memory: In Use:    4,068 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\OETC-ESF
+Hotfix(s):                 223 Hotfix(s) Installed.
+                           [01]: KB2849697
+                           [02]: KB2849696
+                           [03]: KB2849696
+                           [04]: KB2841134
+                           [05]: KB2841134
+                           [06]: KB2670838
+                           [07]: KB2479943
+                           [08]: KB2484033
+                           [09]: KB2488113
+                           [10]: KB2491683
+                           [11]: KB2496898
+                           [12]: KB2505438
+                           [13]: KB2505454
+                           [14]: KB2506014
+                           [15]: KB2506212
+                           [16]: KB2506928
+                           [17]: KB2509553
+                           [18]: KB2511250
+                           [19]: KB2515325
+                           [20]: KB2529073
+                           [21]: KB2532531
+                           [22]: KB2533623
+                           [23]: KB2536275
+                           [24]: KB2536276
+                           [25]: KB2541014
+                           [26]: KB2544893
+                           [27]: KB2545698
+                           [28]: KB2547666
+                           [29]: KB2552343
+                           [30]: KB2560656
+                           [31]: KB2563227
+                           [32]: KB2564958
+                           [33]: KB2570947
+                           [34]: KB2579686
+                           [35]: KB2584146
+                           [36]: KB2589986
+                           [37]: KB2603229
+                           [38]: KB2619339
+                           [39]: KB2619497
+                           [40]: KB2631813
+                           [41]: KB2639308
+                           [42]: KB2640148
+                           [43]: KB2645640
+                           [44]: KB2647753
+                           [45]: KB2653956
+                           [46]: KB2654428
+                           [47]: KB2655992
+                           [48]: KB2660075
+                           [49]: KB2667402
+                           [50]: KB2676562
+                           [51]: KB2685811
+                           [52]: KB2685813
+                           [53]: KB2685939
+                           [54]: KB2690533
+                           [55]: KB2698365
+                           [56]: KB2699779
+                           [57]: KB2705219
+                           [58]: KB2709630
+                           [59]: KB2712808
+                           [60]: KB2719857
+                           [61]: KB2720599
+                           [62]: KB2726535
+                           [63]: KB2727528
+                           [64]: KB2729094
+                           [65]: KB2731771
+                           [66]: KB2732059
+                           [67]: KB2732487
+                           [68]: KB2732500
+                           [69]: KB2741355
+                           [70]: KB2743555
+                           [71]: KB2750841
+                           [72]: KB2753842
+                           [73]: KB2757638
+                           [74]: KB2758857
+                           [75]: KB2761217
+                           [76]: KB2763523
+                           [77]: KB2770660
+                           [78]: KB2773072
+                           [79]: KB2785220
+                           [80]: KB2786081
+                           [81]: KB2786400
+                           [82]: KB2798162
+                           [83]: KB2799464
+                           [84]: KB2799926
+                           [85]: KB2800095
+                           [86]: KB2803821
+                           [87]: KB2807986
+                           [88]: KB2808679
+                           [89]: KB2813347
+                           [90]: KB2813430
+                           [91]: KB2813956
+                           [92]: KB2820197
+                           [93]: KB2820331
+                           [94]: KB2830290
+                           [95]: KB2834140
+                           [96]: KB2834886
+                           [97]: KB2835361
+                           [98]: KB2835364
+                           [99]: KB2836502
+                           [100]: KB2839894
+                           [101]: KB2840149
+                           [102]: KB2843630
+                           [103]: KB2845187
+                           [104]: KB2846960
+                           [105]: KB2847077
+                           [106]: KB2847311
+                           [107]: KB2847927
+                           [108]: KB2849470
+                           [109]: KB2852386
+                           [110]: KB2853952
+                           [111]: KB2855844
+                           [112]: KB2861855
+                           [113]: KB2862152
+                           [114]: KB2862330
+                           [115]: KB2862335
+                           [116]: KB2862966
+                           [117]: KB2862973
+                           [118]: KB2863058
+                           [119]: KB2864058
+                           [120]: KB2864202
+                           [121]: KB2868038
+                           [122]: KB2868116
+                           [123]: KB2868623
+                           [124]: KB2868626
+                           [125]: KB2868725
+                           [126]: KB2871997
+                           [127]: KB2872339
+                           [128]: KB2875783
+                           [129]: KB2876284
+                           [130]: KB2876315
+                           [131]: KB2876331
+                           [132]: KB2879017
+                           [133]: KB2882822
+                           [134]: KB2883150
+                           [135]: KB2884256
+                           [136]: KB2887069
+                           [137]: KB2888049
+                           [138]: KB2888505
+                           [139]: KB2891804
+                           [140]: KB2892074
+                           [141]: KB2893294
+                           [142]: KB2893519
+                           [143]: KB2893984
+                           [144]: KB2898785
+                           [145]: KB2900986
+                           [146]: KB2904266
+                           [147]: KB2908783
+                           [148]: KB2909210
+                           [149]: KB2909921
+                           [150]: KB2912390
+                           [151]: KB2913152
+                           [152]: KB2913431
+                           [153]: KB2913602
+                           [154]: KB2918077
+                           [155]: KB2918614
+                           [156]: KB2919469
+                           [157]: KB2925418
+                           [158]: KB2926765
+                           [159]: KB2928562
+                           [160]: KB2929437
+                           [161]: KB2929733
+                           [162]: KB2929961
+                           [163]: KB2930275
+                           [164]: KB2936068
+                           [165]: KB2939576
+                           [166]: KB2943357
+                           [167]: KB2949927
+                           [168]: KB2953522
+                           [169]: KB2957189
+                           [170]: KB2957503
+                           [171]: KB2957509
+                           [172]: KB2957689
+                           [173]: KB2961072
+                           [174]: KB2962872
+                           [175]: KB2964444
+                           [176]: KB2966583
+                           [177]: KB2970228
+                           [178]: KB2971850
+                           [179]: KB2972280
+                           [180]: KB2973201
+                           [181]: KB2973337
+                           [182]: KB2973351
+                           [183]: KB2976627
+                           [184]: KB2976897
+                           [185]: KB2977292
+                           [186]: KB2977629
+                           [187]: KB2977728
+                           [188]: KB2978092
+                           [189]: KB2978668
+                           [190]: KB2980245
+                           [191]: KB2981580
+                           [192]: KB2982378
+                           [193]: KB2987107
+                           [194]: KB2990941
+                           [195]: KB2991963
+                           [196]: KB2992611
+                           [197]: KB2993651
+                           [198]: KB2993958
+                           [199]: KB2998527
+                           [200]: KB2999226
+                           [201]: KB3000061
+                           [202]: KB3000869
+                           [203]: KB3000988
+                           [204]: KB3002885
+                           [205]: KB3003057
+                           [206]: KB3003743
+                           [207]: KB3005607
+                           [208]: KB3006226
+                           [209]: KB3008627
+                           [210]: KB3010788
+                           [211]: KB3013410
+                           [212]: KB3046269
+                           [213]: KB3074543
+                           [214]: KB3086255
+                           [215]: KB3097989
+                           [216]: KB3123479
+                           [217]: KB3127220
+                           [218]: KB3135983
+                           [219]: KB3139398
+                           [220]: KB3161102
+                           [221]: KB3177467
+                           [222]: KB976902
+                           [223]: KB982018
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) Ethernet Connection (2) I218-LM
+                                 Connection Name: Local Area Connection
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.1.65.154
+These Windows services are started:
+
+   Application Experience
+   Background Intelligent Transfer Service
+   Base Filtering Engine
+   Certificate Propagation
+   COM+ Event System
+   Computer Browser
+   Cryptographic Services
+   DCOM Server Process Launcher
+   Desktop Window Manager Session Manager
+   DHCP Client
+   Diagnostic Policy Service
+   Diagnostic Service Host
+   Distributed Link Tracking Client
+   DNS Client
+   FT Bootstrap Protocol Service
+   FT Command Centre Service
+   FT Controller Service
+   FT Import - Export Service
+   Group Policy Client
+   HP Support Solutions Framework Service
+   Human Interface Device Access
+   IKE and AuthIP IPsec Keying Modules
+   Intel(R) Dynamic Application Loader Host Interface Service
+   Intel(R) Management and Security Application Local Management Service
+   Intel(R) PROSet Monitoring Service
+   Intel(R) Rapid Storage Technology
+   IP Helper
+   IPsec Policy Agent
+   Multimedia Class Scheduler
+   Network Connections
+   Network List Service
+   Network Location Awareness
+   Network Store Interface Service
+   NVIDIA Display Driver Service
+   Offline Files
+   Plug and Play
+   Portable Device Enumerator Service
+   Power
+   Print Spooler
+   Program Compatibility Assistant Service
+   Realtek Audio Service
+   Remote Desktop Configuration
+   Remote Desktop Services
+   Remote Desktop Services UserMode Port Redirector
+   Remote Procedure Call (RPC)
+   RPC Endpoint Mapper
+   Security Accounts Manager
+   Security Center
+   Server
+   Shell Hardware Detection
+   SQL Server (MSSQLSERVER)
+   SQL Server VSS Writer
+   SSDP Discovery
+   Superfetch
+   System Event Notification Service
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   Themes
+   User Profile Service
+   Windows Audio
+   Windows Audio Endpoint Builder
+   Windows Defender
+   Windows Driver Foundation - User-mode Driver Framework
+   Windows Event Log
+   Windows Firewall
+   Windows Font Cache Service
+   Windows Management Instrumentation
+   Windows Media Player Network Sharing Service
+   Windows Modules Installer
+   Windows Search
+   Windows Update
+   WinHTTP Web Proxy Auto-Discovery Service
+   Workstation
+
+The command completed successfully.
+
+
+Image Name                     PID Session Name        Session#    Mem Usage Status          User Name                                              CPU Time Window Title                                                            
+========================= ======== ================ =========== ============ =============== ================================================== ============ ========================================================================
+System Idle Process              0 Services                   0         24 K Unknown         NT AUTHORITY\SYSTEM                                  1346:05:21 N/A                                                                     
+System                           4 Services                   0     19,840 K Unknown         N/A                                                     0:41:41 N/A                                                                     
+smss.exe                       364 Services                   0      1,436 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+csrss.exe                      564 Services                   0      5,404 K Unknown         NT AUTHORITY\SYSTEM                                     0:01:09 N/A                                                                     
+wininit.exe                    640 Services                   0      5,004 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+csrss.exe                      660 Console                    1      9,788 K Running         NT AUTHORITY\SYSTEM                                     0:01:06 N/A                                                                     
+services.exe                   696 Services                   0     11,320 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:27 N/A                                                                     
+lsass.exe                      724 Services                   0     17,592 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:31 N/A                                                                     
+lsm.exe                        732 Services                   0      7,548 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:01 N/A                                                                     
+winlogon.exe                   844 Console                    1      8,684 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                    876 Services                   0     11,832 K Unknown         NT AUTHORITY\SYSTEM                                     2:00:38 N/A                                                                     
+nvvsvc.exe                     936 Services                   0      9,184 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                    980 Services                   0     12,028 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:05 N/A                                                                     
+svchost.exe                    580 Services                   0     20,616 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:05:17 N/A                                                                     
+svchost.exe                    420 Services                   0    183,572 K Unknown         NT AUTHORITY\SYSTEM                                     0:21:42 N/A                                                                     
+svchost.exe                    396 Services                   0     21,276 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:13 N/A                                                                     
+svchost.exe                   1052 Services                   0     52,768 K Unknown         NT AUTHORITY\SYSTEM                                     0:23:10 N/A                                                                     
+RtkAudioService64.exe         1292 Services                   0      5,908 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+nvxdsync.exe                  1300 Console                    1     22,836 K Running         NT AUTHORITY\SYSTEM                                     0:00:03 UxdService                                                              
+nvvsvc.exe                    1312 Console                    1     14,300 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 NvSvc                                                                   
+RAVBg64.exe                   1368 Console                    1     15,136 K Running         NT AUTHORITY\SYSTEM                                     0:00:02 Realtek HD Audio Background Process for Vista                           
+svchost.exe                   1392 Services                   0     29,232 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:29 N/A                                                                     
+spoolsv.exe                   1680 Services                   0     16,748 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:11 N/A                                                                     
+svchost.exe                   1728 Services                   0     15,944 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:10 N/A                                                                     
+CCFTData.exe                  1892 Services                   0     10,600 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+IPROSetMonitor.exe            1992 Services                   0      6,888 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+sqlservr.exe                  1448 Services                   0  1,019,528 K Unknown         NT SERVICE\MSSQLSERVER                                  0:02:18 N/A                                                                     
+sqlwriter.exe                  652 Services                   0      6,932 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                   2440 Services                   0      5,936 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A                                                                     
+WUDFHost.exe                  3088 Services                   0      6,632 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A                                                                     
+taskhost.exe                  3272 Console                    1     20,776 K Running         OETC-ESF\Administrator                                  0:00:02 MCI command handling window                                             
+dwm.exe                       3408 Console                    1     54,524 K Running         OETC-ESF\Administrator                                  1:52:46 DWM Notification Window                                                 
+explorer.exe                  3432 Console                    1     98,336 K Running         OETC-ESF\Administrator                                  0:01:36 N/A                                                                     
+RAVCpl64.exe                  3548 Console                    1     14,420 K Running         OETC-ESF\Administrator                                  0:00:02 Realtek HD Audio CPL for Vista                                          
+iusb3mon.exe                  3756 Console                    1      6,640 K Running         OETC-ESF\Administrator                                  0:01:24 Intel(R) USB 3.0 Monitor                                                
+IAStorIcon.exe                3772 Console                    1     33,644 K Running         OETC-ESF\Administrator                                  0:02:56 N/A                                                                     
+CLMLSvc_P2G8.exe              3788 Console                    1      8,896 K Running         OETC-ESF\Administrator                                  0:00:00 GDI+ Window                                                             
+SearchIndexer.exe             3128 Services                   0     30,464 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:11 N/A                                                                     
+wmpnetwk.exe                  3344 Services                   0     12,264 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:04 N/A                                                                     
+svchost.exe                   4004 Services                   0      6,832 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:03 N/A                                                                     
+HPSupportSolutionsFramewo     3912 Services                   0     44,244 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+IAStorDataMgrSvc.exe          2924 Services                   0     37,388 K Unknown         NT AUTHORITY\SYSTEM                                     7:04:58 N/A                                                                     
+jhi_service.exe               1632 Services                   0      4,656 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+LMS.exe                       3868 Services                   0     17,700 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:02 N/A                                                                     
+svchost.exe                   1488 Services                   0     73,716 K Unknown         NT AUTHORITY\SYSTEM                                     0:07:31 N/A                                                                     
+PrivacyIconClient.exe         3524 Console                    1     36,612 K Running         OETC-ESF\Administrator                                  0:00:11 Intelr Management and Security Status                                   
+mmc.exe                       4200 Console                    1     38,284 K Running         OETC-ESF\Administrator                                  0:00:02 Services                                                                
+CCNTBertServ.exe              5232 Services                   0     19,708 K Unknown         NT AUTHORITY\SYSTEM                                     0:01:02 N/A                                                                     
+CCNTSad.exe                   5548 Services                   0    113,544 K Unknown         NT AUTHORITY\SYSTEM                                     0:11:57 N/A                                                                     
+CCFTBPS.exe                   5516 Services                   0     12,232 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+nvtray.exe                    2888 Console                    1        120 K Unknown         OETC-ESF\Administrator                                  0:00:00 N/A                                                                     
+CommandCentreClient.exe       5316 Console                    1    298,680 K Running         OETC-ESF\Administrator                                  3:20:55 N/A                                                                     
+CommandCentreClient_Audio     4248 Console                    1     32,356 K Running         OETC-ESF\Administrator                                  0:19:58 MCI command handling window                                             
+audiodg.exe                   1864 Services                   0     29,336 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:26:33 N/A                                                                     
+CCFT.exe                      4184 Console                    1     23,456 K Running         OETC-ESF\Administrator                                  0:00:00 Gallagher Command Centre Classic - OETC S.A.O.C                         
+WmiPrvSE.exe                  5268 Services                   0     18,052 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:20 N/A                                                                     
+TrustedInstaller.exe           808 Services                   0     14,448 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:12 N/A                                                                     
+WmiPrvSE.exe                  3984 Services                   0      6,412 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A                                                                     
+SearchProtocolHost.exe        6052 Services                   0      9,548 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+SearchFilterHost.exe          5192 Services                   0      7,924 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+FTSupportTool1_1_59.exe       4164 Console                    1      8,244 K Running         OETC-ESF\Administrator                                  0:00:00 C:\Software\7.40.756\Utilities\FTSupportTool1_1_59.exe                  
+conhost.exe                   4256 Console                    1      6,304 K Running         OETC-ESF\Administrator                                  0:00:00 CicMarshalWnd                                                           
+cmd.exe                       4116 Console                    1      3,836 K Unknown         OETC-ESF\Administrator                                  0:00:00 N/A                                                                     
+tasklist.exe                  3084 Console                    1      6,848 K Unknown         OETC-ESF\Administrator                                  0:00:00 N/A                                                                     
+
+Image Name                     PID Services                                    
+========================= ======== ============================================
+System Idle Process              0 N/A                                         
+System                           4 N/A                                         
+smss.exe                       364 N/A                                         
+csrss.exe                      564 N/A                                         
+wininit.exe                    640 N/A                                         
+csrss.exe                      660 N/A                                         
+services.exe                   696 N/A                                         
+lsass.exe                      724 SamSs                                       
+lsm.exe                        732 N/A                                         
+winlogon.exe                   844 N/A                                         
+svchost.exe                    876 DcomLaunch, PlugPlay, Power                 
+nvvsvc.exe                     936 nvsvc                                       
+svchost.exe                    980 RpcEptMapper, RpcSs                         
+svchost.exe                    580 AudioSrv, Dhcp, eventlog, lmhosts, wscsvc   
+svchost.exe                    420 AudioEndpointBuilder, CscService, hidserv,  
+                                   Netman, PcaSvc, SysMain, TrkWks,            
+                                   UmRdpService, UxSms, WPDBusEnum, wudfsvc    
+svchost.exe                    396 EventSystem, FontCache, netprofm, nsi,      
+                                   WdiServiceHost, WinHttpAutoProxySvc         
+svchost.exe                   1052 AeLookupSvc, BITS, Browser, CertPropSvc,    
+                                   gpsvc, IKEEXT, iphlpsvc, LanmanServer,      
+                                   MMCSS, ProfSvc, Schedule, SENS, SessionEnv, 
+                                   ShellHWDetection, Themes, Winmgmt, wuauserv 
+RtkAudioService64.exe         1292 RtkAudioService                             
+nvxdsync.exe                  1300 N/A                                         
+nvvsvc.exe                    1312 N/A                                         
+RAVBg64.exe                   1368 N/A                                         
+svchost.exe                   1392 CryptSvc, Dnscache, LanmanWorkstation,      
+                                   NlaSvc, TermService                         
+spoolsv.exe                   1680 Spooler                                     
+svchost.exe                   1728 BFE, DPS, MpsSvc                            
+CCFTData.exe                  1892 FT Import - Export Service                  
+IPROSetMonitor.exe            1992 Intel(R) PROSet Monitoring Service          
+sqlservr.exe                  1448 MSSQLSERVER                                 
+sqlwriter.exe                  652 SQLWriter                                   
+svchost.exe                   2440 PolicyAgent                                 
+WUDFHost.exe                  3088 N/A                                         
+taskhost.exe                  3272 N/A                                         
+dwm.exe                       3408 N/A                                         
+explorer.exe                  3432 N/A                                         
+RAVCpl64.exe                  3548 N/A                                         
+iusb3mon.exe                  3756 N/A                                         
+IAStorIcon.exe                3772 N/A                                         
+CLMLSvc_P2G8.exe              3788 N/A                                         
+SearchIndexer.exe             3128 WSearch                                     
+wmpnetwk.exe                  3344 WMPNetworkSvc                               
+svchost.exe                   4004 SSDPSRV                                     
+HPSupportSolutionsFramewo     3912 HPSupportSolutionsFrameworkService          
+IAStorDataMgrSvc.exe          2924 IAStorDataMgrSvc                            
+jhi_service.exe               1632 jhi_service                                 
+LMS.exe                       3868 LMS                                         
+svchost.exe                   1488 WinDefend                                   
+PrivacyIconClient.exe         3524 N/A                                         
+mmc.exe                       4200 N/A                                         
+CCNTBertServ.exe              5232 FT Controller Service                       
+CCNTSad.exe                   5548 FT Command Centre Service                   
+CCFTBPS.exe                   5516 FT Bootstrap Protocol Service               
+nvtray.exe                    2888 N/A                                         
+CommandCentreClient.exe       5316 N/A                                         
+CommandCentreClient_Audio     4248 N/A                                         
+audiodg.exe                   1864 N/A                                         
+CCFT.exe                      4184 N/A                                         
+WmiPrvSE.exe                  5268 N/A                                         
+TrustedInstaller.exe           808 TrustedInstaller                            
+WmiPrvSE.exe                  3984 N/A                                         
+SearchProtocolHost.exe        6052 N/A                                         
+SearchFilterHost.exe          5192 N/A                                         
+FTSupportTool1_1_59.exe       4164 N/A                                         
+conhost.exe                   4256 N/A                                         
+cmd.exe                       4640 N/A                                         
+tasklist.exe                  1376 N/A                                         
+
+Image Name                     PID Modules                                     
+========================= ======== ============================================
+CCNTBertServ.exe              5232 ntdll.dll, kernel32.dll, kernelbase.dll,    
+                                   bcrypt.dll, mswsock.dll, msvcrt.dll,        
+                                   user32.dll, gdi32.dll, lpk.dll, usp10.dll,  
+                                   rpcrt4.dll, ws2_32.dll, nsi.dll,            
+                                   rasapi32.dll, advapi32.dll, sechost.dll,    
+                                   rasman.dll, ssleay32.dll, libeay32.dll,     
+                                   psapi.dll, vcruntime140.dll,                
+                                   api-ms-win-crt-runtime-l1-1-0.dll,          
+                                   ucrtbase.dll,                               
+                                   api-ms-win-core-timezone-l1-1-0.dll,        
+                                   api-ms-win-core-file-l2-1-0.dll,            
+                                   api-ms-win-core-localization-l1-2-0.dll,    
+                                   api-ms-win-core-synch-l1-2-0.dll,           
+                                   api-ms-win-core-processthreads-l1-1-1.dll,  
+                                   api-ms-win-core-file-l1-2-0.dll,            
+                                   api-ms-win-crt-string-l1-1-0.dll,           
+                                   api-ms-win-crt-heap-l1-1-0.dll,             
+                                   api-ms-win-crt-stdio-l1-1-0.dll,            
+                                   api-ms-win-crt-convert-l1-1-0.dll,          
+                                   api-ms-win-crt-environment-l1-1-0.dll,      
+                                   api-ms-win-crt-time-l1-1-0.dll,             
+                                   api-ms-win-crt-utility-l1-1-0.dll,          
+                                   api-ms-win-crt-math-l1-1-0.dll,             
+                                   api-ms-win-crt-filesystem-l1-1-0.dll,       
+                                   api-ms-win-crt-conio-l1-1-0.dll,            
+                                   ccntmsg.dll, comctl32.dll, msimg32.dll,     
+                                   crypt32.dll, msasn1.dll, ole32.dll,         
+                                   oleaut32.dll, shlwapi.dll, iphlpapi.dll,    
+                                   winnsi.dll, CCFTCommon.dll,                 
+                                   CCFTDiagnostic.dll, shell32.dll,            
+                                   msvcp140.dll,                               
+                                   api-ms-win-crt-locale-l1-1-0.dll,           
+                                   api-ms-win-crt-multibyte-l1-1-0.dll,        
+                                   version.dll, wininet.dll,                   
+                                   api-ms-win-downlevel-user32-l1-1-0.dll,     
+                                   api-ms-win-downlevel-shlwapi-l1-1-0.dll,    
+                                   api-ms-win-downlevel-version-l1-1-0.dll,    
+                                   api-ms-win-downlevel-normaliz-l1-1-0.dll,   
+                                   normaliz.dll, iertutil.dll,                 
+                                   api-ms-win-downlevel-advapi32-l1-1-0.dll,   
+                                   userenv.dll, profapi.dll, imm32.dll,        
+                                   msctf.dll, cryptbase.dll, clbcatq.dll,      
+                                   mlang.dll, cryptsp.dll, rsaenh.dll,         
+                                   rpcrtremote.dll, rtutils.dll, wship6.dll,   
+                                   CCFTProxy.dll, wshtcpip.dll                 
+CCFTBPS.exe                   5516 ntdll.dll, kernel32.dll, kernelbase.dll,    
+                                   iphlpapi.dll, msvcrt.dll, nsi.dll,          
+                                   winnsi.dll, rpcrt4.dll, ws2_32.dll,         
+                                   ccntmsg.dll, comctl32.dll, advapi32.dll,    
+                                   sechost.dll, gdi32.dll, user32.dll,         
+                                   lpk.dll, usp10.dll, msimg32.dll,            
+                                   crypt32.dll, msasn1.dll, ole32.dll,         
+                                   oleaut32.dll, shlwapi.dll, CCFTCommon.dll,  
+                                   CCFTDiagnostic.dll, shell32.dll,            
+                                   msvcp140.dll, vcruntime140.dll,             
+                                   api-ms-win-crt-runtime-l1-1-0.dll,          
+                                   ucrtbase.dll,                               
+                                   api-ms-win-core-timezone-l1-1-0.dll,        
+                                   api-ms-win-core-file-l2-1-0.dll,            
+                                   api-ms-win-core-localization-l1-2-0.dll,    
+                                   api-ms-win-core-synch-l1-2-0.dll,           
+                                   api-ms-win-core-processthreads-l1-1-1.dll,  
+                                   api-ms-win-core-file-l1-2-0.dll,            
+                                   api-ms-win-crt-string-l1-1-0.dll,           
+                                   api-ms-win-crt-heap-l1-1-0.dll,             
+                                   api-ms-win-crt-stdio-l1-1-0.dll,            
+                                   api-ms-win-crt-convert-l1-1-0.dll,          
+                                   api-ms-win-crt-locale-l1-1-0.dll,           
+                                   api-ms-win-crt-math-l1-1-0.dll,             
+                                   api-ms-win-crt-multibyte-l1-1-0.dll,        
+                                   api-ms-win-crt-time-l1-1-0.dll,             
+                                   api-ms-win-crt-filesystem-l1-1-0.dll,       
+                                   api-ms-win-crt-environment-l1-1-0.dll,      
+                                   api-ms-win-crt-utility-l1-1-0.dll,          
+                                   version.dll, psapi.dll, imm32.dll,          
+                                   msctf.dll, profapi.dll, cryptbase.dll,      
+                                   clbcatq.dll, mlang.dll, cryptsp.dll,        
+                                   rsaenh.dll, nlaapi.dll, napinsp.dll,        
+                                   pnrpnsp.dll, mswsock.dll, dnsapi.dll,       
+                                   winrnr.dll, wshtcpip.dll, rpcrtremote.dll,  
+                                   CCFTProxy.dll                               
+
+HKEY_LOCAL_MACHINE\SOFTWARE\CARDAX\Command Centre FT
+    DatabaseServerMachine    REG_SZ    OETC-ESF
+    DatabaseName    REG_SZ    CCFTCentral
+    EventDatabaseServer    REG_SZ    OETC-ESF
+    EventDatabaseName    REG_SZ    CCFTEvent
+    Serial    REG_DWORD    0xfe03f30c
+    UseSQLServerAuth    REG_DWORD    0x1
+    ServerLocale    REG_DWORD    0x409
+    ClientSetupPath    REG_SZ    C:\Program Files (x86)\Gallagher\Command Centre\ClientSetup\CommandCentreSetup
+    ClientSetupShare    REG_SZ    CommandCentreSetup
+    InstallType    REG_DWORD    0x33
+    Version    REG_SZ    vEL7.40.756
+    ServerMachine    REG_SZ    OETC-ESF
+    Install Path    REG_SZ    C:\Program Files (x86)\Gallagher\Command Centre
+    LogFileSize    REG_DWORD    0x2800
+    LogFileCount    REG_DWORD    0x1
+    DumpCount    REG_DWORD    0xa
+    TraceOn    REG_DWORD    0x0
+    AssertPopupOn    REG_DWORD    0x0
+    AssertDumpOn    REG_DWORD    0x1
+    AssertDumpType    REG_DWORD    0x1
+    AssertCommand    REG_SZ    
+    UHEDumpOn    REG_DWORD    0x1
+    UHEDumpType    REG_DWORD    0x1
+    UHECommand    REG_SZ    
+    StartupTraceOn    REG_DWORD    0x0
+    GeneralOn    REG_DWORD    0x0
+    Enable_UHE_Popups    REG_DWORD    0x0
+    InstallShortCuts    REG_MULTI_SZ    C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Gallagher\Command Centre Classic.lnk\0C:\Users\Public\Desktop\Command Centre Classic.lnk\0C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Gallagher\Command Centre Restore.lnk\0C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Gallagher\Command Centre Premier.lnk\0C:\Users\Public\Desktop\Command Centre Premier.lnk
+    ListenPort    REG_DWORD    0x430
+
+
+Connection Name Network Adapter Physical Address    Transport Name                                            
+=============== =============== =================== ==========================================================
+Local Area Conn Intel(R) Ethern 8C-DC-D4-4B-96-D6   \Device\Tcpip_{155CA9CE-CAED-4C86-98E4-E6D92C5850B8}      
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : OETC-ESF
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Local Area Connection:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) Ethernet Connection (2) I218-LM
+   Physical Address. . . . . . . . . : 8C-DC-D4-4B-96-D6
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 10.1.65.154(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.1.65.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Tunnel adapter isatap.MAJEES.local:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.{155CA9CE-CAED-4C86-98E4-E6D92C5850B8}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter #2
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+===========================================================================
+Interface List
+ 11...8c dc d4 4b 96 d6 ......Intel(R) Ethernet Connection (2) I218-LM
+  1...........................Software Loopback Interface 1
+ 12...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter
+ 13...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #2
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0        10.1.65.1      10.1.65.154    276
+        10.1.65.0    255.255.255.0         On-link       10.1.65.154    276
+      10.1.65.154  255.255.255.255         On-link       10.1.65.154    276
+      10.1.65.255  255.255.255.255         On-link       10.1.65.154    276
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link       10.1.65.154    276
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+  255.255.255.255  255.255.255.255         On-link       10.1.65.154    276
+===========================================================================
+Persistent Routes:
+  Network Address          Netmask  Gateway Address  Metric
+          0.0.0.0          0.0.0.0        10.1.65.1  Default 
+===========================================================================
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    306 ::1/128                  On-link
+  1    306 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       980
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:623            0.0.0.0:0              LISTENING       3868
+  TCP    0.0.0.0:1072           0.0.0.0:0              LISTENING       5232
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       1392
+  TCP    0.0.0.0:4840           0.0.0.0:0              LISTENING       5548
+  TCP    0.0.0.0:8901           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:16992          0.0.0.0:0              LISTENING       3868
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING       640
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING       580
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING       1052
+  TCP    0.0.0.0:49155          0.0.0.0:0              LISTENING       724
+  TCP    0.0.0.0:49156          0.0.0.0:0              LISTENING       696
+  TCP    0.0.0.0:49165          0.0.0.0:0              LISTENING       2440
+  TCP    10.1.65.154:139        0.0.0.0:0              LISTENING       4
+  TCP    10.1.65.154:1072       10.1.69.12:58757       FIN_WAIT_2      5232
+  TCP    10.1.65.154:1072       10.1.69.12:58758       FIN_WAIT_2      5232
+  TCP    10.1.65.154:1072       10.1.69.12:58759       FIN_WAIT_2      5232
+  TCP    10.1.65.154:1072       10.1.69.12:58761       FIN_WAIT_2      5232
+  TCP    10.1.65.154:1072       10.1.69.12:58762       FIN_WAIT_2      5232
+  TCP    10.1.65.154:1072       10.1.69.12:58764       FIN_WAIT_2      5232
+  TCP    10.1.65.154:1072       10.1.69.12:58765       ESTABLISHED     5232
+  TCP    10.1.65.154:1072       10.1.73.12:60056       ESTABLISHED     5232
+  TCP    10.1.65.154:1072       10.1.74.12:52368       ESTABLISHED     5232
+  TCP    10.1.65.154:1072       10.1.75.12:61988       ESTABLISHED     5232
+  TCP    10.1.65.154:4840       10.1.65.154:52353      ESTABLISHED     5548
+  TCP    10.1.65.154:4840       10.1.65.154:52664      ESTABLISHED     5548
+  TCP    10.1.65.154:50724      10.1.75.12:1072        ESTABLISHED     5232
+  TCP    10.1.65.154:50741      10.1.65.156:445        ESTABLISHED     4
+  TCP    10.1.65.154:50805      10.1.73.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50806      10.1.68.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50807      10.1.74.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50808      10.1.72.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50809      10.1.71.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50810      10.1.70.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50811      10.1.69.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50812      10.1.73.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50813      10.1.68.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50814      10.1.74.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50815      10.1.72.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50816      10.1.71.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50817      10.1.70.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50818      10.1.69.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50819      10.1.73.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50820      10.1.68.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50821      10.1.74.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50822      10.1.72.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50823      10.1.71.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50824      10.1.70.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50825      10.1.69.12:1072        FIN_WAIT_2      5232
+  TCP    10.1.65.154:50826      10.1.73.12:1072        ESTABLISHED     5232
+  TCP    10.1.65.154:50827      10.1.68.12:1072        ESTABLISHED     5232
+  TCP    10.1.65.154:50828      10.1.74.12:1072        ESTABLISHED     5232
+  TCP    10.1.65.154:52353      10.1.65.154:4840       ESTABLISHED     5316
+  TCP    10.1.65.154:52664      10.1.65.154:4840       ESTABLISHED     5316
+  TCP    127.0.0.1:8092         0.0.0.0:0              LISTENING       4
+  TCP    127.0.0.1:49211        0.0.0.0:0              LISTENING       3868
+  TCP    [::]:135               [::]:0                 LISTENING       980
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:623               [::]:0                 LISTENING       3868
+  TCP    [::]:1072              [::]:0                 LISTENING       5232
+  TCP    [::]:3389              [::]:0                 LISTENING       1392
+  TCP    [::]:4840              [::]:0                 LISTENING       5548
+  TCP    [::]:8901              [::]:0                 LISTENING       4
+  TCP    [::]:16992             [::]:0                 LISTENING       3868
+  TCP    [::]:49152             [::]:0                 LISTENING       640
+  TCP    [::]:49153             [::]:0                 LISTENING       580
+  TCP    [::]:49154             [::]:0                 LISTENING       1052
+  TCP    [::]:49155             [::]:0                 LISTENING       724
+  TCP    [::]:49156             [::]:0                 LISTENING       696
+  TCP    [::]:49165             [::]:0                 LISTENING       2440
+  TCP    [::1]:49210            [::]:0                 LISTENING       1632
+  TCP    [::1]:49212            [::1]:49214            ESTABLISHED     3868
+  TCP    [::1]:49214            [::1]:49212            ESTABLISHED     3868
+  UDP    0.0.0.0:67             *:*                                    5516
+  UDP    0.0.0.0:500            *:*                                    1052
+  UDP    0.0.0.0:4500           *:*                                    1052
+  UDP    0.0.0.0:5355           *:*                                    1392
+  UDP    10.1.65.154:137        *:*                                    4
+  UDP    10.1.65.154:138        *:*                                    4
+  UDP    10.1.65.154:1900       *:*                                    4004
+  UDP    10.1.65.154:49195      *:*                                    4004
+  UDP    127.0.0.1:1900         *:*                                    4004
+  UDP    127.0.0.1:49196        *:*                                    4004
+  UDP    [::]:500               *:*                                    1052
+  UDP    [::]:4500              *:*                                    1052
+  UDP    [::1]:1900             *:*                                    4004
+  UDP    [::1]:49194            *:*                                    4004
+Interface Statistics
+
+                           Received            Sent
+
+Bytes                     962451312      2976386241
+Unicast packets             3952233         6636210
+Non-unicast packets         2582871           80019
+Discards                          0               0
+Errors                            0               0
+Unknown protocols                 0
+
+IPv4 Statistics
+
+  Packets Received                   = 1709302
+  Received Header Errors             = 0
+  Received Address Errors            = 193
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 2
+  Received Packets Discarded         = 2001
+  Received Packets Delivered         = 1729920
+  Output Requests                    = 2015822
+  Routing Discards                   = 0
+  Discarded Output Packets           = 3208
+  Output Packet No Route             = 0
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+IPv6 Statistics
+
+  Packets Received                   = 0
+  Received Header Errors             = 0
+  Received Address Errors            = 0
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 0
+  Received Packets Delivered         = 3129
+  Output Requests                    = 3645
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 28
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  66193       65839     
+  Errors                    0           0         
+  Destination Unreachable   4755        1505      
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Source Quenches           0           0         
+  Redirects                 0           0         
+  Echo Replies              60935       485       
+  Echos                     503         63849     
+  Timestamps                0           0         
+  Timestamp Replies         0           0         
+  Address Masks             0           0         
+  Address Mask Replies      0           0         
+  Router Solicitations      0           0         
+  Router Advertisements     0           0         
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  0           0         
+  Errors                    0           0         
+  Destination Unreachable   0           0         
+  Packet Too Big            0           0         
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Echos                     0           0         
+  Echo Replies              0           0         
+  MLD Queries               0           0         
+  MLD Reports               0           0         
+  MLD Dones                 0           0         
+  Router Solicitations      0           0         
+  Router Advertisements     0           0         
+  Neighbor Solicitations    0           0         
+  Neighbor Advertisements   0           0         
+  Redirects                 0           0         
+  Router Renumberings       0           0         
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 114205
+  Passive Opens                       = 74032
+  Failed Connection Attempts          = 12200
+  Reset Connections                   = 64930
+  Current Connections                 = 13
+  Segments Received                   = 3179451
+  Segments Sent                       = 3591976
+  Segments Retransmitted              = 485352
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 355
+  Passive Opens                       = 354
+  Failed Connection Attempts          = 1
+  Reset Connections                   = 208
+  Current Connections                 = 2
+  Segments Received                   = 9250
+  Segments Sent                       = 9248
+  Segments Retransmitted              = 2
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 239986
+  No Ports              = 1717
+  Receive Errors        = 87
+  Datagrams Sent        = 21287
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 3126
+  No Ports              = 0
+  Receive Errors        = 0
+  Datagrams Sent        = 3126
+
+Pinging Server
+--------------
+Pinging OETC-ESF [10.1.65.154] with 32 bytes of data:
+Reply from 10.1.65.154: bytes=32 time<1ms TTL=128
+Reply from 10.1.65.154: bytes=32 time<1ms TTL=128
+Reply from 10.1.65.154: bytes=32 time<1ms TTL=128
+Reply from 10.1.65.154: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.1.65.154:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms

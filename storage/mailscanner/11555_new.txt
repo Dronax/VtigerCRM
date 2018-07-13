@@ -1,0 +1,120 @@
+Card 1--   2*05004 42101080987-1
+
+1st Swipe
+
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+Raw Card Data (Hexadecimal):
+67 1B FB EF C0 
+
+Raw Card Data (Binary):
+01100111 00011011 11111011 11101111 11 
+
+2nd Swipe
+
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+Raw Card Data (Hexadecimal):
+67 1B FB EF C0 
+
+Raw Card Data (Binary):
+01100111 00011011 11111011 11101111 11 
+
+3rd Swipe
+
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+Raw Card Data (Hexadecimal):
+67 1B FB EF C0 
+
+Raw Card Data (Binary):
+01100111 00011011 11111011 11101111 11 
+
+
+card 2  2*04947 42101034012-1
+
+1st Swipe 
+
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+
+
+Raw Card Data (Hexadecimal):
+1A 9B FB EF C0 
+
+Raw Card Data (Binary):
+00011010 10011011 11111011 11101111 11 
+
+2nd Swipe
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+
+
+Raw Card Data (Hexadecimal):
+1A 9B FB EF C0 
+
+Raw Card Data (Binary):
+00011010 10011011 11111011 11101111 11 
+
+3rd Swipe
+
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+
+
+Raw Card Data (Hexadecimal):
+1A 9B FB EF C0 
+
+Raw Card Data (Binary):
+00011010 10011011 11111011 11101111 11 
+
+
+card 3   2*04834 42101034012-1
+
+1st Swipe
+
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+
+
+Raw Card Data (Hexadecimal):
+5C 5B FB EF C0 
+
+Raw Card Data (Binary):
+01011100 01011011 11111011 11101111 11 
+
+
+2nd
+
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+
+
+Raw Card Data (Hexadecimal):
+5C 5B FB EF C0 
+
+Raw Card Data (Binary):
+01011100 01011011 11111011 11101111 11 
+
+
+3rd
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+
+
+Raw Card Data (Hexadecimal):
+5C 5B FB EF C0 
+
+Raw Card Data (Binary):
+01011100 01011011 11111011 11101111 11 
+
+

@@ -1,0 +1,48 @@
+Card 1: 2*2044 21085178-4A
+
+
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+
+
+Raw Card Data (Hexadecimal):
+9F F0 04 10 00 
+
+Raw Card Data (Binary):
+10011111 11110000 00000100 00010000 00 
+
+
+
+Card 2: 2*04195 42101029030-1
+
+
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+
+
+Raw Card Data (Hexadecimal):
+E3 04 04 10 00 
+
+Raw Card Data (Binary):
+11100011 00000100 00000100 00010000 00 
+
+
+
+Card 3: 2*04842 42101034012-1
+
+ 
+Card Format: Third Party (0xFD)
+Number of Bits: 34
+
+
+
+Raw Card Data (Hexadecimal):
+AB A4 04 10 00 
+
+Raw Card Data (Binary):
+10101011 10100100 00000100 00010000 00 
+
+
+

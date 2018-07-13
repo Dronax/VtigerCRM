@@ -1,0 +1,2281 @@
+Host name:  WINDOWS-R59CVC5
+Local time: 2016-12-19 11:52:31
+UTC time:   2016-12-19 07:52:31
+
+
+
+----------------------------------
+- System Environment Information -
+----------------------------------
+SQL_Server_Version
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Microsoft SQL Server 2014 - 12.0.4100.1 (Intel X86)   Apr 20 2015 17:34:37   Copyright (c) Microsoft Corporation  Express Edition on Windows NT 6.3 <X64> (Build 9600: ) (WOW64) 
+
+ComputerNamePhysicalNetBIOS | MachineName     | ServerAndInstanceName     | IsClustered | Collation                    | LCID
+----------------------------+-----------------+---------------------------+-------------+------------------------------+-----
+WINDOWS-R59CVC5             | WINDOWS-R59CVC5 | WINDOWS-R59CVC5\GALLAGHER | 0           | SQL_Latin1_General_CP1_CI_AS | 1033
+
+Configuration option 'show advanced options' changed from 0 to 1. Run the RECONFIGURE statement to install.
+name                   | minimum |    maximum | config_value | run_value
+-----------------------+---------+------------+--------------+----------
+min server memory (MB) |       0 | 2147483647 |            0 |         8
+
+name                   | minimum |    maximum | config_value |  run_value
+-----------------------+---------+------------+--------------+-----------
+max server memory (MB) |      64 | 2147483647 |   2147483647 | 2147483647
+
+Configuration option 'show advanced options' changed from 1 to 0. Run the RECONFIGURE statement to install.
+ 
+--------------------
+- Site Information -
+--------------------
+Version | SiteSerialNumber | FTInstallDate           | UsedGraceTime | LastGraceTimeUpdate
+--------+------------------+-------------------------+---------------+------------------------
+7500530 |            20256 | 2016-05-18 17:46:53.010 |             0 | 2016-12-15 12:42:36.000
+
+Controller                                       | SerialNumber | IPAddress     | Gateway     | Subnet        | Timezone | CertType        | CurrentDLLs
+-------------------------------------------------+--------------+---------------+-------------+---------------+----------+-----------------+------------
+EZ22 GF PEZ-03                                   |       0149A5 | 10.100.6.213  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+EZ22 GF PEZ-01                                   |       014993 | 10.100.6.211  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN63 GF PCN-03 CONTROLLER-01 (SHOW CONTROL ROOM) |       0149A3 | 10.100.8.213  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN66 GF PCN-09 CONTROLLER                        |       01497A | 10.100.8.218  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN66 FF PCN-11 CONTROLLER                        |       01499E | 10.100.8.219  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN64 GF PCN-05                                   |       014977 | 10.100.8.215  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN64 GF PCN-06                                   |       014999 | 10.100.8.216  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN65 GF PCN-07 CONTROLLER                        |       0149AA | 10.100.6.221  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN63 GF PCN-04 (PROJECTION ROOM)                 |       014997 | 10.100.8.214  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN63 GF PCN-02 (CLEANING ROOM)                   |       01499A | 10.100.8.212  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN62 GF PCN-01 CONTROLLER                        |       014994 | 10.100.8.211  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA48 GF PMA13 (IDF ROOM)                         |       01497B | 10.100.2.220  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA48 GF PMA-15 (CORRIDOR)                        |       014990 | 10.100.2.221  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA47 GF PMA12 (FCC IDF)                          |       014974 | 10.100.2.219  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV85 GF PLV-12                                   |       0149AB | 10.100.4.220  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV85 GF PLV-10                                   |       01497D | 10.100.4.219  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV84 GF PLV-09 IMG TECHNICAL OFFICE              |       014971 | 10.100.4.218  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+BLOCK-05 PANEL-06 GSM ROOM                       |       014975 | 10.100.10.215 | 10.100.10.1 | 255.255.254.0 | AST-4    | Cardax Standard | 
+BLOCK-05 PANEL-05 GF GSM ROOM                    |       014972 | 10.100.10.214 | 10.100.10.1 | 255.255.254.0 | AST-4    | Cardax Standard | 
+BLOCK-05 PANEL-03 CORRIDOR B5-001                |       01498F | 10.100.10.212 | 10.100.10.1 | 255.255.254.0 | AST-4    | Cardax Standard | 
+BLOCK-05 PANEL-04 CORRIDOR B5-001                |       01499C | 10.100.10.213 | 10.100.10.1 | 255.255.254.0 | AST-4    | Cardax Standard | 
+BLOCK-05 PANEL-02 KITCHEN AREA                   |       01499B | 10.100.10.211 | 10.100.10.1 | 255.255.254.0 | AST-4    | Cardax Standard | 
+BLOCK-05 PANEL-07 PUMP ROOM                      |       014995 | 10.100.10.216 | 10.100.10.1 | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV85B GF PLV-15                                  |       014978 | 10.100.4.222  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA45 GF PMA-02 SHOW CONTROL IDF ROOM             |       0149A1 | 10.100.2.212  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+EZ27 GF PEZ-08                                   |       014979 | 10.100.6.218  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+EZ28 GF PEZ-09                                   |       01499F | 10.100.6.219  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+EZ26 GF PEZ-07                                   |       0149A0 | 10.100.6.217  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+EZ29 GF PEZ-10                                   |       014992 | 10.100.6.220  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA47B GF PMA-10                                  |       014991 | 10.100.2.217  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA47A GF PMA-11                                  |       014973 | 10.100.2.218  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV83 GF PLV-03 NR RIDE CORRIDOR                  |       014976 | 10.100.4.214  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV83 GF PLV-05 IDF ROOM                          |       0149A2 | 10.100.4.215  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV84 GF PLV-07 RIDE CONTROL                      |       014998 | 10.100.4.217  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+EZ24 GF PEZ-06                                   |       014996 | 10.100.6.215  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+EZ23 GF PEZ-05                                   |       01499D | 10.100.8.221  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA46 GF PMA-07 GSM ROOM                          |       0149AC | 10.100.2.215  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+EZ22 GF PEZ-02                                   |       0165CA | 10.100.6.212  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV82 GF PLV-02 NR CN64                           |       0165B1 | 10.100.8.220  | 10.100.8.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA43 GF PMA-01 FEMALE JANITOR ROOM               |       0165B3 | 10.100.2.211  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV86 GF PLV-13                                   |       0165CC | 10.100.4.221  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA45 GF PMA-05 GSM ROOM                          |       0165B0 | 10.100.2.214  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA42 GF PMA-17                                   |       0165C7 | 10.100.2.223  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA46 GF PMA-09 GSM ROOM                          |       0165C5 | 10.100.2.216  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV83 GF PLV-06 IDF ROOM                          |       0165B2 | 10.100.4.216  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA45 GF PMA-03 SHOW CONTROL ROOM                 |       0165B4 | 10.100.2.213  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA45 GF PMA-04 SHOW CONTROL ROOM                 |       0170D9 | 10.100.2.224  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV86 GF PLV-14                                   |       0170D8 | 10.100.4.223  | 10.100.4.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+CN65 GF PCN-08 CONTROLLER                        |       0170DA | 10.100.6.222  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+LV81 GF PLV-01                                   |       0170DC | 10.100.6.223  | 10.100.6.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+MA42 GF PMA-18                                   |       0170DD | 10.100.2.225  | 10.100.2.1  | 255.255.254.0 | AST-4    | Cardax Standard | 
+BLOCK-05 PANEL-08 FF GSM ROOM                    |       0168F7 | 10.100.10.217 | 10.100.10.1 | 255.255.254.0 | AST-4    | Cardax Standard | 
+BLOCK-05 PANEL-09 FF GSM ROOM                    |       0168F8 | 10.100.10.218 | 10.100.10.1 | 255.255.254.0 | AST-4    | Cardax Standard | 
+
+Device                                            | SoftwareType | AssignedVersion | InstalledVersion | ItemType
+--------------------------------------------------+--------------+-----------------+------------------+------------------
+EZ22 GF PEZ-03                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+EZ22 GF PEZ-03                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+EZ22 GF PEZ-03                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+EZ22 GF PEZ-03                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+EZ22 GF PEZ-03                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ22 GF PEZ-01                                    |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+EZ22 GF PEZ-01                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+EZ22 GF PEZ-01                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+EZ22 GF PEZ-01                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+EZ22 GF PEZ-01                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ22-030-S102 IN                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-030-S102 OUT                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-030-S101 OUT                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-030-S101 IN                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-010-D101                                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-015-S101                                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-015-D101                                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-017-D101                                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-028-S101                                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-004-S101                                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ23-016-D101                                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-033-S101                                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-033-S102                                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63 GF PCN-03 CONTROLLER-01 (SHOW CONTROL ROOM)  |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+CN63 GF PCN-03 CONTROLLER-01 (SHOW CONTROL ROOM)  |            1 | <NULL>          | v3.10//b4        | Controller Grover
+CN63 GF PCN-03 CONTROLLER-01 (SHOW CONTROL ROOM)  |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN63 GF PCN-03 CONTROLLER-01 (SHOW CONTROL ROOM)  |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN63 GF PCN-03 CONTROLLER-01 (SHOW CONTROL ROOM)  |            4 | <NULL>          | v2.30//b6        | Controller Grover
+CN63-027-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-001-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-024-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-024-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-024-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-006-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-008-ES107 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN66 GF PCN-09 CONTROLLER                         |            0 | vGR7.40b308     | v7.40//b308      | Controller Grover
+CN66 GF PCN-09 CONTROLLER                         |            1 | <NULL>          | v3.00//b7        | Controller Grover
+CN66 GF PCN-09 CONTROLLER                         |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN66 GF PCN-09 CONTROLLER                         |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN66 GF PCN-09 CONTROLLER                         |            4 | <NULL>          | v2.30//b3        | Controller Grover
+CN66-004-S102 CR                                  |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN66-004-S101 CR                                  |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN66-007-S101 CR                                  |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN66-005-S101 CR                                  |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN66-ST3-D103 CR                                  |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN66-ST4-S101 CR                                  |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN66-008-D101 CR                                  |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN66 GF CONTROLLER - HBUS I/O 1                   |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+CN66-004-S103 CR                                  |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN66 FF PCN-11 CONTROLLER                         |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+CN66 FF PCN-11 CONTROLLER                         |            1 | <NULL>          | v3.10//b4        | Controller Grover
+CN66 FF PCN-11 CONTROLLER                         |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN66 FF PCN-11 CONTROLLER                         |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN66 FF PCN-11 CONTROLLER                         |            4 | <NULL>          | v2.30//b6        | Controller Grover
+CN66-FF-DOOR-01 CR                                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN66-FF-D00R3 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN66-105-S202 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN66-105-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN66-63-101-S201 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN66-108-D201 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN66-107-S201 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64 GF PCN-05                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+CN64 GF PCN-05                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+CN64 GF PCN-05                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN64 GF PCN-05                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN64 GF PCN-05                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+CN64-051-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-060-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-006-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-005-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-004-S106 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-004-S105 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64 GF PCN-06                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+CN64 GF PCN-06                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+CN64 GF PCN-06                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN64 GF PCN-06                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN64 GF PCN-06                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+CN64-010-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-010-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-009-D103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-051-D101-02 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-006-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-66-101-S202 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-66-101-S201 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65 GF PCN-07 CONTROLLER                         |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+CN65 GF PCN-07 CONTROLLER                         |            1 | <NULL>          | v3.10//b4        | Controller Grover
+CN65 GF PCN-07 CONTROLLER                         |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN65 GF PCN-07 CONTROLLER                         |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN65 GF PCN-07 CONTROLLER                         |            4 | <NULL>          | v2.30//b6        | Controller Grover
+CN65-24-005-D101 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65-007-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65-002-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65-002-D101-02 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65-002-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65-000-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65-004-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65-81-004-D101 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63 GF PCN-04 (PROJECTION ROOM)                  |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+CN63 GF PCN-04 (PROJECTION ROOM)                  |            1 | <NULL>          | v3.10//b4        | Controller Grover
+CN63 GF PCN-04 (PROJECTION ROOM)                  |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN63 GF PCN-04 (PROJECTION ROOM)                  |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN63 GF PCN-04 (PROJECTION ROOM)                  |            4 | <NULL>          | v2.30//b6        | Controller Grover
+CN63 GF PCN-02 (CLEANING ROOM)                    |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+CN63 GF PCN-02 (CLEANING ROOM)                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+CN63 GF PCN-02 (CLEANING ROOM)                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN63 GF PCN-02 (CLEANING ROOM)                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN63 GF PCN-02 (CLEANING ROOM)                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+CN63-013-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-009-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-012-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-004-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-101-S103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-101-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-101-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN62 GF PCN-01 CONTROLLER                         |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+CN62 GF PCN-01 CONTROLLER                         |            1 | <NULL>          | v3.10//b4        | Controller Grover
+CN62 GF PCN-01 CONTROLLER                         |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN62 GF PCN-01 CONTROLLER                         |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN62 GF PCN-01 CONTROLLER                         |            4 | <NULL>          | v2.30//b6        | Controller Grover
+CN61-004-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN61-005-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN61-201-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN61-204-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48 GF PMA13 (IDF ROOM)                          |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+MA48 GF PMA13 (IDF ROOM)                          |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA48 GF PMA13 (IDF ROOM)                          |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA48 GF PMA13 (IDF ROOM)                          |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA48 GF PMA13 (IDF ROOM)                          |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA48-011-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-011-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-014-S101 ELECT ROOM CR                       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-ST2-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-014-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-015-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-008-R1 CR                                    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48 GF PMA14 (ELECTRICAL ROOM) - HBUS I/O 1      |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+MA48-008-S103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-006-S103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48 GF PMA-15 (CORRIDOR)                         |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+MA48 GF PMA-15 (CORRIDOR)                         |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA48 GF PMA-15 (CORRIDOR)                         |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA48 GF PMA-15 (CORRIDOR)                         |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA48 GF PMA-15 (CORRIDOR)                         |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA48-008-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-002-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-ST1-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-008-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-018-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47 GF PMA12 (FCC IDF)                           |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+MA47 GF PMA12 (FCC IDF)                           |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA47 GF PMA12 (FCC IDF)                           |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA47 GF PMA12 (FCC IDF)                           |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA47 GF PMA12 (FCC IDF)                           |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA47 GF PMA13 (FCC IDF) - HBUS I/O 1              |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+MA47-010-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-003-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-023-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-003-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-011-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-022-ED101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47A-004-D101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85 GF PLV-12                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+LV85 GF PLV-12                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV85 GF PLV-12                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV85 GF PLV-12                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV85 GF PLV-12                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV85 GF PLV-10                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+LV85 GF PLV-10                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV85 GF PLV-10                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV85 GF PLV-10                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV85 GF PLV-10                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV85-001-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-037-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-034-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-004-D101-02 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-004-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-025-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-003-D103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-012-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-021-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-003-S100 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-007-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-026-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84 GF PLV-09 IMG TECHNICAL OFFICE               |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+LV84 GF PLV-09 IMG TECHNICAL OFFICE               |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV84 GF PLV-09 IMG TECHNICAL OFFICE               |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV84 GF PLV-09 IMG TECHNICAL OFFICE               |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV84 GF PLV-09 IMG TECHNICAL OFFICE               |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV84-018-ERD CR                                   |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-012-ED103 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-027-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-85-008-S101 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-013-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-005-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 PANEL-06 GSM ROOM                        |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+BLOCK-05 PANEL-06 GSM ROOM                        |            1 | <NULL>          | v3.10//b4        | Controller Grover
+BLOCK-05 PANEL-06 GSM ROOM                        |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+BLOCK-05 PANEL-06 GSM ROOM                        |            3 | <NULL>          | v1.03//b11       | Controller Grover
+BLOCK-05 PANEL-06 GSM ROOM                        |            4 | <NULL>          | v2.30//b6        | Controller Grover
+BLOCK-05 PANEL-05 GF GSM ROOM                     |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+BLOCK-05 PANEL-05 GF GSM ROOM                     |            1 | <NULL>          | v3.10//b4        | Controller Grover
+BLOCK-05 PANEL-05 GF GSM ROOM                     |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+BLOCK-05 PANEL-05 GF GSM ROOM                     |            3 | <NULL>          | v1.03//b11       | Controller Grover
+BLOCK-05 PANEL-05 GF GSM ROOM                     |            4 | <NULL>          | v2.30//b6        | Controller Grover
+BLOCK-05 PANEL-03 CORRIDOR B5-001                 |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+BLOCK-05 PANEL-03 CORRIDOR B5-001                 |            1 | <NULL>          | v3.10//b4        | Controller Grover
+BLOCK-05 PANEL-03 CORRIDOR B5-001                 |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+BLOCK-05 PANEL-03 CORRIDOR B5-001                 |            3 | <NULL>          | v1.03//b11       | Controller Grover
+BLOCK-05 PANEL-03 CORRIDOR B5-001                 |            4 | <NULL>          | v2.30//b6        | Controller Grover
+BLOCK-05 PANEL-04 CORRIDOR B5-001                 |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+BLOCK-05 PANEL-04 CORRIDOR B5-001                 |            1 | <NULL>          | v3.10//b4        | Controller Grover
+BLOCK-05 PANEL-04 CORRIDOR B5-001                 |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+BLOCK-05 PANEL-04 CORRIDOR B5-001                 |            3 | <NULL>          | v1.03//b11       | Controller Grover
+BLOCK-05 PANEL-04 CORRIDOR B5-001                 |            4 | <NULL>          | v2.30//b6        | Controller Grover
+BLOCK-05 PANEL-02 KITCHEN AREA                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+BLOCK-05 PANEL-02 KITCHEN AREA                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+BLOCK-05 PANEL-02 KITCHEN AREA                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+BLOCK-05 PANEL-02 KITCHEN AREA                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+BLOCK-05 PANEL-02 KITCHEN AREA                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+BLOCK-05 PANEL-07 PUMP ROOM                       |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+BLOCK-05 PANEL-07 PUMP ROOM                       |            1 | <NULL>          | v3.10//b4        | Controller Grover
+BLOCK-05 PANEL-07 PUMP ROOM                       |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+BLOCK-05 PANEL-07 PUMP ROOM                       |            3 | <NULL>          | v1.03//b11       | Controller Grover
+BLOCK-05 PANEL-07 PUMP ROOM                       |            4 | <NULL>          | v2.30//b6        | Controller Grover
+BLOCK-05 P-006 DR-42 STAFF CANTEEN ENT-01 CR      |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-006 DR-26 WARSHERS CR                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-006 DR-24 CORRIDOR B5-156 CR           |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-006 DR-41 BOH CORRIDOR CR              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-006 DR-43 STAFF CANTEEN ENT-02 CR      |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 PANEL-005 - HBUS I/O 1                   |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+BLOCK-05 P-005-DR-21 CR-03 JANITOR                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-005-DR-20 CR-04 CASH CONTROL LOBBY     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-005 DR-19 STAIR CR                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-005 DR-17 POT WASH CR                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-005 DR-28 GSM ROOM CR                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-005 DR-27 ELECTRICAL ROOM CR           |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-005 DR-31 UNIFORM DISPENSE CR          |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-005 DR-30 SEWING AREA CR               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-006 DR-23 STAIR-02 CR                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 SAFE ROOM CR-IN                     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 CASH CONTROL OFFICE-02 CR-IN        |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 CASH CONTROL OFFICE-01 CR           |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 CORRIDOR B5-001 ENT DOOR-15 CR-IN   |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 CORRIDOR B5-001 ENT DOOR-13 CR      |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 CORRIDOR B5-001 ENT DOOR-14 CR      |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-07 DR-39 STORE NR SERVICE LIFT CR      |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-07 DR-47 BOH CORRIDOR CR               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-07 DR-37 GSM ROOM CR                   |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-07 DR-34 HR OFFICE CR                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-07 DR-35 EXIT NR BOILER ROOM CR        |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-07 DR-32 EXIT NR LAUNDRY CR            |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-07 DR-38 EXIT NR SERVICE LIFT CR       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-02 DR-40 RECEIVING WAREHOUSE CR        |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-02 DR-07 BOH CORRIDOR                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-006 DR-29 EXIT NR WARSHERS CR          |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-005 DR-22 EXIT CORRIDOR NR JANITOR CR  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-04  DR-10 GOODS DELIVERY AREA CR       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-07 DR-36 EXIT NR GSM ROOM DR-37 CR     |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85B GF PLV-15                                   |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+LV85B GF PLV-15                                   |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV85B GF PLV-15                                   |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV85B GF PLV-15                                   |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV85B GF PLV-15                                   |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV85-000-S100 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-25-001-D101 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85B-000-D101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85B-000-S102 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45 GF PMA-02 SHOW CONTROL IDF ROOM              |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+MA45 GF PMA-02 SHOW CONTROL IDF ROOM              |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA45 GF PMA-02 SHOW CONTROL IDF ROOM              |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA45 GF PMA-02 SHOW CONTROL IDF ROOM              |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA45 GF PMA-02 SHOW CONTROL IDF ROOM              |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ27 GF PEZ-08                                    |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+EZ27 GF PEZ-08                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+EZ27 GF PEZ-08                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+EZ27 GF PEZ-08                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+EZ27 GF PEZ-08                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ27-004-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ27-004-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ27-002-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ28 GF PEZ-09                                    |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+EZ28 GF PEZ-09                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+EZ28 GF PEZ-09                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+EZ28 GF PEZ-09                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+EZ28 GF PEZ-09                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ28-002-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ28-003-S106 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ28-005-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-04 DR-09 TROLLEY AND CAN WASHING CR    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-025-S106 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-002-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-003-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-025-D108 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-018-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-019-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-025-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ26 GF PEZ-07                                    |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+EZ26 GF PEZ-07                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+EZ26 GF PEZ-07                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+EZ26 GF PEZ-07                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+EZ26 GF PEZ-07                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ29 GF PEZ-10                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+EZ29 GF PEZ-10                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+EZ29 GF PEZ-10                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+EZ29 GF PEZ-10                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+EZ29 GF PEZ-10                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ29-005-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ29-003-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ29-006-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ29-002-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ29-004-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ29-003-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ29-003-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ29-007-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47B GF PMA-10                                   |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+MA47B GF PMA-10                                   |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA47B GF PMA-10                                   |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA47B GF PMA-10                                   |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA47B GF PMA-10                                   |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA47A GF PMA-11                                   |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+MA47A GF PMA-11                                   |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA47A GF PMA-11                                   |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA47A GF PMA-11                                   |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA47A GF PMA-11                                   |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA47A GF PMA-12 - HBUS I/O 1                      |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+MA47A-018-S101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47A-012-D101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47A-014-S102 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47A-012-S101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47A-015-S101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83 GF PLV-03 NR RIDE CORRIDOR                   |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+LV83 GF PLV-03 NR RIDE CORRIDOR                   |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV83 GF PLV-03 NR RIDE CORRIDOR                   |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV83 GF PLV-03 NR RIDE CORRIDOR                   |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV83 GF PLV-03 NR RIDE CORRIDOR                   |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV83 GF PLV-04 - HBUS I/O 1                       |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+LV83-004-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-001-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-001-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-006-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-006-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-009-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-018-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83 GF PLV-05 IDF ROOM                           |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+LV83 GF PLV-05 IDF ROOM                           |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV83 GF PLV-05 IDF ROOM                           |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV83 GF PLV-05 IDF ROOM                           |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV83 GF PLV-05 IDF ROOM                           |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV83-012-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-010-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-011-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-84-001-S102 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-84-001-D101 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84 GF PLV-07 RIDE CONTROL                       |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+LV84 GF PLV-07 RIDE CONTROL                       |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV84 GF PLV-07 RIDE CONTROL                       |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV84 GF PLV-07 RIDE CONTROL                       |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV84 GF PLV-07 RIDE CONTROL                       |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV84-022-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-007-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-007-ES102 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-012-ES101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-008-ED101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-FF DOOR-01 CR                                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-FF DOOR-02 CR                                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ24 GF PEZ-06                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+EZ24 GF PEZ-06                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+EZ24 GF PEZ-06                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+EZ24 GF PEZ-06                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+EZ24 GF PEZ-06                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ23 GF PEZ-05                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+EZ23 GF PEZ-05                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+EZ23 GF PEZ-05                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+EZ23 GF PEZ-05                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+EZ23 GF PEZ-05                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ24-006-S112 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ24-81-004-D102 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-005-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-008-ES106 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-004-S101 OUT CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-005-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46 GF PMA-07 GSM ROOM                           |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+MA46 GF PMA-07 GSM ROOM                           |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA46 GF PMA-07 GSM ROOM                           |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA46 GF PMA-07 GSM ROOM                           |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA46 GF PMA-07 GSM ROOM                           |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA46 GF PMA-08 - HBUS I/O 1                       |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+MA46-FF-DOOR1 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-FF-DOOR3 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-FF-DOOR2 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-02 DR-02 EXIT NR BOH CRDR  B5-022D CR  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-02 DR-03 EXIT NR BOH CRDR  B5-022C CR  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-02 DR-06 EXIT NR OFFICE B5-028 CR      |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 PANEL-03 CORRIDOR B5-001 - HBUS Reader 8 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN66-ST4-S102                                     |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN66-ST3-S101 CR                                  |            0 | <NULL>          | v3.01//b39       | HBUS Card Reader
+CN61-204-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ23-000-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ23-009-D103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ23-009-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ23-003-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ23-001-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN61-001-D104 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22 GF PEZ-02                                    |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+EZ22 GF PEZ-02                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+EZ22 GF PEZ-02                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+EZ22 GF PEZ-02                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+EZ22 GF PEZ-02                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+EZ22-012-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-013-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-021-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22 GF PEZ-04- HBUS I/O 1                        |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+EZ22-017-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-020-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-011-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47 FIRE COMMAND CENTRE CR                       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN62-101-ED1 CR                                   |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN62-101-D1 CR                                    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-009-ED103 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ24-021-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ24-022-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-009-ED104 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN64-009-ED105 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV82 GF PLV-02 NR CN64                            |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+LV82 GF PLV-02 NR CN64                            |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV82 GF PLV-02 NR CN64                            |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV82 GF PLV-02 NR CN64                            |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV82 GF PLV-02 NR CN64                            |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV82-CN64-009-D102 CR                             |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV82-83-002-ED101 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV82-83-002-ED103 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV82-83-002-ED102 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV82-83-002-ED104 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV82-CN64-009-D101 CR                             |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV82-83-002-G1X CR                                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA43 GF PMA-01 FEMALE JANITOR ROOM                |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+MA43 GF PMA-01 FEMALE JANITOR ROOM                |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA43 GF PMA-01 FEMALE JANITOR ROOM                |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA43 GF PMA-01 FEMALE JANITOR ROOM                |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA43 GF PMA-01 FEMALE JANITOR ROOM                |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA43-009-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA43-001-E2 CR                                    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA43-001-E1 CR                                    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA43-007-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-TB2-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-TB3-S103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-TB1-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+22-018-ED101 CR                                   |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+22-018-ED103 CR                                   |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-017-S103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-009-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-007-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86 GF PLV-13                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+LV86 GF PLV-13                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV86 GF PLV-13                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV86 GF PLV-13                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV86 GF PLV-13                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV86-003-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-026-G1 CR                                    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-002-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-001-ED103 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-001-ED104 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-001-ED102 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-001-ED101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-005-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-001-ED103 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47B-001-ED102 CR                                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47B-001-D101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-029-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-009-S103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-009-S103 EXIT CR                             |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-000-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-011-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45 GF PMA-05 GSM ROOM                           |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+MA45 GF PMA-05 GSM ROOM                           |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA45 GF PMA-05 GSM ROOM                           |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA45 GF PMA-05 GSM ROOM                           |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA45 GF PMA-05 GSM ROOM                           |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA45 44-002-ED101 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45 44-002-ED102 CR                              |            0 | <NULL>          | <NULL>           | HBUS Card Reader
+MA45 86-001-ED105 CR                              |            0 | <NULL>          | <NULL>           | HBUS Card Reader
+MA45 44-002-ED103  CR                             |            0 | <NULL>          | <NULL>           | HBUS Card Reader
+EZ28-002-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ23-014-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ23-005-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42 GF PMA-17                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+MA42 GF PMA-17                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA42 GF PMA-17                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA42 GF PMA-17                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA42 GF PMA-17                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA42 EZ25-003-S102 CR                             |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42-012-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42 25-002-D101 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42-014-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42-011-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA43-005-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-010-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA43-006-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46 GF PMA-09 GSM ROOM                           |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+MA46 GF PMA-09 GSM ROOM                           |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA46 GF PMA-09 GSM ROOM                           |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA46 GF PMA-09 GSM ROOM                           |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA46 GF PMA-09 GSM ROOM                           |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA46-004-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-001-ED101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47A 41-001-G1 CR                                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47B 46-002-D101 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47B-001-D103 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47B-001-ED101 CR                                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-001-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ26-011-D104 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ26-011-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ26-012-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ26-000-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ26-001-D105 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ22-018-ED102 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83 GF PLV-06 IDF ROOM                           |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+LV83 GF PLV-06 IDF ROOM                           |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV83 GF PLV-06 IDF ROOM                           |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV83 GF PLV-06 IDF ROOM                           |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV83 GF PLV-06 IDF ROOM                           |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV83-002-ED105 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83 84-006-ED102 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83 84-006-ES101 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ27-003-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ23-003-S101-02 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42-001-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-026-ED101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-026-ED102 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85-003-S110 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ28-FF-Telecom room CR                           |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ28-004-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ24-013-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ24-007-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ29 GF PEZ-11 - HBUS I/O 1                       |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+EZ29-004-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63 64-009-S101 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63 64-009-ED101 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63 64-009-ED102 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-011-D101 CR                                  |            0 | <NULL>          | <NULL>           | HBUS Card Reader
+MA45-001-S201 CR                                  |            0 | <NULL>          | <NULL>           | HBUS Card Reader
+MA45-001-ED101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV82-002-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-FF-DOOR4 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45 GF PMA-03 SHOW CONTROL ROOM                  |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+MA45 GF PMA-03 SHOW CONTROL ROOM                  |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA45 GF PMA-03 SHOW CONTROL ROOM                  |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA45 GF PMA-03 SHOW CONTROL ROOM                  |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA45 GF PMA-03 SHOW CONTROL ROOM                  |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA45-022-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-022-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-ST1-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-016-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-025-ED101 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-017-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45 44-003-S101 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-021-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-004-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-005-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47B 46-002-S101 CR                              |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-001-ED105 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42-004-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48-007-S104 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-012-ED102 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-009-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84-005-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 TURSTILE-01 OUT CR                       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 TURSTILE-01 IN CR                        |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 TURSTILE-02 OUT CR                       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 TURSTILE-02 IN CR                        |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 TURSTILE-03 OUT CR                       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45 GSM ROOM CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 TURNSTILE-03 IN CR                       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 PANEL-04 CORRIDOR B5-001 - HBUS I/O 1    |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+BLOCK-05 P-005 DR-25 STAIR EXIT CR                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-001-ED104 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-013-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-022-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-013-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-006-D103 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV84 GF PLV-08 RIDE CONTROL - HBUS I/O 1          |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+LV84-006-RCD101 CR                                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-009-S104 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 CORRIDOR B5-001 ENT DOOR-15 CR-OUT  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 SAFE ROOM CR-OUT                    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 CASH CONTROL OFFICE-02 CR-OUT       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45 GF PMA-04 SHOW CONTROL ROOM                  |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+MA45 GF PMA-04 SHOW CONTROL ROOM                  |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA45 GF PMA-04 SHOW CONTROL ROOM                  |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA45 GF PMA-04 SHOW CONTROL ROOM                  |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA45 GF PMA-04 SHOW CONTROL ROOM                  |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA45 44-001-D104 CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42-ST1-S203 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-001-ED106 CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86 GF PLV-14                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+LV86 GF PLV-14                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV86 GF PLV-14                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV86 GF PLV-14                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV86 GF PLV-14                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV86-P-D103 CR                                    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-P-D102 CR                                    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-P-D101 CR                                    |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+PUMP ROOM PANEL ROOM EXIT CR                      |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV86-ETS-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 CASH CONTROL OFFICE-01 CR OUT       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-005-DR-20 CR-04 CASH CONTROL LOBBY OUT |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65 GF PCN-08 CONTROLLER                         |            0 | vGR7.50b144     | vGR7.50b144      | Controller Grover
+CN65 GF PCN-08 CONTROLLER                         |            1 | <NULL>          | v3.10//b4        | Controller Grover
+CN65 GF PCN-08 CONTROLLER                         |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+CN65 GF PCN-08 CONTROLLER                         |            3 | <NULL>          | v1.03//b11       | Controller Grover
+CN65 GF PCN-08 CONTROLLER                         |            4 | <NULL>          | v2.30//b6        | Controller Grover
+CN65-000-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN65-000-D102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN61-FF-DOOR CR                                   |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45 GF PMA-06 GSM ROOM - HBUS I/O 1              |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+MA45-025-D109 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-025-S107 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-014-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-020-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ26-013-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-04 DR-12 STAIR EXIT CR                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-02 DR-01 EXIT CR                       |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ24-008-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ29-ST1-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-014-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-000-S201-FF                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA43-009-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-022-S102  CR                                 |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA48 GF PMA-16 (CORRIDOR) - HBUS I/O 1            |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+MA48-105-S201 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV81 GF PLV-01                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+LV81 GF PLV-01                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+LV81 GF PLV-01                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+LV81 GF PLV-01                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+LV81 GF PLV-01                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+LV81-003-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV81-002-D101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV81-003-D104 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-009-S101 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-03 BOD ENTRANCE DOOR-16 CR             |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-02 DR-08 STAIR EXIT  CR                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA45-101-S201 FF CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46-022-S101(1) CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42 GF PMA-18                                    |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+MA42 GF PMA-18                                    |            1 | <NULL>          | v3.10//b4        | Controller Grover
+MA42 GF PMA-18                                    |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+MA42 GF PMA-18                                    |            3 | <NULL>          | v1.03//b11       | Controller Grover
+MA42 GF PMA-18                                    |            4 | <NULL>          | v2.30//b6        | Controller Grover
+MA43-001-D112 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85 GF PLV-10 - HBUS I/O 1                       |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+LV85 GF Male Prayer Room                          |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV85 GF Female Prayer Room                        |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42-001-S102 CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-Door45 CR                                      |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA46 GF PMA-09 GSM ROOM - HBUS I/O 1              |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+MA46 Mid level loading Bay                        |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 PANEL-07 PUMP ROOM - HBUS I/O 1          |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+B5 DOOR P-07 DR-33                                |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+CN63-003-D101 CR RETAIL Gumball                   |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 P-07 DR-46-CR                            |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA42-ST1-S101-CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+LV83-014-S104-CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+MA47-016-R11-CR                                   |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ26-006-S101-CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+BLOCK-05 PANEL-08 FF GSM ROOM                     |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+BLOCK-05 PANEL-08 FF GSM ROOM                     |            1 | <NULL>          | v3.10//b4        | Controller Grover
+BLOCK-05 PANEL-08 FF GSM ROOM                     |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+BLOCK-05 PANEL-08 FF GSM ROOM                     |            3 | <NULL>          | v1.03//b11       | Controller Grover
+BLOCK-05 PANEL-08 FF GSM ROOM                     |            4 | <NULL>          | v2.30//b6        | Controller Grover
+BLOCK-05 PANEL-09 FF GSM ROOM                     |            0 | vGR7.50b144     | v7.50//b144      | Controller Grover
+BLOCK-05 PANEL-09 FF GSM ROOM                     |            1 | <NULL>          | v3.10//b4        | Controller Grover
+BLOCK-05 PANEL-09 FF GSM ROOM                     |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+BLOCK-05 PANEL-09 FF GSM ROOM                     |            3 | <NULL>          | v1.03//b11       | Controller Grover
+BLOCK-05 PANEL-09 FF GSM ROOM                     |            4 | <NULL>          | v2.30//b6        | Controller Grover
+B5-101-S101 (FF)-CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-101-S105 (FF)-CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-101-S102 (FF)-CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-IDF 2 (FF)-CR                                  |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-101-D107 (FF)-CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-101-S103 (FF)-CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-101-D106 (FF)-CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-101-S110 (FF)-CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-101-D108 (FF)-CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+B5-101-S109 (FF)-CR                               |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+EZ26 GF PEZ-07 - HBUS I/O 1                       |            0 | <NULL>          | v1.02//b12       | HBUS I/O
+B5-Door44-CR                                      |            0 | <NULL>          | v3.02//b12       | HBUS Card Reader
+
+Type                                    | Total
+----------------------------------------+------
+8-door interface software               |     1
+Access Schedule                         |     2
+access zone                             |   412
+Access Zone Schedule                    |     8
+action plan                             |    65
+Alarm Viewer                            |     2
+alarm zone                              |    57
+Alarm Zone Schedule                     |     1
+archive                                 |     1
+bert service                            |     1
+bert software                           |     2
+bootp service                           |     3
+calendar                                |     1
+camera dsp software                     |     1
+camera z181 software                    |     1
+card type                               |     1
+Card Workflow                           |     1
+cardholder                              |  2117
+Cardholder Viewer                       |     1
+club                                    |   370
+Controller Grover                       |    53
+day category                            |     1
+division                                |    74
+door                                    |   410
+dvr camera                              |    55
+dvr type                                |     2
+elmo                                    |     1
+Enterprise Data Interface Configuration |     1
+Grover software                         |     2
+Guard Tour                              |     1
+Guard Tour Report                       |     1
+HBUS Card Reader                        |   404
+HBUS I/O                                |    17
+HVLF Schedule                           |     1
+icon set                                |   178
+idt 125 software                        |     1
+idt mifare software                     |     1
+idt tiris software                      |     1
+import/export service                   |     3
+input                                   |   828
+Monitor Site Viewer                     |     2
+Notification Filter                     |     1
+Notification Schedule                   |     1
+operator club                           |     4
+operator privilege                      |    84
+output                                  |   413
+Output Schedule                         |     1
+personal data field definition          |     6
+PIV Card Type                           |     1
+Premier Access Report                   |     1
+Premier Report                          |     9
+Premier Summary Activity Report         |     4
+Premier Time Report                     |     1
+Salto Server                            |     1
+site plan                               |    48
+universal card format                   |     4
+workstation                             |     7
+
+Device | NumberOfMessages
+-------+-----------------
+
+Operator   | Workstation                | LogonTime
+-----------+----------------------------+------------------------
+ecurity, S | FT Workstation on ADMIN-PC | 2016-12-18 13:56:48.770
+mg, I      | FT Workstation on PC-      | 2016-12-19 06:14:37.800
+
+ID | Name | Type | Digest | StartTime | EndTime
+---+------+------+--------+-----------+--------
+
+NumEvents | NumAlarms
+----------+----------
+ 11178737 |      1247
+
+SaltoLastEventTime
+------------------
+
+Server | NumUnappliedChangeSets | NumNotYetAttemptedChangeSets
+-------+------------------------+-----------------------------
+
+ChangeSetRecords | ChangeSetItemRecords | ChangeSetFieldRecords | RedundantPDFChangeSetFieldRecords
+-----------------+----------------------+-----------------------+----------------------------------
+           27347 |                53846 |                301210 |                                 0
+
+NumberOfCards | NumberOfCardholders
+--------------+--------------------
+            1 |                1955
+            2 |                 135
+
+TableName           | SchemaName | RowCounts | TotalSpaceKB | UsedSpaceKB | UnusedSpaceKB
+--------------------+------------+-----------+--------------+-------------+--------------
+DeviceSoftware      | dbo        |        10 |       107544 |      107520 |            24
+SharedBinary        | dbo        |       274 |        51440 |       51344 |            96
+ChangeSetField      | dbo        |    301210 |        23560 |       23472 |            88
+ChangeSetItem       | dbo        |     53846 |        10328 |       10216 |           112
+ChangeSet           | dbo        |     27347 |         7448 |        7224 |           224
+AccessTriplet       | dbo        |     17142 |         2648 |        2536 |           112
+CardholderLocation  | dbo        |      1830 |         2512 |        2240 |           272
+BertConnections     | dbo        |     17392 |         2320 |        1808 |           512
+FTItem              | dbo        |      6268 |         1880 |        1552 |           328
+Card                | dbo        |      2225 |         1240 |        1008 |           232
+ConfigDispatchRoute | dbo        |     17875 |          904 |         712 |           192
+OperatorPreference  | dbo        |       479 |          904 |         752 |           152
+PersonalDataString  | dbo        |      5279 |          784 |         608 |           176
+CardHistory         | dbo        |      7491 |          776 |         760 |            16
+IconSetStateSetting | dbo        |       255 |          688 |         648 |            40
+FTItemType          | dbo        |       187 |          592 |         536 |            56
+ControllerItem      | dbo        |      8004 |          584 |         424 |           160
+ClubMembershipPair  | dbo        |      2126 |          528 |         464 |            64
+DoorRelation        | dbo        |      5740 |          464 |         328 |           136
+FTItemRelationship  | dbo        |      1670 |          464 |         320 |           144
+
+TableName               | SchemaName | RowCounts | TotalSpaceKB | UsedSpaceKB | UnusedSpaceKB
+------------------------+------------+-----------+--------------+-------------+--------------
+Event                   | dbo        |  11178737 |      3230352 |     3229704 |           648
+RelatedItems            | dbo        |  15785592 |      1453344 |     1453120 |           224
+AlarmHistory            | dbo        |   1282134 |       106832 |      106768 |            64
+AlarmUpdate             | dbo        |   1039178 |        88800 |       87288 |          1512
+CardEvent               | dbo        |    960690 |        46992 |       46944 |            48
+Sequence                | dbo        |      8586 |         1424 |        1264 |           160
+DVRData                 | dbo        |      8586 |          720 |         664 |            56
+TriggerSequencePair     | dbo        |      8586 |          672 |         568 |           104
+AlarmStack              | dbo        |      1247 |          528 |         312 |           216
+TriggerSequenceLocation | dbo        |      9446 |          400 |         392 |             8
+Trigger                 | dbo        |      8517 |          336 |         280 |            56
+OnlineArchiveFile       | dbo        |       383 |           32 |          32 |             0
+Image                   | dbo        |         0 |           16 |          16 |             0
+EventReturnToNormal     | dbo        |        36 |           16 |          16 |             0
+SingleValues            | dbo        |         1 |           16 |          16 |             0
+UnlinkedAck             | dbo        |         0 |            0 |           0 |             0
+SALTOLastEvent          | dbo        |         0 |            0 |           0 |             0
+NotificationAlarm       | dbo        |         0 |            0 |           0 |             0
+Lookup                  | dbo        |         0 |            0 |           0 |             0
+
+ 
+-----------------------------
+- Readonly User Information -
+-----------------------------
+database_user
+-------------
+
+ 
+-----------------------------
+- Customisation Information -
+-----------------------------
+Name | Version | AppliesToWorkstation
+-----+---------+---------------------
+
+FTItemTypeName | ComponentID
+---------------+------------
+
+SadPluginName                    |                          ComponentID
+---------------------------------+-------------------------------------
+PIV Certificate Validator        | E0A391AB-939E-49DD-97DA-0B68CD3F83C2
+Enterprise Integration Engine    | 28E5363A-6F86-40C9-9907-8D3601D55F28
+Sagem Fingerprint Matcher        | 0A4CFD6F-9053-4D07-A6D8-92F5C5CA5907
+Auto Alarm Processor Sad Plugin  | B3D0E17B-C4B1-4430-90D9-9838498808FD
+CStandardVisitInvitationProvider | 2C4B63F8-D5D1-439C-8D7D-9874A95275F1
+Austco SAD Plugin                | 399F0D86-B14E-4ED6-B9DA-AC5EE2DB5867
+VisitorManagementSADPlugin       | 45142255-E4DA-4A3C-93EA-DE9DEC017B41
+
+ 
+-------------------------------
+- SQL Server Lock Information -
+-------------------------------
+SPID | Status   | Login  | Host            | Program        | ProcessID |  BlkBy | ElapsedMS | CPUTime | IOReads | IOWrites | RowCount | Protocol      | IsolationLevel | ConnectionReads | ConnectionWrites | ClientAddress   | Authentication | WaitType | WaitTime | StartTime | LastRead                | LastWrite               | DBName      | CommandType | LastCommand
+-----+----------+--------+-----------------+----------------+-----------+--------+-----------+---------+---------+----------+----------+---------------+----------------+-----------------+------------------+-----------------+----------------+----------+----------+-----------+-------------------------+-------------------------+-------------+-------------+----------------------------
+  51 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        0 | Shared memory | Read Committed |              51 |               50 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:51:19.607 | 2016-12-19 11:51:19.607 | CCFTCentral | <NULL>      | lookupAlarmInstruction
+  52 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         8 |       0 |  <NULL> |        3 |        1 | Shared memory | Read Committed |               5 |                4 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:25.160 | 2016-12-19 11:52:25.167 | CCFTEvent   | <NULL>      | bertCardEventAdd
+  53 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              15 |               14 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:09.400 | 2016-12-19 11:52:09.403 | CCFTCentral | <NULL>      | cardholderLocationModify
+  54 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         1 |       0 |  <NULL> |        1 |        1 | Shared memory | Read Committed |              24 |               23 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:51:17.603 | 2016-12-19 11:51:17.603 | CCFTEvent   | <NULL>      | bertEventAdd
+  55 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         1 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              43 |               42 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:14.490 | 2016-12-19 11:52:14.490 | CCFTCentral | <NULL>      | cardholderLocationModify
+  56 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         1 |      15 |  <NULL> |        1 |        1 | Shared memory | Read Committed |             115 |              114 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:27.193 | 2016-12-19 11:52:27.197 | CCFTEvent   | <NULL>      | bertEventAdd
+  57 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         9 |       0 |  <NULL> |        4 |        1 | Shared memory | Read Committed |               7 |                6 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:14.153 | 2016-12-19 11:52:14.163 | CCFTEvent   | <NULL>      | bertCardEventAdd
+  58 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        0 | Shared memory | Read Committed |              23 |               22 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:51:28.947 | 2016-12-19 11:51:28.947 | CCFTCentral | <NULL>      | lookupAlarmInstruction
+  59 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        0 | Shared memory | Read Committed |              10 |                9 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:14.150 | 2016-12-19 11:52:14.150 | CCFTCentral | <NULL>      | lookupCardType
+  61 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        0 | Shared memory | Read Committed |              18 |               17 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:51:28.953 | 2016-12-19 11:51:28.953 | CCFTCentral | <NULL>      | lookupAlarmInstruction
+  62 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         3 |       0 |  <NULL> |        1 |        1 | Shared memory | Read Committed |               5 |                4 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:51:48.747 | 2016-12-19 11:51:48.750 | CCFTEvent   | <NULL>      | bertEventAdd
+  64 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         7 |       0 |  <NULL> |        1 |        1 | Shared memory | Read Committed |              10 |                9 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:29.243 | 2016-12-19 11:52:29.253 | CCFTEvent   | <NULL>      | bertDoorOpenTooLongEventAdd
+  66 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         8 |       0 |  <NULL> |        1 |        1 | Shared memory | Read Committed |               6 |                5 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:05.913 | 2016-12-19 11:52:05.920 | CCFTEvent   | <NULL>      | bertEventAdd
+  67 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |        11 |       0 |  <NULL> |        4 |        1 | Shared memory | Read Committed |             250 |              249 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:07.013 | 2016-12-19 11:52:07.023 | CCFTEvent   | <NULL>      | bertCardEventAdd
+  68 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              17 |               16 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:14.503 | 2016-12-19 11:52:14.503 | CCFTCentral | <NULL>      | DoorLastAccessModify
+  70 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         1 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              44 |               43 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:25.140 | 2016-12-19 11:52:25.143 | CCFTCentral | <NULL>      | cardholderLocationModify
+  71 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              31 |               30 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:25.140 | 2016-12-19 11:52:25.140 | CCFTCentral | <NULL>      | lookupCardholder2
+  72 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              12 |               11 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:51:43.640 | 2016-12-19 11:51:43.640 | CCFTCentral | <NULL>      | sessionSetLastContact
+  73 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        0 | Shared memory | Read Committed |              17 |               16 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:51:34.857 | 2016-12-19 11:51:34.860 | CCFTCentral | <NULL>      | lookupAlarmInstruction
+  75 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         1 |       0 |  <NULL> |        4 |        1 | Shared memory | Read Committed |             265 |              264 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:19.290 | 2016-12-19 11:52:19.293 | CCFTEvent   | <NULL>      | bertCardEventAdd
+  77 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              21 |               20 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:25.150 | 2016-12-19 11:52:25.150 | CCFTCentral | <NULL>      | DoorLastAccessModify
+  79 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         1 |       0 |  <NULL> |        1 |        1 | Shared memory | Read Committed |              81 |               80 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:31.693 | 2016-12-19 11:52:31.697 | CCFTEvent   | <NULL>      | bertEventAdd
+  80 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              22 |               21 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:19.407 | 2016-12-19 11:52:19.407 | CCFTCentral | <NULL>      | DoorLastAccessModify
+  84 | sleeping | ccftsa | WINDOWS-R59CVC5 | Command Centre |      2280 | <NULL> |         0 |       0 |  <NULL> |        2 |        1 | Shared memory | Read Committed |              45 |               44 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-19 11:52:08.033 | 2016-12-19 11:52:08.033 | CCFTEvent   | <NULL>      | bertEventAdd
+
+SPID | Status | Resource | Type | Mode | Database | OwnerType | ResourceDescription
+-----+--------+----------+------+------+----------+-----------+--------------------
+
+ Count |     Reads | LastReads | Writes | LastWrites |        Cpu |  LastCpu | Elapsed | LastElapsed | LastExecuted            | Query
+-------+-----------+-----------+--------+------------+------------+----------+---------+-------------+-------------------------+-------------------------------
+    56 | 583901158 |  16986915 | 392276 |      14970 | 1887145959 | 48991460 |    2687 |          75 | 2016-12-19 10:14:44.723 | eventReadRecent
+   149 | 238502224 |   1237071 |    132 |          1 |  927642086 |  4419901 |   22377 |          65 | 2016-12-18 21:06:01.923 | eventReadSurrounding
+   149 | 159186595 |   1201443 |    117 |          1 |  536389450 |  3724595 |    6579 |          14 | 2016-12-18 21:07:44.787 | eventReadSurrounding
+  1235 |  20814560 |         6 |      0 |          0 |   34540951 |      104 |      34 |           0 | 2016-12-19 11:51:34.863 | eventRead
+299884 |   3623405 |        12 |  38552 |          0 |   32346827 |      129 |     200 |           0 | 2016-12-19 11:52:31.727 | eventRelationAdd
+     5 |   3597290 |   1673291 |    612 |        282 |    9536132 |  3792281 |      10 |           4 | 2016-12-19 00:00:13.020 | archiveEventReadXml
+165159 |   2539193 |        15 | 169142 |          1 |   46332787 |      346 |     753 |           0 | 2016-12-19 11:52:31.727 | eventAdd
+   196 |    702649 |    171250 |   5205 |       1237 |    1956530 |   355909 |       1 |           0 | 2016-12-19 00:00:17.147 | archiveSetEventFileID
+ 69635 |    487465 |         7 |      0 |          0 |    5449660 |       96 |       5 |           0 | 2016-12-19 11:51:34.863 | eventRead
+ 40949 |    432734 |        13 |    612 |          0 |    4373123 |      102 |       9 |           0 | 2016-12-19 11:51:34.860 | eventAggregationAlarmUpdate
+     9 |    355688 |     86548 |    661 |        160 |     808015 |   181696 |       0 |           0 | 2016-12-19 00:00:12.573 | archiveEventRead
+     9 |    353552 |     86044 |    369 |         93 |     736742 |   182294 |       0 |           0 | 2016-12-19 00:00:12.840 | archiveEventReadXml
+ 41700 |    294129 |         7 |    373 |          0 |    2490333 |       59 |       2 |           0 | 2016-12-19 11:52:25.170 | cardEventAdd
+ 41690 |    292326 |         7 |     98 |          0 |    4405011 |      104 |       9 |           0 | 2016-12-19 11:52:25.157 | cardholderLocationModify
+ 69635 |    279712 |         4 |      0 |          0 |    2866373 |       41 |       3 |           0 | 2016-12-19 11:51:34.863 | eventRead
+ 69635 |    278540 |         4 |      0 |          0 |    1499014 |       21 |       1 |           0 | 2016-12-19 11:51:34.863 | eventRead
+ 15323 |    271621 |        33 |     35 |          0 |   10946359 |     1382 |      20 |           0 | 2016-12-19 11:51:34.860 | bertReturnToNormal
+ 41690 |    238373 |         6 |   1434 |          0 |    2563821 |       61 |       3 |           0 | 2016-12-19 11:52:25.157 | cardholderLocationModify
+     4 |    230913 |     58006 |      0 |          0 |    6602330 |  1742022 |      68 |          11 | 2016-12-19 00:00:00.293 | eventGetUnarchivedDateList
+   102 |    182481 |      1783 |    130 |          0 |    1044464 |    11202 |       1 |           0 | 2016-12-19 10:14:39.123 | sessionUpdateOperatorPDFAccess
+
+Version of files in the bin folder
+----------------------------------
+api-ms-win-core-console-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-datetime-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-debug-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-errorhandling-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-file-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-file-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-file-l2-1-0.dll 10.0.10586.15
+api-ms-win-core-handle-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-heap-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-interlocked-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-libraryloader-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-localization-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-memory-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-namedpipe-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processenvironment-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processthreads-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processthreads-l1-1-1.dll 10.0.10586.15
+api-ms-win-core-profile-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-rtlsupport-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-string-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-synch-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-synch-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-sysinfo-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-timezone-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-util-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-conio-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-convert-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-environment-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-filesystem-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-heap-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-locale-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-math-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-multibyte-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-private-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-process-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-runtime-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-stdio-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-string-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-time-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-utility-l1-1-0.dll 10.0.10586.15
+CCEIAdminUI.dll             7.50.530.0
+CCEIEngine.dll              7.50.530.0
+CCEIModel.dll               7.50.530.0
+CCFT.exe                    vEL7.50.530
+CCFTAperio.dll              vEL7.50.530
+CCFTAustco.dll              vEL7.50.530
+CCFTBioMatcher.exe          vEL7.50.530
+CCFTBiometric.dll           vEL7.50.530
+CCFTBiometricCommunicator.exe vEL7.50.530
+CCFTBPS.exe                 vEL7.50.530
+CCFTCardNumber.dll          vEL7.50.530
+CCFTClient.dll              7.50.530.0
+CCFTCommonLib.dll           vEL7.50.530
+CCFTConstants.dll           7.50.530.0
+CCFTCtrl.dll                vEL7.50.530
+CCFTData.exe                vEL7.50.530
+CCFTDataManager.exe         vEL7.50.530
+CCFTDBTemplate.exe          vEL7.50.530
+CCFTDump.exe                vEL7.50.530
+CCFTEA.dll                  vEL7.50.530
+CCFTEDIConfiguration.dll    vEL7.50.530
+CCFTEnrolment.dll           vEL7.50.530
+CCFTES.dll                  vEL7.50.530
+CCFTGBusURI.dll             vEL7.50.530
+CCFTGuardTour.dll           vEL7.50.530
+CCFTIntercomSystem.dll      vEL7.50.530
+CCFTInterCtrlMonitoring.dll vEL7.50.530
+CCFTInterop.dll             vEL7.50.530
+CCFTInteropAssist.dll       7.50.530.0
+CCFTItem.dll                vEL7.50.530
+CCFTItemPP.dll              vEL7.50.530
+CCFTModuteq.dll             vEL7.50.530
+CCFTNotifications.dll       7.50.530.0
+CCFTOPCData.dll             vEL7.50.530
+CCFTProxy.dll               vEL7.50.530
+CCFTReport.dll              vEL7.50.530
+CCFTRestore.exe             vEL7.50.530
+CCFTSalto.dll               vEL7.50.530
+CCFTSD.dll                  vEL7.50.530
+CCFTServiceManager.exe      vEL7.50.530
+CCFTSiteItem.dll            vEL7.50.530
+CCFTSiteItemPP.dll          vEL7.50.530
+CCFTSP.dll                  vEL7.50.530
+CCFTStatesman.dll           vEL7.50.530
+CCFTTrophy.dll              vEL7.50.530
+CCFTUpgrade.dll             vEL7.50.530
+CCFTViewers.dll             vEL7.50.530
+CCFTVisitorMgmt.dll         vEL7.50.530
+CCFTWizards.dll             vEL7.50.530
+CCNTBertServ.exe            vEL7.50.530
+CCNTCD.dll                  vEL7.50.530
+CCNTCI.dll                  vEL7.50.530
+CCNTColl.dll                vEL7.50.530
+CCNTMsg.dll                 vEL7.50.530
+CCNTSad.exe                 vEL7.50.530
+CCNTStdW.dll                vEL7.50.530
+CCNTWks.dll                 vEL7.50.530
+CD800SingleWire.dll         vEL7.50.530
+dbghelp.dll                 6.12.0002.633
+DCSP55Mifare.dll            vEL7.50.530
+DesfireLib.dll              vEL7.50.530
+DualCardDll.dll             1.0.0.2
+EventInputAPI.dll           vEL7.50.530
+Fargo.dll                   vEL7.50.530
+FargoOmnikey.dll            vEL7.50.530
+FargoPrinterSDK.dll         1.5.0.3
+FT DCOM Setup.exe           vEL7.50.530
+FTClientWrapper.dll         7.50.530.0
+ImageCompress.dll           6,2,4,0
+Interlocking.dll            vEL7.50.530
+ISO14443-4NET_I2.dll        1, 0, 0, 1
+Itf32.dll                   0, 0, 0, 0
+jccpdll.dll                 V7.53.0
+KeyDerivation.exe           7.50.530.0
+lfbmp14N.dll                14.5.0.082
+LFCMP14N.DLL                14.5.0.082
+lfgif14N.dll                14.5.0.082
+Lfwmf14n.dll                14.5.0.082
+libeay32.dll                1.0.1p
+LTCLR14n.dll                14.5.0.082
+LTDIS14N.dll                14.5.0.082
+ltefx14N.dll                14.5.0.082
+ltfil14N.DLL                14.5.0.082
+ltimg14N.dll                14.5.0.082
+ltkrn14N.dll                14.5.0.082
+ltocx14N.ocx                14.5.0.082
+LTR14n.dll                  14.5.0.082
+LTRTW14N.DLL                14.5.0.082
+LTRVR14n.dll                14.5.0.082
+lttwn14n.dll                14.5.0.082
+maci-core.dll               6.0.43.0
+maci_dotnet_native.dll      6.0.43.0
+MagicardRio.dll             vEL7.50.530
+MailBee.NET.dll             5.8.2.180
+Morpho.MorphoAccess.dll     6.0.43.0
+Morpho.MorphoAccess.Maci.dll 6.0.43.0
+Morpho.MorphoAcquisition.dll 1.2.1.0
+Morpho.MorphoKit_FVP.dll    5.2.3.0
+MorphoKeyDerivation.dll     1.0.0.0
+MorphoKeyDerivationWrapperDotNet.dll 1.0.0.0
+MorphoKit.dll               5.2.3.0
+MorphoKit_FVP.dll           5.2.3.0
+MORPHO_SDK.dll              6,2,4,0
+MSO100.dll                  6,2,4,0
+MSO_SpUsb.dll               6,2,4,0
+msvcp140.dll                14.00.23506.0
+msvcp71.dll                 7.10.3077.0
+msvcr71.dll                 7.10.3052.4
+Newtonsoft.Json.dll         6.0.8.18111
+NLog.dll                    1.0.1.506
+nsoftware.IPWorksSSNMP.dll  6.1.2755.0
+nsp.dll                     4, 5, 2, 82
+nspa6.dll                   4, 5, 2, 82
+nspm5.dll                   4, 5, 2, 82
+nspm6.dll                   4, 5, 2, 82
+nspp6.dll                   4, 5, 2, 82
+nsppx.dll                   4, 5, 2, 82
+NumericUpDownLibrary.dll    7.50.530.0
+olch2x8.ocx                 8.0.20061.64
+Opc.Ua.Core.dll             1.02.336.0
+Opc.Ua.Server.dll           1.02.336.0
+OpcAeClient.dll             7.50.530.0
+opccomn_ps.dll              1.10.105.1
+opcproxy.dll                3.00.105.1
+opcSec_PS.dll               1.00.105.1
+OpcUaServer.dll             7.50.530.0
+opc_aeps.dll                1.10.105.1
+OSDPIntegration.dll         vEL7.50.530
+phMfpLibDll.dll             vEL7.50.530
+PhotoID.dll                 vEL7.50.530
+PivCertManager.dll          vEL7.50.530
+PrepayCarParking.dll        vEL7.50.530
+PsgCcDipLibNET_I3.dll       1, 0, 0, 1
+QRCodeEncodeDLL.dll         3, 0, 2, 1
+ReportCommon.dll            7.50.530.0
+Sagem.MorphoKit.dll         5.2.3.0
+SautinSoft.RtfToHtml.dll    4.0.9.26
+SchindlerID.dll             vEL7.50.530
+SchlageIntegration.dll      vEL7.50.530
+SDI010Mifare.dll            vEL7.50.530
+SnmpUiConfig.dll            7.50.530.0
+SR300.dll                   vEL7.50.530
+ssleay32.dll                1.0.1p
+Stimulsoft.Base.dll         2015.1.0.0
+Stimulsoft.Report.dll       2015.1.0.0
+Stimulsoft.Report.Wpf.dll   2015.1.0.0
+symsrv.dll                  6.12.0002.633
+System.Interactive.dll      1.2.5
+System.Net.Http.Formatting.dll 5.2.3-30128 (0e974218e12a67d4
+System.Reactive.Core.dll    2.2.5
+System.Reactive.Interfaces.dll 2.2.5
+System.Reactive.Linq.dll    2.2.5
+System.Reactive.PlatformServices.dll 2.2.5
+System.Web.Http.dll         5.2.3-30128 (0e974218e12a67d4
+System.Web.Http.SelfHost.dll 5.2.3-30128 (0e974218e12a67d4
+TALBarCd.OCX                1, 0, 0, 1
+Talbcmx.dll                 1, 0, 3, 0
+ucrtbase.dll                10.0.10586.15
+Uninstall.exe               vEL7.50.530
+Utils.dll                   7.50.530.0
+vcruntime140.dll            14.00.23506.0
+vspdf8.ocx                  8, 0, 20082, 148
+vsprint8.ocx                8, 0, 20082, 148
+WebServer.dll               7.50.530.0
+WPFToolkit.dll              7.50.530.0
+XID8300Mifare.dll           vEL7.50.530
+
+Version of files in the Client folder
+----------------------------------
+AddInContract.dll           7.50.530.0
+AdminControls.dll           7.50.530.0
+AlarmList.dll               7.50.530.0
+api-ms-win-core-console-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-datetime-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-debug-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-errorhandling-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-file-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-file-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-file-l2-1-0.dll 10.0.10586.15
+api-ms-win-core-handle-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-heap-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-interlocked-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-libraryloader-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-localization-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-memory-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-namedpipe-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processenvironment-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processthreads-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processthreads-l1-1-1.dll 10.0.10586.15
+api-ms-win-core-profile-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-rtlsupport-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-string-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-synch-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-synch-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-sysinfo-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-timezone-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-util-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-conio-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-convert-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-environment-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-filesystem-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-heap-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-locale-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-math-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-multibyte-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-private-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-process-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-runtime-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-stdio-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-string-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-time-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-utility-l1-1-0.dll 10.0.10586.15
+AxInterop.AXVLC.dll         1.0.0.0
+CardholderManagementControls.dll 7.50.530.0
+CCFTCardNumber.dll          vEL7.50.530
+CCFTCommonLib.dll           vEL7.50.530
+CCFTConstants.dll           7.50.530.0
+CCFTDump.exe                vEL7.50.530
+CCFTInterop.dll             vEL7.50.530
+CCNTMsg.dll                 vEL7.50.530
+CD800SingleWire.dll         vEL7.50.530
+ClientBase.dll              7.50.530.0
+ClientConfigControls.dll    7.50.530.0
+ClientControls.dll          7.50.530.0
+ClientDataModel.dll         7.50.530.0
+ClientLogon.dll             7.50.530.0
+CommandCentreClient.exe     7.50.530.0
+CommandCentreClient_Audio.exe 7.50.530.0
+CommandCentreClient_DvrHost.exe vEL7.50.530
+CommandCentreClient_Morpho.exe 7.50.530.0
+CommandCentreClient_UrlHost.exe 7.50.530.0
+CrashDialog.exe             7.50.530.0
+dbghelp.dll                 6.12.0002.633
+DCSP55Mifare.dll            vEL7.50.530
+DesfireLib.dll              vEL7.50.530
+DualCardDll.dll             1.0.0.2
+Fargo.dll                   vEL7.50.530
+FargoOmnikey.dll            vEL7.50.530
+FargoPrinterSDK.dll         1.5.0.3
+ImageCompress.dll           6,2,4,0
+Interfaces.dll              7.50.530.0
+Interop.AXVLC.dll           1.0.0.0
+ISO14443-4NET_I2.dll        1, 0, 0, 1
+Itf32.dll                   0, 0, 0, 0
+JacquesLiveViewer.dll       7.50.530.0
+jccpdll.dll                 V7.53.0
+KeyDerivation.exe           7.50.530.0
+lfbmp14n.dll                14.5.0.082
+lfcmp14n.dll                14.5.0.082
+lfwmf14n.dll                14.5.0.082
+ltdis14n.dll                14.5.0.082
+ltefx14n.dll                14.5.0.082
+ltfil14n.dll                14.5.0.082
+ltimg14n.dll                14.5.0.082
+ltkrn14n.dll                14.5.0.082
+ltocx14n.ocx                14.5.0.082
+MagicardRio.dll             vEL7.50.530
+MappableDataPlugins.dll     7.50.530.0
+Morpho.MorphoAcquisition.dll 1.2.1.0
+Morpho.MorphoKit_FVP.dll    5.2.3.0
+MorphoKeyDerivation.dll     1.0.0.0
+MorphoKeyDerivationWrapperDotNet.dll 1.0.0.0
+MorphoKit.dll               5.2.3.0
+MorphoKit_FVP.dll           5.2.3.0
+MORPHO_SDK.dll              6,2,4,0
+MSO100.dll                  6,2,4,0
+MSO_SpUsb.dll               6,2,4,0
+msvcp100.dll                10.00.40219.325
+msvcp140.dll                14.00.23506.0
+msvcp71.dll                 7.10.3077.0
+msvcr100.dll                10.00.40219.325
+msvcr71.dll                 7.10.3052.4
+NLog.dll                    1.0.1.506
+Opc.Ua.Core.dll             1.02.336.0
+OpcUaClient.dll             7.50.530.0
+phMfpLibDll.dll             vEL7.50.530
+PhotoID.dll                 vEL7.50.530
+PSGCCDIPLIBNET_I3.dll       1, 0, 0, 1
+QRCodeEncodeDLL.dll         3, 0, 2, 1
+ReportCommon.dll            7.50.530.0
+ReportControls.dll          7.50.530.0
+Sagem.MorphoKit.dll         5.2.3.0
+SDI010Mifare.dll            vEL7.50.530
+SR300.dll                   vEL7.50.530
+Stimulsoft.Base.dll         2015.1.0.0
+Stimulsoft.Report.dll       2015.1.0.0
+Stimulsoft.Report.Wpf.dll   2015.1.0.0
+System.Interactive.dll      1.2.5
+System.Reactive.Core.dll    2.2.5
+System.Reactive.Interfaces.dll 2.2.5
+System.Reactive.Linq.dll    2.2.5
+System.Reactive.PlatformServices.dll 2.2.5
+System.Reactive.Windows.Threading.dll 2.2.5
+TALBarCd.ocx                1, 0, 0, 1
+talbcmx.dll                 1, 0, 3, 0
+TopLevelControls.dll        7.50.530.0
+ucrtbase.dll                10.0.10586.15
+Utils.dll                   7.50.530.0
+vcruntime140.dll            14.00.23506.0
+WPFToolkit.dll              7.50.530.0
+XID8300Mifare.dll           vEL7.50.530
+
+
+Log and Dump File Folders
+----------------------------------
+
+C:\ProgramData\Gallagher\Command Centre
+
+C:\ProgramData\Gallagher\Command Centre\MiniDump
+
+C:\Users\Administrator\AppData\Local\Gallagher\Command Centre
+
+
+     PID Thread Count Image Name
+======== ============ ========================================
+       0           12 [System Process]
+       4          130 System
+     332            2 smss.exe
+     472            9 csrss.exe
+     548            2 wininit.exe
+     564            8 csrss.exe
+     620            2 winlogon.exe
+     644            3 services.exe
+     660            5 lsass.exe
+     732            9 svchost.exe
+     764            6 svchost.exe
+     856            7 LogonUI.exe
+     864            6 dwm.exe
+     880            3 nvvsvc.exe
+     924            1 nvwmi64.exe
+     960            7 nvxdsync.exe
+     968            3 nvvsvc.exe
+    1004           12 svchost.exe
+     128           38 svchost.exe
+     316           15 svchost.exe
+     636           16 svchost.exe
+    1120           17 svchost.exe
+    1304            9 spoolsv.exe
+    1320            4 nvwmi64.exe
+    1360            9 CCVMSVxEventService.exe
+    1444           12 ekrn.exe
+    1492            3 CCFTBPS.exe
+    1544          115 CCNTBertServ.exe
+    1572           13 CCFTData.exe
+    1652            4 HpAmsStor.exe
+    1684           80 sqlservr.exe
+    1760            3 ntpd.exe
+    1788           13 Pelco.Phoenix.Communication.exe
+    2116            9 ProLiantMonitor.exe
+    2164            2 sqlwriter.exe
+    2200           14 svchost.exe
+    2240           14 tvnserver.exe
+    2280           77 CCNTSad.exe
+    2364           15 hpqams.exe
+    2412            5 WmiPrvSE.exe
+    3032           66 svchost.exe
+    1904            3 svchost.exe
+    4032            6 WmiPrvSE.exe
+    3948            9 csrss.exe
+    3960            2 winlogon.exe
+    3892            7 dwm.exe
+    4220            4 taskhostex.exe
+    4320            8 rdpclip.exe
+    4396           42 explorer.exe
+    4816            7 egui.exe
+    4848            3 tvnserver.exe
+     812            9 msdtc.exe
+    4244            2 FTSupportTool1_1_62.exe
+    4908            2 conhost.exe
+======== ============ ========================================
+      54          884 Total
+
+Begin FT License File
+[Site]
+Name=IMG Theme Park
+SerialNumber=20256
+MultiServerSerialNumber=
+OriginalSerialNumber=
+Edition=Standard Command Centre
+Expiry=12Aug2045
+Version=7.50
+CertTypes=Cardax Standard
+Brand=Gallagher
+MAC Ranges=000000-7FFFFF
+
+[Limit Info]
+{D6A08FA6-D0D6-4237-AF43-68189A36EA44},Event Sources,*,0
+{43BEB12A-04B2-43b7-A2CF-1D9CE5DBED51},Event Sources,Event Sources,0
+{DE9F44B8-5ADD-439D-BFA0-A1DDEC42D96D},Fence Controllers,Fence Controllers,0
+{09AF15F0-EC31-4AB4-9B34-D16E27ACF3DB},Fence Controllers,Fence Controllers,0
+{69A1949A-C0AB-4880-BF6A-C52F42CAD5DA},Fence Controllers,Fence Controllers,0
+{64A1DC77-9E34-4769-84F3-52C69792F575},Fence Controllers,Fence Zones,0
+{F6A9EFA4-2C11-4739-837C-FE5089D04765},Fence Controllers,*,-1
+{83833751-492E-4585-B600-76CD095B4071},Fence Controllers,*,-1
+{DB512AD8-9C46-4745-8802-58A26C530A09},Sagem Fingerprint Readers,Sagem Fingerprint Types,1
+{3D5B95F0-9938-4989-B7C5-5A0F8A4FA846},Sagem Fingerprint Readers,Sagem Fingerprint Readers,0
+{58E76EC8-7CDD-40ea-A616-35D0B5D191A5},Salto Doors,Salto Doors,0
+{949DAFBB-D052-4121-ACF4-8C907950E1B0},Salto Doors,*,-1
+{5924710D-F387-4237-9379-2EDB1D34804B},Salto Doors,*,-1
+{F6FD4B28-12C8-4c2b-89AD-14AFFEBBD8B7},SchindlerID Systems,SchindlerID Systems,0
+{D2D16A55-A5C4-40F1-9093-F5E507F22AC6},VisitorManagement,VisitorManagement,0
+{ED38F703-6ABB-4E25-92BC-5EC8C646A208},VisitorManagement,VisitorManagement,0
+{82AFE1E9-6DD5-4626-920C-628945F0A883},YCS Interface,YCS Interface,0
+{96937392-0451-4383-9810-BD47DA08BD4E},Aperio Doors,Aperio Doors,0
+{CB858A83-B1DF-4ca8-BBB0-4165BA07692E},Guard Tours,Guard Tours,0
+{2566C3B5-F696-48c6-BF91-B6E84CC18E4C},Guard Tours,*,0
+{8476C43A-C046-4761-A314-77EC27101941},Disturbance Sensors,Disturbance Sensors,0
+{0B8BB250-F7C8-4f48-B97E-CA5F3D0CB779},Disturbance Sensors,Disturbance Sensors,0
+{1D69FFD4-13B5-4a20-9A76-5AD2ACCEABEE},Fuel Pumps,Fuel Pumps,0
+{2370DCB7-041C-4a9e-B987-5D5AB167E733},Fuel Pumps,*,0
+{AA62A839-D635-4E77-8E00-44F346A51E3A},Austco Intercom Systems,Austco Intercom Systems,0
+{574D6A19-DEDF-4425-AED3-5F30771A33D1},Austco Intercom,Austco Intercom,0
+{C63CC28E-4983-4C93-9759-7C1D76907313},Car Parks,Car Parks,0
+{A018B8F7-D09C-4AA1-9921-15A7EE9281F3},Car Parks,*,0
+{F67FD522-4460-42FB-912D-F0BE01707322},Bookable Resource,Bookable Resource,0
+{520DA721-0691-4E47-ACAE-B313E87D4888},Fatigue Zones,Fatigue Zones,0
+{7A58156D-C54D-46AA-815F-D70B6944FA0F},Alcolizer,Alcolizer,0
+{3B71A5CF-354E-49F2-90B7-18FE98B4018C},BACnet Devices,BACnet Devices,0
+{2D3E2928-3C19-42D4-9BE0-D4CEA7C04EBF},BACnet Objects,BACnet Objects,0
+{AB4DD6C8-CA26-42A9-B827-77247D2E9859},Regulated Zones,Regulated Zones,0
+
+[Limits]
+Cardholders=100000
+Controller 3000s=250
+Controller 5000s=250
+Workstations=6
+Communication Servers=20
+Divisions=200
+Commanders=60
+Doors=432
+DVR Cameras=10000
+EnrolmentTemplates=99
+HLI Lift Cars=100
+Fence Controllers=1000
+Event Sources=100
+Competencies=1
+Disturbance Sensors=5
+Z10 Tension Sensors=5
+Mobile Clients=1
+Fence Zones=6
+
+[Features]
+Photo-ID=1
+Encoding=1
+CardPrinting=1
+ImportExport=1
+LogPrinting=1
+ControllerContactID=1
+CCTV=1
+T&AReport=1
+EnableHID=1
+EncryptionOn=0
+Challenge=1
+EnrolmentWizard=1
+scheduleimport=1
+Pelco Endura=1
+Notifications=1
+Guard Tours=1
+EnterpriseDataInterface=1
+CCVMS SDK=1
+Class5=1
+
+[Customisations]
+FMFDVR-Pelco-EnduraUI=1
+
+[Plugin]
+Plugin0=DVR-Pelco-Endura
+
+[KeyDevice]
+SerialNumber1=00 90 1D 01 49 A3
+SerialNumber2=00 90 1D 00 00 00
+
+[Configuration]
+FacilityCode=G11712
+BureauFacilityCode=
+CryptSeed=22436
+
+End FT License File
+
+Other information
+-----------------
+
+Host Name:                 WINDOWS-R59CVC5
+OS Name:                   Microsoft Windows Server 2012 R2 Standard
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Server
+OS Build Type:             Multiprocessor Free
+Registered Owner:          
+Registered Organization:   
+Product ID:                00252-40007-31382-AAOEM
+Original Install Date:     12/9/2015, 4:27:49 AM
+System Boot Time:          12/15/2016, 4:41:41 PM
+System Manufacturer:       HP
+System Model:              ProLiant ML350 Gen9
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 63 Stepping 2 GenuineIntel ~1198 Mhz
+BIOS Version:              HP P92, 12/24/2014
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume2
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+04:00) Abu Dhabi, Muscat
+Total Physical Memory:     16,256 MB
+Available Physical Memory: 13,294 MB
+Virtual Memory: Max Size:  18,688 MB
+Virtual Memory: Available: 15,414 MB
+Virtual Memory: In Use:    3,274 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\WINDOWS-R59CVC5
+Hotfix(s):                 7 Hotfix(s) Installed.
+                           [01]: KB2919355
+                           [02]: KB2919442
+                           [03]: KB2937220
+                           [04]: KB2938772
+                           [05]: KB2939471
+                           [06]: KB2949621
+                           [07]: KB3102467
+Network Card(s):           4 NIC(s) Installed.
+                           [01]: HP Ethernet 1Gb 4-port 331i Adapter
+                                 Connection Name: Embedded LOM 1 Port 2
+                                 Status:          Media disconnected
+                           [02]: HP Ethernet 1Gb 4-port 331i Adapter
+                                 Connection Name: Embedded LOM 1 Port 3
+                                 Status:          Media disconnected
+                           [03]: HP Ethernet 1Gb 4-port 331i Adapter
+                                 Connection Name: Embedded LOM 1 Port 4
+                                 Status:          Media disconnected
+                           [04]: HP Ethernet 1Gb 4-port 331i Adapter
+                                 Connection Name: Embedded LOM 1 Port 1
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.100.2.210
+                                 [02]: fe80::e99e:c0e9:3597:c2ed
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+These Windows services are started:
+
+   Application Experience
+   Background Tasks Infrastructure Service
+   Base Filtering Engine
+   Certificate Propagation
+   COM+ Event System
+   Cryptographic Services
+   DCOM Server Process Launcher
+   Device Setup Manager
+   DHCP Client
+   Diagnostic Policy Service
+   Distributed Link Tracking Client
+   Distributed Transaction Coordinator
+   DNS Client
+   ESET Service
+   FT Bootstrap Protocol Service
+   FT Command Centre Service
+   FT Controller Service
+   FT Import - Export Service
+   Gallagher Vx Event Integration Service
+   Group Policy Client
+   HP AMS Storage Service
+   HP ProLiant Agentless Management Service
+   HP ProLiant Health Monitor Service
+   HP ProLiant System Shutdown Service
+   IKE and AuthIP IPsec Keying Modules
+   IP Helper
+   IPsec Policy Agent
+   Local Session Manager
+   Network Connections
+   Network List Service
+   Network Location Awareness
+   Network Store Interface Service
+   Network Time Protocol Daemon
+   NVIDIA Display Driver Service
+   NVIDIA WMI Provider
+   Ops Center Communications
+   Plug and Play
+   Power
+   Print Spooler
+   Remote Desktop Configuration
+   Remote Desktop Services
+   Remote Desktop Services UserMode Port Redirector
+   Remote Procedure Call (RPC)
+   RPC Endpoint Mapper
+   Security Accounts Manager
+   Server
+   Shell Hardware Detection
+   Smart Card Device Enumeration Service
+   SQL Server (GALLAGHER)
+   SQL Server VSS Writer
+   System Event Notification Service
+   System Events Broker
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   Themes
+   TightVNC Server
+   User Access Logging Service
+   User Profile Service
+   Windows Connection Manager
+   Windows Event Log
+   Windows Firewall
+   Windows Font Cache Service
+   Windows Management Instrumentation
+   Windows Modules Installer
+   Windows Remote Management (WS-Management)
+   Windows Time
+   Workstation
+
+The command completed successfully.
+
+
+Image Name                     PID Session Name        Session#    Mem Usage Status          User Name                                              CPU Time Window Title                                                            
+========================= ======== ================ =========== ============ =============== ================================================== ============ ========================================================================
+System Idle Process              0 Services                   0          4 K Unknown         NT AUTHORITY\SYSTEM                                  1088:23:05 N/A                                                                     
+System                           4 Services                   0        272 K Unknown         N/A                                                     0:18:28 N/A                                                                     
+smss.exe                       332 Services                   0      1,040 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+csrss.exe                      472 Services                   0      4,004 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:02 N/A                                                                     
+wininit.exe                    548 Services                   0      3,824 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+csrss.exe                      564 Console                    1      3,412 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+winlogon.exe                   620 Console                    1      5,468 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+services.exe                   644 Services                   0      6,612 K Unknown         NT AUTHORITY\SYSTEM                                     0:01:26 N/A                                                                     
+lsass.exe                      660 Services                   0     15,028 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:30 N/A                                                                     
+svchost.exe                    732 Services                   0     11,388 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                    764 Services                   0      7,956 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:11 N/A                                                                     
+LogonUI.exe                    856 Console                    1     24,180 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+dwm.exe                        864 Console                    1     24,900 K Unknown         Window Manager\DWM-1                                    0:00:00 N/A                                                                     
+nvvsvc.exe                     880 Services                   0      6,516 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+nvwmi64.exe                    924 Services                   0      4,020 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+nvxdsync.exe                   960 Console                    1     16,096 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+nvvsvc.exe                     968 Console                    1     11,368 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                   1004 Services                   0     17,276 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:32 N/A                                                                     
+svchost.exe                    128 Services                   0     33,820 K Unknown         NT AUTHORITY\SYSTEM                                     0:02:20 N/A                                                                     
+svchost.exe                    316 Services                   0     16,396 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:01 N/A                                                                     
+svchost.exe                    636 Services                   0     15,888 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:16 N/A                                                                     
+svchost.exe                   1120 Services                   0     10,248 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:04 N/A                                                                     
+spoolsv.exe                   1304 Services                   0     11,616 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:01 N/A                                                                     
+nvwmi64.exe                   1320 Console                    1     10,084 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+CCVMSVxEventService.exe       1360 Services                   0     21,644 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+ekrn.exe                      1444 Services                   0    109,680 K Unknown         NT AUTHORITY\SYSTEM                                     0:35:50 N/A                                                                     
+CCFTBPS.exe                   1492 Services                   0     10,572 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:01 N/A                                                                     
+CCNTBertServ.exe              1544 Services                   0     32,976 K Unknown         NT AUTHORITY\SYSTEM                                     0:09:57 N/A                                                                     
+CCFTData.exe                  1572 Services                   0      9,888 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+HpAmsStor.exe                 1652 Services                   0      3,468 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+sqlservr.exe                  1684 Services                   0  1,741,108 K Unknown         NT AUTHORITY\NETWORK SERVICE                            1:27:56 N/A                                                                     
+ntpd.exe                      1760 Services                   0      6,128 K Unknown         WINDOWS-R59CVC5\ntp                                     0:00:00 N/A                                                                     
+Pelco.Phoenix.Communicati     1788 Services                   0     42,436 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:58 N/A                                                                     
+ProLiantMonitor.exe           2116 Services                   0      5,792 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:18 N/A                                                                     
+sqlwriter.exe                 2164 Services                   0      5,572 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                   2200 Services                   0     14,844 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:32 N/A                                                                     
+tvnserver.exe                 2240 Services                   0      5,072 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+CCNTSad.exe                   2280 Services                   0    153,328 K Unknown         NT AUTHORITY\SYSTEM                                     0:44:27 N/A                                                                     
+hpqams.exe                    2364 Services                   0     16,464 K Unknown         NT AUTHORITY\SYSTEM                                     1:41:31 N/A                                                                     
+WmiPrvSE.exe                  2412 Services                   0      5,800 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:04 N/A                                                                     
+svchost.exe                   3032 Services                   0     49,384 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:15 N/A                                                                     
+svchost.exe                   1904 Services                   0      4,188 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A                                                                     
+WmiPrvSE.exe                  4032 Services                   0     18,376 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:09:41 N/A                                                                     
+csrss.exe                     3948 RDP-Tcp#28                 2      7,428 K Running         NT AUTHORITY\SYSTEM                                     0:00:08 N/A                                                                     
+winlogon.exe                  3960 RDP-Tcp#28                 2      5,388 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+dwm.exe                       3892 RDP-Tcp#28                 2     32,396 K Running         Window Manager\DWM-2                                    0:00:12 DWM Notification Window                                                 
+taskhostex.exe                4220 RDP-Tcp#28                 2      7,156 K Running         WINDOWS-R59CVC5\Administrator                           0:00:00 Task Host Window                                                        
+rdpclip.exe                   4320 RDP-Tcp#28                 2      7,272 K Running         WINDOWS-R59CVC5\Administrator                           0:00:00 N/A                                                                     
+explorer.exe                  4396 RDP-Tcp#28                 2     85,536 K Running         WINDOWS-R59CVC5\Administrator                           0:11:00 N/A                                                                     
+egui.exe                      4816 RDP-Tcp#28                 2     10,400 K Running         WINDOWS-R59CVC5\Administrator                           0:00:25 ESET NOD32 Antivirus                                                    
+tvnserver.exe                 4848 RDP-Tcp#28                 2      4,668 K Running         WINDOWS-R59CVC5\Administrator                           0:00:00 NotifyIconWindowTitle                                                   
+msdtc.exe                      812 Services                   0      6,284 K Unknown         NT AUTHORITY\NETWORK SERVICE                            0:00:00 N/A                                                                     
+FTSupportTool1_1_62.exe       4244 RDP-Tcp#28                 2      7,376 K Running         WINDOWS-R59CVC5\Administrator                           0:00:00 C:\Users\Administrator\Desktop\FTSupportTool1_1_62.exe                  
+conhost.exe                   4908 RDP-Tcp#28                 2      4,180 K Running         WINDOWS-R59CVC5\Administrator                           0:00:00 OleMainThreadWndName                                                    
+WmiPrvSE.exe                   456 Services                   0      5,548 K Unknown         NT AUTHORITY\LOCAL SERVICE                              0:00:00 N/A                                                                     
+TrustedInstaller.exe          2996 Services                   0      4,416 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+TiWorker.exe                  4912 Services                   0      6,568 K Unknown         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+cmd.exe                        828 RDP-Tcp#28                 2      2,532 K Unknown         WINDOWS-R59CVC5\Administrator                           0:00:00 N/A                                                                     
+tasklist.exe                  2400 RDP-Tcp#28                 2      5,960 K Unknown         WINDOWS-R59CVC5\Administrator                           0:00:00 N/A                                                                     
+
+Image Name                     PID Services                                    
+========================= ======== ============================================
+System Idle Process              0 N/A                                         
+System                           4 N/A                                         
+smss.exe                       332 N/A                                         
+csrss.exe                      472 N/A                                         
+wininit.exe                    548 N/A                                         
+csrss.exe                      564 N/A                                         
+winlogon.exe                   620 N/A                                         
+services.exe                   644 N/A                                         
+lsass.exe                      660 SamSs                                       
+svchost.exe                    732 BrokerInfrastructure, DcomLaunch, LSM,      
+                                   PlugPlay, Power, SystemEventsBroker         
+svchost.exe                    764 RpcEptMapper, RpcSs                         
+LogonUI.exe                    856 N/A                                         
+dwm.exe                        864 N/A                                         
+nvvsvc.exe                     880 nvsvc                                       
+nvwmi64.exe                    924 NVWMI                                       
+nvxdsync.exe                   960 N/A                                         
+nvvsvc.exe                     968 N/A                                         
+svchost.exe                   1004 Dhcp, EventLog, lmhosts, Wcmsvc             
+svchost.exe                    128 AeLookupSvc, CertPropSvc, DsmSvc, gpsvc,    
+                                   IKEEXT, iphlpsvc, LanmanServer, ProfSvc,    
+                                   Schedule, SENS, SessionEnv,                 
+                                   ShellHWDetection, Themes, Winmgmt           
+svchost.exe                    316 EventSystem, FontCache, netprofm, nsi,      
+                                   W32Time                                     
+svchost.exe                    636 CryptSvc, Dnscache, LanmanWorkstation,      
+                                   NlaSvc, WinRM                               
+svchost.exe                   1120 BFE, DPS, MpsSvc                            
+spoolsv.exe                   1304 Spooler                                     
+nvwmi64.exe                   1320 N/A                                         
+CCVMSVxEventService.exe       1360 CCVMSVxEventService                         
+ekrn.exe                      1444 ekrn                                        
+CCFTBPS.exe                   1492 FT Bootstrap Protocol Service               
+CCNTBertServ.exe              1544 FT Controller Service                       
+CCFTData.exe                  1572 FT Import - Export Service                  
+HpAmsStor.exe                 1652 HpAmsStor                                   
+sqlservr.exe                  1684 MSSQL$GALLAGHER                             
+ntpd.exe                      1760 NTP                                         
+Pelco.Phoenix.Communicati     1788 OpsCom                                      
+ProLiantMonitor.exe           2116 ProLiantMonitor, sysdown                    
+sqlwriter.exe                 2164 SQLWriter                                   
+svchost.exe                   2200 Netman, ScDeviceEnum, TrkWks, UALSVC,       
+                                   UmRdpService                                
+tvnserver.exe                 2240 tvnserver                                   
+CCNTSad.exe                   2280 FT Command Centre Service                   
+hpqams.exe                    2364 hpqams                                      
+WmiPrvSE.exe                  2412 N/A                                         
+svchost.exe                   3032 TermService                                 
+svchost.exe                   1904 PolicyAgent                                 
+WmiPrvSE.exe                  4032 N/A                                         
+csrss.exe                     3948 N/A                                         
+winlogon.exe                  3960 N/A                                         
+dwm.exe                       3892 N/A                                         
+taskhostex.exe                4220 N/A                                         
+rdpclip.exe                   4320 N/A                                         
+explorer.exe                  4396 N/A                                         
+egui.exe                      4816 N/A                                         
+tvnserver.exe                 4848 N/A                                         
+msdtc.exe                      812 MSDTC                                       
+FTSupportTool1_1_62.exe       4244 N/A                                         
+conhost.exe                   4908 N/A                                         
+WmiPrvSE.exe                   456 N/A                                         
+TrustedInstaller.exe          2996 TrustedInstaller                            
+TiWorker.exe                  4912 N/A                                         
+cmd.exe                       2312 N/A                                         
+tasklist.exe                  4120 N/A                                         
+
+Image Name                     PID Modules                                     
+========================= ======== ============================================
+CCFTBPS.exe                   1492 ntdll.dll, kernel32.dll, kernelbase.dll,    
+                                   iphlpapi.dll, ws2_32.dll, ccntmsg.dll,      
+                                   user32.dll, advapi32.dll, ole32.dll,        
+                                   oleaut32.dll, CCFTCommonLib.dll,            
+                                   msvcp140.dll, vcruntime140.dll,             
+                                   api-ms-win-crt-stdio-l1-1-0.dll,            
+                                   api-ms-win-crt-string-l1-1-0.dll,           
+                                   api-ms-win-crt-heap-l1-1-0.dll,             
+                                   api-ms-win-crt-runtime-l1-1-0.dll,          
+                                   api-ms-win-crt-math-l1-1-0.dll,             
+                                   api-ms-win-crt-locale-l1-1-0.dll, nsi.dll,  
+                                   winnsi.dll, rpcrt4.dll, comctl32.dll,       
+                                   msimg32.dll, crypt32.dll, gdi32.dll,        
+                                   shlwapi.dll, msvcrt.dll, sechost.dll,       
+                                   combase.dll, shell32.dll, odbc32.dll,       
+                                   version.dll, psapi.dll,                     
+                                   api-ms-win-crt-convert-l1-1-0.dll,          
+                                   api-ms-win-crt-time-l1-1-0.dll,             
+                                   api-ms-win-crt-filesystem-l1-1-0.dll,       
+                                   api-ms-win-crt-multibyte-l1-1-0.dll,        
+                                   api-ms-win-crt-environment-l1-1-0.dll,      
+                                   api-ms-win-crt-utility-l1-1-0.dll,          
+                                   msasn1.dll, ucrtbase.dll, cryptbase.dll,    
+                                   bcryptprimitives.dll, shcore.dll,           
+                                   profapi.dll, kernel.appcore.dll,            
+                                   clbcatq.dll, mlang.dll, cryptsp.dll,        
+                                   rsaenh.dll, bcrypt.dll, CCFTBrand.rll,      
+                                   napinsp.dll, nlaapi.dll, mswsock.dll,       
+                                   dnsapi.dll, winrnr.dll, CCFTProxy.dll       
+CCNTBertServ.exe              1544 ntdll.dll, kernel32.dll, kernelbase.dll,    
+                                   bcrypt.dll, mswsock.dll, ws2_32.dll,        
+                                   rasapi32.dll, ssleay32.dll, ccntmsg.dll,    
+                                   iphlpapi.dll, libeay32.dll, user32.dll,     
+                                   advapi32.dll, ole32.dll, oleaut32.dll,      
+                                   CCFTCommonLib.dll, msvcp140.dll,            
+                                   wininet.dll, vcruntime140.dll,              
+                                   api-ms-win-crt-runtime-l1-1-0.dll,          
+                                   api-ms-win-crt-stdio-l1-1-0.dll,            
+                                   api-ms-win-crt-heap-l1-1-0.dll,             
+                                   api-ms-win-crt-string-l1-1-0.dll,           
+                                   api-ms-win-crt-time-l1-1-0.dll,             
+                                   api-ms-win-crt-convert-l1-1-0.dll,          
+                                   api-ms-win-crt-utility-l1-1-0.dll,          
+                                   api-ms-win-crt-multibyte-l1-1-0.dll,        
+                                   api-ms-win-crt-math-l1-1-0.dll,             
+                                   api-ms-win-crt-locale-l1-1-0.dll,           
+                                   rpcrt4.dll, nsi.dll, msvcrt.dll,            
+                                   combase.dll, rasman.dll, sechost.dll,       
+                                   comctl32.dll, msimg32.dll, crypt32.dll,     
+                                   gdi32.dll, shlwapi.dll, winnsi.dll,         
+                                   psapi.dll,                                  
+                                   api-ms-win-crt-environment-l1-1-0.dll,      
+                                   api-ms-win-crt-filesystem-l1-1-0.dll,       
+                                   api-ms-win-crt-conio-l1-1-0.dll,            
+                                   shell32.dll, odbc32.dll, version.dll,       
+                                   iertutil.dll, userenv.dll, msasn1.dll,      
+                                   profapi.dll, ucrtbase.dll, cryptbase.dll,   
+                                   bcryptprimitives.dll, shcore.dll,           
+                                   kernel.appcore.dll, clbcatq.dll, mlang.dll, 
+                                   cryptsp.dll, rsaenh.dll, CCFTBrand.rll,     
+                                   rtutils.dll, CCFTProxy.dll                  
+
+HKEY_LOCAL_MACHINE\SOFTWARE\CARDAX\Command Centre FT
+    DatabaseServerMachine    REG_SZ    .\GALLAGHER
+    DatabaseName    REG_SZ    CCFTCentral
+    EventDatabaseServer    REG_SZ    .\GALLAGHER
+    EventDatabaseName    REG_SZ    CCFTEvent
+    Serial    REG_DWORD    0xfe036d34
+    UseSQLServerAuth    REG_DWORD    0x1
+    ServerLocale    REG_DWORD    0x409
+    ClientSetupPath    REG_SZ    C:\Program Files (x86)\Gallagher\Command Centre\ClientSetup\CommandCentreSetup
+    ClientSetupShare    REG_SZ    CommandCentreSetup
+    InstallType    REG_DWORD    0x33
+    Version    REG_SZ    vEL7.50.530
+    ServerMachine    REG_SZ    WINDOWS-R59CVC5
+    Install Path    REG_SZ    C:\Program Files (x86)\Gallagher\Command Centre
+    LogFileSize    REG_DWORD    0x2800
+    LogFileCount    REG_DWORD    0x1
+    DumpCount    REG_DWORD    0xa
+    TraceOn    REG_DWORD    0x0
+    AssertPopupOn    REG_DWORD    0x0
+    AssertDumpOn    REG_DWORD    0x1
+    AssertDumpType    REG_DWORD    0x1
+    AssertCommand    REG_SZ    
+    UHEDumpOn    REG_DWORD    0x1
+    UHEDumpType    REG_DWORD    0x1
+    UHECommand    REG_SZ    
+    StartupTraceOn    REG_DWORD    0x0
+    GeneralOn    REG_DWORD    0x0
+    Enable_UHE_Popups    REG_DWORD    0x0
+    InstallShortCuts    REG_MULTI_SZ    C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Gallagher\Configuration Client.lnk\0C:\Users\Public\Desktop\Configuration Client.lnk\0C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Gallagher\Command Centre Restore.lnk\0C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Gallagher\Command Centre.lnk\0C:\Users\Public\Desktop\Command Centre.lnk
+
+HKEY_LOCAL_MACHINE\SOFTWARE\CARDAX\Command Centre FT\DVRLive
+    VxSDK CCVMS Integration    REG_SZ    ED93C8E1-6456-424F-9A67-632075FB894B
+
+HKEY_LOCAL_MACHINE\SOFTWARE\CARDAX\Command Centre FT\DVRStored
+    VxSDK CCVMS Integration    REG_SZ    ED93C8E1-6456-424F-9A67-632075FB894B
+
+
+Connection Name Network Adapter Physical Address    Transport Name                                            
+=============== =============== =================== ==========================================================
+Embedded LOM 1  HP Ethernet 1Gb 50-65-F3-60-6A-C3   Media disconnected                                        
+Embedded LOM 1  HP Ethernet 1Gb 50-65-F3-60-6A-C4   Media disconnected                                        
+Embedded LOM 1  HP Ethernet 1Gb 50-65-F3-60-6A-C5   Media disconnected                                        
+Embedded LOM 1  HP Ethernet 1Gb 50-65-F3-60-6A-C2   \Device\Tcpip_{599EA4DE-2FD7-49DF-8280-5CC02E36E765}      
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : WINDOWS-R59CVC5
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Embedded LOM 1 Port 1:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : HP Ethernet 1Gb 4-port 331i Adapter
+   Physical Address. . . . . . . . . : 50-65-F3-60-6A-C2
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::e99e:c0e9:3597:c2ed%15(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.100.2.210(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.254.0
+   Default Gateway . . . . . . . . . : 10.100.2.1
+   DHCPv6 IAID . . . . . . . . . . . : 256927219
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-1D-F9-71-08-50-65-F3-60-6A-C3
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Embedded LOM 1 Port 4:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : HP Ethernet 1Gb 4-port 331i Adapter #4
+   Physical Address. . . . . . . . . : 50-65-F3-60-6A-C5
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Embedded LOM 1 Port 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : HP Ethernet 1Gb 4-port 331i Adapter #3
+   Physical Address. . . . . . . . . : 50-65-F3-60-6A-C4
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Embedded LOM 1 Port 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : HP Ethernet 1Gb 4-port 331i Adapter #2
+   Physical Address. . . . . . . . . : 50-65-F3-60-6A-C3
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter isatap.{599EA4DE-2FD7-49DF-8280-5CC02E36E765}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter #2
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+===========================================================================
+Interface List
+ 15...50 65 f3 60 6a c2 ......HP Ethernet 1Gb 4-port 331i Adapter
+ 14...50 65 f3 60 6a c5 ......HP Ethernet 1Gb 4-port 331i Adapter #4
+ 13...50 65 f3 60 6a c4 ......HP Ethernet 1Gb 4-port 331i Adapter #3
+ 12...50 65 f3 60 6a c3 ......HP Ethernet 1Gb 4-port 331i Adapter #2
+  1...........................Software Loopback Interface 1
+ 36...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter #2
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0       10.100.2.1     10.100.2.210    266
+       10.100.2.0    255.255.254.0         On-link      10.100.2.210    266
+     10.100.2.210  255.255.255.255         On-link      10.100.2.210    266
+     10.100.3.255  255.255.255.255         On-link      10.100.2.210    266
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link      10.100.2.210    266
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+  255.255.255.255  255.255.255.255         On-link      10.100.2.210    266
+===========================================================================
+Persistent Routes:
+  Network Address          Netmask  Gateway Address  Metric
+          0.0.0.0          0.0.0.0       10.100.2.1  Default 
+===========================================================================
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    306 ::1/128                  On-link
+ 15    266 fe80::/64                On-link
+ 15    266 fe80::e99e:c0e9:3597:c2ed/128
+                                    On-link
+  1    306 ff00::/8                 On-link
+ 15    266 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       764
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:1072           0.0.0.0:0              LISTENING       1544
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       3032
+  TCP    0.0.0.0:4840           0.0.0.0:0              LISTENING       2280
+  TCP    0.0.0.0:5800           0.0.0.0:0              LISTENING       2240
+  TCP    0.0.0.0:5900           0.0.0.0:0              LISTENING       2240
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:8901           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING       548
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING       1004
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING       128
+  TCP    0.0.0.0:49155          0.0.0.0:0              LISTENING       1304
+  TCP    0.0.0.0:49156          0.0.0.0:0              LISTENING       660
+  TCP    0.0.0.0:49157          0.0.0.0:0              LISTENING       644
+  TCP    0.0.0.0:49158          0.0.0.0:0              LISTENING       1904
+  TCP    0.0.0.0:54682          0.0.0.0:0              LISTENING       2280
+  TCP    10.100.2.210:139       0.0.0.0:0              LISTENING       4
+  TCP    10.100.2.210:1072      10.100.2.211:49185     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.212:51409     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.213:54504     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.214:51883     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.215:53593     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.216:52905     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.217:49936     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.218:50503     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.219:64141     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.220:52713     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.221:49189     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.223:53462     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.224:52234     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.2.225:49344     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.214:51662     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.215:51734     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.216:49335     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.217:50710     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.218:54418     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.219:49330     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.220:56110     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.221:50137     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.222:53523     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.4.223:49250     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.211:51153     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.212:54431     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.213:53577     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.215:50885     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.217:49301     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.218:50113     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.219:50142     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.220:51328     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.221:52235     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.222:51359     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.6.223:52577     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.211:50025     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.212:49737     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.213:50468     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.214:49288     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.215:49924     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.216:51950     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.218:54191     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.219:51355     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.220:53699     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.8.221:62127     ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.10.211:49963    ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.10.212:55988    ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.10.213:56002    ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.10.215:49935    ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.10.216:51336    ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.10.217:49155    ESTABLISHED     1544
+  TCP    10.100.2.210:1072      10.100.10.218:49155    ESTABLISHED     1544
+  TCP    10.100.2.210:3389      10.100.3.113:50113     ESTABLISHED     3032
+  TCP    10.100.2.210:4840      10.100.3.113:50077     ESTABLISHED     2280
+  TCP    10.100.2.210:4840      10.100.3.130:54619     ESTABLISHED     2280
+  TCP    10.100.2.210:55104     10.100.2.221:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55105     10.100.8.215:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55107     10.100.4.222:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55108     10.100.8.211:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55109     10.100.2.223:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55110     10.100.6.218:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55111     10.100.8.214:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55113     10.100.4.220:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55115     10.100.6.220:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55117     10.100.8.221:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55118     10.100.8.219:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55120     10.100.6.211:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55121     10.100.2.225:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55123     10.100.6.217:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55124     10.100.8.220:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55126     10.100.4.221:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55127     10.100.2.216:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55129     10.100.6.212:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55131     10.100.10.216:1072     ESTABLISHED     1544
+  TCP    10.100.2.210:55132     10.100.8.216:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55133     10.100.6.215:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55135     10.100.6.213:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55136     10.100.10.215:1072     ESTABLISHED     1544
+  TCP    10.100.2.210:55138     10.100.6.221:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55139     10.100.6.222:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55144     10.100.2.212:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55145     10.100.2.215:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55147     10.100.2.219:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55148     10.100.4.219:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55149     10.100.2.220:1072      ESTABLISHED     1544
+  TCP    10.100.2.210:55152     10.100.2.218:1072      ESTABLISHED     1544
+  TCP    [::]:135               [::]:0                 LISTENING       764
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:1072              [::]:0                 LISTENING       1544
+  TCP    [::]:3389              [::]:0                 LISTENING       3032
+  TCP    [::]:4840              [::]:0                 LISTENING       2280
+  TCP    [::]:5985              [::]:0                 LISTENING       4
+  TCP    [::]:8901              [::]:0                 LISTENING       4
+  TCP    [::]:47001             [::]:0                 LISTENING       4
+  TCP    [::]:49152             [::]:0                 LISTENING       548
+  TCP    [::]:49153             [::]:0                 LISTENING       1004
+  TCP    [::]:49154             [::]:0                 LISTENING       128
+  TCP    [::]:49155             [::]:0                 LISTENING       1304
+  TCP    [::]:49156             [::]:0                 LISTENING       660
+  TCP    [::]:49157             [::]:0                 LISTENING       644
+  TCP    [::]:49158             [::]:0                 LISTENING       1904
+  TCP    [::]:54682             [::]:0                 LISTENING       2280
+  TCP    [fe80::e99e:c0e9:3597:c2ed%15]:55151  [fe80::15d1:85a:e3dd:263c%15]:135  ESTABLISHED     764
+  UDP    0.0.0.0:67             *:*                                    1492
+  UDP    0.0.0.0:123            *:*                                    1760
+  UDP    0.0.0.0:500            *:*                                    128
+  UDP    0.0.0.0:3389           *:*                                    3032
+  UDP    0.0.0.0:4500           *:*                                    128
+  UDP    0.0.0.0:5355           *:*                                    636
+  UDP    10.100.2.210:123       *:*                                    1760
+  UDP    10.100.2.210:137       *:*                                    4
+  UDP    10.100.2.210:138       *:*                                    4
+  UDP    127.0.0.1:123          *:*                                    1760
+  UDP    [::]:123               *:*                                    1760
+  UDP    [::]:500               *:*                                    128
+  UDP    [::]:3389              *:*                                    3032
+  UDP    [::]:4500              *:*                                    128
+  UDP    [::]:5355              *:*                                    636
+  UDP    [::1]:123              *:*                                    1760
+  UDP    [fe80::e99e:c0e9:3597:c2ed%15]:123  *:*                                    1760
+Interface Statistics
+
+                           Received            Sent
+
+Bytes                    3858856364      3451015460
+Unicast packets            12218772        12635036
+Non-unicast packets        27358592          104272
+Discards                          0               0
+Errors                            0               0
+Unknown protocols                 0
+
+IPv4 Statistics
+
+  Packets Received                   = 3963392
+  Received Header Errors             = 0
+  Received Address Errors            = 36029
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 29868
+  Received Packets Delivered         = 3908348
+  Output Requests                    = 3007713
+  Routing Discards                   = 0
+  Discarded Output Packets           = 42
+  Output Packet No Route             = 0
+  Reassembly Required                = 6
+  Reassembly Successful              = 3
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+IPv6 Statistics
+
+  Packets Received                   = 346383
+  Received Header Errors             = 0
+  Received Address Errors            = 371
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 20401
+  Received Packets Delivered         = 331827
+  Output Requests                    = 38439
+  Routing Discards                   = 0
+  Discarded Output Packets           = 1012
+  Output Packet No Route             = 2
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  299         448       
+  Errors                    0           0         
+  Destination Unreachable   18          167       
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Source Quenches           0           0         
+  Redirects                 0           0         
+  Echo Replies              4           277       
+  Echos                     277         4         
+  Timestamps                0           0         
+  Timestamp Replies         0           0         
+  Address Masks             0           0         
+  Address Mask Replies      0           0         
+  Router Solicitations      0           0         
+  Router Advertisements     0           0         
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  4113        5931      
+  Errors                    0           0         
+  Destination Unreachable   0           1783      
+  Packet Too Big            0           0         
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Echos                     0           0         
+  Echo Replies              0           0         
+  MLD Queries               0           0         
+  MLD Reports               0           0         
+  MLD Dones                 0           0         
+  Router Solicitations      0           3         
+  Router Advertisements     0           0         
+  Neighbor Solicitations    2077        2067      
+  Neighbor Advertisements   2036        2078      
+  Redirects                 0           0         
+  Router Renumberings       0           0         
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 20309
+  Passive Opens                       = 915
+  Failed Connection Attempts          = 3905
+  Reset Connections                   = 1189
+  Current Connections                 = 86
+  Segments Received                   = 2885001
+  Segments Sent                       = 2976772
+  Segments Retransmitted              = 5972
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 2059
+  Passive Opens                       = 11
+  Failed Connection Attempts          = 14
+  Reset Connections                   = 24
+  Current Connections                 = 1
+  Segments Received                   = 14432
+  Segments Sent                       = 20774
+  Segments Retransmitted              = 117
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 1026891
+  No Ports              = 29861
+  Receive Errors        = 0
+  Datagrams Sent        = 27497
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 313346
+  No Ports              = 20401
+  Receive Errors        = 0
+  Datagrams Sent        = 11602
+
+Pinging Server
+--------------
+Pinging WINDOWS-R59CVC5 [10.100.2.210] with 32 bytes of data:
+Reply from 10.100.2.210: bytes=32 time<1ms TTL=128
+Reply from 10.100.2.210: bytes=32 time<1ms TTL=128
+Reply from 10.100.2.210: bytes=32 time<1ms TTL=128
+Reply from 10.100.2.210: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.100.2.210:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms

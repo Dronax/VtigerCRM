@@ -1,0 +1,13 @@
+card format : third party(0xFD)
+Number of Bits:26
+
+Raw Card Data (Hexadecimal):
+47 00 30 40
+
+Raw Card Data (Binary):
+01000111 00000000 00110000 01
+
+
+
+serial :*00001 42101034439-4
+serial :*00099 42101034439-4

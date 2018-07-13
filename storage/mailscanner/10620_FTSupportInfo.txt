@@ -1,0 +1,1501 @@
+Host name:  qadasap01
+Local time: 2016-12-12 14:31:57
+UTC time:   2016-12-12 11:31:57
+
+
+
+----------------------------------
+- System Environment Information -
+----------------------------------
+SQL_Server_Version
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Microsoft SQL Server 2012 (SP1) - 11.0.3000.0 (Intel X86)   Oct 19 2012 13:43:21   Copyright (c) Microsoft Corporation  Express Edition on Windows NT 6.2 <X64> (Build 9200: ) (WOW64) (Hypervisor) 
+
+ComputerNamePhysicalNetBIOS | MachineName | ServerAndInstanceName | IsClustered | Collation                    | LCID
+----------------------------+-------------+-----------------------+-------------+------------------------------+-----
+QADASAP01                   | QADASAP01   | QADASAP01\GALLAGHER   | 0           | SQL_Latin1_General_CP1_CI_AS | 1033
+
+Configuration option 'show advanced options' changed from 0 to 1. Run the RECONFIGURE statement to install.
+name                   | minimum |    maximum | config_value | run_value
+-----------------------+---------+------------+--------------+----------
+min server memory (MB) |       0 | 2147483647 |            0 |         8
+
+name                   | minimum |    maximum | config_value |  run_value
+-----------------------+---------+------------+--------------+-----------
+max server memory (MB) |      64 | 2147483647 |   2147483647 | 2147483647
+
+Configuration option 'show advanced options' changed from 1 to 0. Run the RECONFIGURE statement to install.
+ 
+--------------------
+- Site Information -
+--------------------
+Version | SiteSerialNumber | FTInstallDate           | UsedGraceTime | LastGraceTimeUpdate
+--------+------------------+-------------------------+---------------+------------------------
+7500507 |            11064 | 2016-12-01 10:19:56.933 |           290 | 2016-12-12 11:25:09.000
+
+Controller        | SerialNumber | IPAddress  | Gateway   | Subnet        | Timezone | CertType        | CurrentDLLs
+------------------+--------------+------------+-----------+---------------+----------+-----------------+------------
+Controller 6000 1 |       000000 | 10.7.59.55 | 10.7.59.1 | 255.255.255.0 | AST-3    | Cardax Standard | 
+Controller 6000 2 |       016F56 | 10.7.59.52 | 10.7.59.1 | 255.255.255.0 | AST-3    | Cardax Standard | 
+Controller 6000 3 |       0145CC | 10.7.59.51 | 10.7.59.1 | 255.255.255.0 | AST-3    | Cardax Standard | 
+
+Device            | SoftwareType | AssignedVersion | InstalledVersion | ItemType
+------------------+--------------+-----------------+------------------+------------------
+Controller 6000 1 |            0 | <NULL>          | v6.01//b92       | Controller Grover
+Controller 6000 1 |            1 | <NULL>          | v2.00//b22       | Controller Grover
+Controller 6000 1 |            2 | <NULL>          | v1.01//b6031     | Controller Grover
+Controller 6000 1 |            3 | <NULL>          | Unavailable      | Controller Grover
+Controller 6000 1 |            4 | <NULL>          | v2.00//b12       | Controller Grover
+Controller 6000 2 |            0 | <NULL>          | vGR7.50b118      | Controller Grover
+Controller 6000 2 |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Controller 6000 2 |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Controller 6000 2 |            3 | <NULL>          | Unavailable      | Controller Grover
+Controller 6000 2 |            4 | <NULL>          | v2.30//b6        | Controller Grover
+Controller 6000 3 |            0 | <NULL>          | vGR7.50b118      | Controller Grover
+Controller 6000 3 |            1 | <NULL>          | v3.10//b4        | Controller Grover
+Controller 6000 3 |            2 | <NULL>          | v1.01//b6033     | Controller Grover
+Controller 6000 3 |            3 | <NULL>          | Unavailable      | Controller Grover
+Controller 6000 3 |            4 | <NULL>          | v2.30//b6        | Controller Grover
+
+Type                            | Total
+--------------------------------+------
+8-door interface software       |     1
+Access Schedule                 |     1
+Access Zone Schedule            |     1
+action plan                     |    12
+Alarm Viewer                    |     1
+Alarm Zone Schedule             |     1
+bert service                    |     1
+bert software                   |     2
+bootp service                   |     1
+calendar                        |     1
+camera dsp software             |     1
+camera z181 software            |     1
+Card Workflow                   |     1
+cardholder                      |     1
+Cardholder Viewer               |     1
+Controller Grover               |     3
+day category                    |     1
+division                        |     1
+elmo                            |     1
+Grover software                 |     2
+HVLF Schedule                   |     1
+icon set                        |   177
+idt 125 software                |     1
+idt mifare software             |     1
+idt tiris software              |     1
+import/export service           |     1
+Monitor Site Viewer             |     1
+Notification Schedule           |     1
+operator privilege              |    84
+Output Schedule                 |     1
+PIV Card Type                   |     1
+Premier Report                  |     6
+Premier Summary Activity Report |     4
+Salto Server                    |     1
+universal card format           |     4
+workstation                     |     1
+
+Device            | NumberOfMessages
+------------------+-----------------
+Controller 6000 1 |                2
+Controller 6000 2 |                6
+Controller 6000 3 |                6
+
+Operator        | Workstation                 | LogonTime
+----------------+-----------------------------+------------------------
+System Operator | FT Workstation on QADASAP01 | 2016-12-12 11:25:30.590
+
+ID | Name | Type | Digest | StartTime | EndTime
+---+------+------+--------+-----------+--------
+
+NumEvents | NumAlarms
+----------+----------
+      106 |        18
+
+SaltoLastEventTime
+------------------
+
+Server | NumUnappliedChangeSets | NumNotYetAttemptedChangeSets
+-------+------------------------+-----------------------------
+
+ChangeSetRecords | ChangeSetItemRecords | ChangeSetFieldRecords | RedundantPDFChangeSetFieldRecords
+-----------------+----------------------+-----------------------+----------------------------------
+             253 |                  507 |                  2454 |                                 0
+
+NumberOfCards | NumberOfCardholders
+--------------+--------------------
+
+TableName                 | SchemaName | RowCounts | TotalSpaceKB | UsedSpaceKB | UnusedSpaceKB
+--------------------------+------------+-----------+--------------+-------------+--------------
+DeviceSoftware            | dbo        |        10 |        69208 |       69184 |            24
+IconSetStateSetting       | dbo        |       249 |          688 |         640 |            48
+FTItemType                | dbo        |       186 |          592 |         536 |            56
+SharedBinary              | dbo        |       189 |          480 |         456 |            24
+DefaultOperatorPreference | dbo        |       239 |          336 |         296 |            40
+SessionPermission         | dbo        |      3762 |          264 |         192 |            72
+OperatorPreference        | dbo        |        75 |          200 |         144 |            56
+ChangeSetField            | dbo        |      2454 |          160 |         160 |             0
+ChangeSetItem             | dbo        |       507 |          160 |         160 |             0
+EventType                 | dbo        |      1012 |          144 |          96 |            48
+ComplexTypeProperty       | dbo        |      1627 |          136 |          88 |            48
+FTItem                    | dbo        |       322 |          136 |         136 |             0
+ChangeSet                 | dbo        |       253 |          128 |         128 |             0
+ControllerItemType        | dbo        |       107 |           64 |          64 |             0
+MiscellaneousIcon         | dbo        |        17 |           56 |          56 |             0
+ReportDefinition          | dbo        |        10 |           56 |          56 |             0
+RequiredPrivilege         | dbo        |      1588 |           56 |          56 |             0
+DayCategory               | dbo        |         1 |           48 |          48 |             0
+ItemTypeEventTypePair     | dbo        |      1703 |           48 |          48 |             0
+ViewerPanelTile           | dbo        |        34 |           48 |          48 |             0
+
+TableName               | SchemaName | RowCounts | TotalSpaceKB | UsedSpaceKB | UnusedSpaceKB
+------------------------+------------+-----------+--------------+-------------+--------------
+Event                   | dbo        |       106 |           96 |          96 |             0
+RelatedItems            | dbo        |       149 |           48 |          48 |             0
+AlarmUpdate             | dbo        |        10 |           32 |          32 |             0
+AlarmStack              | dbo        |        18 |           32 |          32 |             0
+AlarmHistory            | dbo        |         2 |           16 |          16 |             0
+Image                   | dbo        |         0 |           16 |          16 |             0
+EventReturnToNormal     | dbo        |        36 |           16 |          16 |             0
+SingleValues            | dbo        |         1 |           16 |          16 |             0
+UnlinkedAck             | dbo        |         0 |            0 |           0 |             0
+TriggerSequencePair     | dbo        |         0 |            0 |           0 |             0
+TriggerSequenceLocation | dbo        |         0 |            0 |           0 |             0
+Trigger                 | dbo        |         0 |            0 |           0 |             0
+Sequence                | dbo        |         0 |            0 |           0 |             0
+SALTOLastEvent          | dbo        |         0 |            0 |           0 |             0
+OnlineArchiveFile       | dbo        |         0 |            0 |           0 |             0
+NotificationAlarm       | dbo        |         0 |            0 |           0 |             0
+Lookup                  | dbo        |         0 |            0 |           0 |             0
+DVRData                 | dbo        |         0 |            0 |           0 |             0
+CardEvent               | dbo        |         0 |            0 |           0 |             0
+
+ 
+-----------------------------
+- Customisation Information -
+-----------------------------
+Name | Version | AppliesToWorkstation
+-----+---------+---------------------
+
+FTItemTypeName | ComponentID
+---------------+------------
+
+SadPluginName                    |                          ComponentID
+---------------------------------+-------------------------------------
+PIV Certificate Validator        | E0A391AB-939E-49DD-97DA-0B68CD3F83C2
+Enterprise Integration Engine    | 28E5363A-6F86-40C9-9907-8D3601D55F28
+Sagem Fingerprint Matcher        | 0A4CFD6F-9053-4D07-A6D8-92F5C5CA5907
+Auto Alarm Processor Sad Plugin  | B3D0E17B-C4B1-4430-90D9-9838498808FD
+CStandardVisitInvitationProvider | 2C4B63F8-D5D1-439C-8D7D-9874A95275F1
+Austco SAD Plugin                | 399F0D86-B14E-4ED6-B9DA-AC5EE2DB5867
+VisitorManagementSADPlugin       | 45142255-E4DA-4A3C-93EA-DE9DEC017B41
+
+ 
+-------------------------------
+- SQL Server Lock Information -
+-------------------------------
+SPID | Status   | Login  | Host      | Program        | ProcessID |  BlkBy | ElapsedMS | CPUTime | IOReads | IOWrites | RowCount | Protocol      | IsolationLevel | ConnectionReads | ConnectionWrites | ClientAddress   | Authentication | WaitType | WaitTime | StartTime | LastRead                | LastWrite               | DBName      | CommandType | LastCommand
+-----+----------+--------+-----------+----------------+-----------+--------+-----------+---------+---------+----------+----------+---------------+----------------+-----------------+------------------+-----------------+----------------+----------+----------+-----------+-------------------------+-------------------------+-------------+-------------+--------------------------
+  52 | sleeping | ccftsa | QADASAP01 | Command Centre |      2112 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |             314 |              477 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-12 14:31:53.880 | 2016-12-12 14:31:53.880 | CCFTCentral | <NULL>      | elmoMessageGet
+  53 | sleeping | ccftsa | QADASAP01 | Command Centre |      2112 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              60 |               59 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-12 14:31:12.997 | 2016-12-12 14:31:12.997 | CCFTCentral | <NULL>      | definedEOLResistancesRead
+  54 | sleeping | ccftsa | QADASAP01 | Command Centre |      2112 | <NULL> |         0 |       0 |  <NULL> |        0 |        0 | Shared memory | Read Committed |              74 |               78 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-12 14:31:53.960 | 2016-12-12 14:31:53.960 | CCFTCentral | <NULL>      | bertConnectionsRead
+  57 | sleeping | ccftsa | QADASAP01 | Command Centre |      2112 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |             286 |              285 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-12 14:31:53.993 | 2016-12-12 14:31:53.993 | CCFTCentral | <NULL>      | definedEOLResistancesRead
+  58 | sleeping | ccftsa | QADASAP01 | Command Centre |      2112 | <NULL> |         0 |       0 |  <NULL> |        0 |        0 | Shared memory | Read Committed |             169 |              177 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-12 14:31:53.880 | 2016-12-12 14:31:53.880 | CCFTCentral | <NULL>      | enumerateRelationships
+  59 | sleeping | ccftsa | QADASAP01 | Command Centre |      2112 | <NULL> |         0 |       0 |  <NULL> |        0 |        1 | Shared memory | Read Committed |              10 |                9 | <local machine> | SQL            | <NULL>   |   <NULL> | <NULL>    | 2016-12-12 14:31:07.557 | 2016-12-12 14:31:07.557 | CCFTEvent   | <NULL>      | eventLoggerIDSetID
+
+SPID | Status | Resource | Type | Mode | Database | OwnerType | ResourceDescription
+-----+--------+----------+------+------+----------+-----------+--------------------
+
+Count | Reads | LastReads | Writes | LastWrites |   Cpu | LastCpu | Elapsed | LastElapsed | LastExecuted            | Query
+------+-------+-----------+--------+------------+-------+---------+---------+-------------+-------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    2 | 14540 |      7301 |      8 |          8 | 31251 |   15627 |       0 |           0 | 2016-12-12 14:25:30.590 | sessionUpdatePermissions
+    2 |  7593 |      3809 |      4 |          4 |     0 |       0 |       0 |           0 | 2016-12-12 14:25:30.590 | sessionUpdatePermissions
+    1 |  1865 |      1865 |      0 |          0 | 31238 |   31238 |       0 |           0 | 2016-12-12 14:31:58.590 | SELECT TOP (20)      t.NAME AS TableName,      s.Name AS SchemaName,      MIN(p.rows) AS RowCounts,      SUM(a.total_pages) * 8 AS TotalSpaceKB,       SUM(a.used_pages) * 8 AS UsedSpaceKB,       (SUM(
+    1 |   815 |       815 |      0 |          0 |     0 |       0 |       0 |           0 | 2016-12-12 14:31:58.620 | SELECT TOP (20)      t.NAME AS TableName,      s.Name AS SchemaName,      MIN(p.rows) AS RowCounts,      SUM(a.total_pages) * 8 AS TotalSpaceKB,       SUM(a.used_pages) * 8 AS UsedSpaceKB,       (SUM(
+    1 |   673 |       673 |      0 |          0 | 62440 |   62440 |       0 |           0 | 2016-12-12 14:25:05.900 | Insert #users (DbRole, MemberName, MemberSID) Exec [msdb]..sp_helprolemember
+    1 |   653 |       653 |      0 |          0 |     0 |       0 |       0 |           0 | 2016-12-12 14:25:32.853 | Select FTItem.ID from SessionFTItemFromVerb(1003,10007) FTItem, UnnamedItemTypes where 1=1 and UnnamedItemTypes.GenericType = -6 and FTItem.TypeID = UnnamedItemTypes.FTItemTypeId order by FTItem.Creat
+  321 |   642 |         2 |      0 |          0 |     0 |       0 |       0 |           0 | 2016-12-12 14:28:54.830 | supportReadFTItemWithShortName
+  300 |   600 |         2 |      0 |          0 |     0 |       0 |       0 |           0 | 2016-12-12 14:29:09.667 | configDispatchAddRoute
+  177 |   491 |         2 |      0 |          0 |     0 |       0 |       0 |           0 | 2016-12-12 14:25:01.963 | iconSetRead
+    1 |   480 |       480 |      0 |          0 | 31227 |   31227 |       0 |           0 | 2016-12-12 14:25:05.243 | Insert #users (DbRole, MemberName, MemberSID) Exec [model]..sp_helprolemember
+    1 |   425 |       425 |      1 |          1 |     0 |       0 |       0 |           0 | 2016-12-12 14:26:00.960 | eventReadRecent
+    1 |   404 |       404 |      0 |          0 | 46866 |   46866 |       0 |           0 | 2016-12-12 14:25:06.667 | Insert #users (DbRole, MemberName, MemberSID) Exec [CCFTEvent]..sp_helprolemember
+    1 |   403 |       403 |      0 |          0 | 62464 |   62464 |       0 |           0 | 2016-12-12 14:25:06.400 | Insert #users (DbRole, MemberName, MemberSID) Exec [CCFTCentral]..sp_helprolemember
+  177 |   354 |         2 |      0 |          0 |     0 |       0 |       0 |           0 | 2016-12-12 14:25:01.963 | iconSetRead
+    1 |   343 |       343 |      4 |          4 | 46864 |   46864 |       0 |           0 | 2016-12-12 14:25:04.853 | Insert #users (DbRole, MemberName, MemberSID) Exec [master]..sp_helprolemember
+    1 |   321 |       321 |      0 |          0 | 31247 |   31247 |       0 |           0 | 2016-12-12 14:25:05.197 | Insert #users (DbRole, MemberName, MemberSID) Exec [tempdb]..sp_helprolemember
+   42 |   252 |         6 |      1 |          0 | 15630 |       0 |       0 |           0 | 2016-12-12 14:29:09.667 | configDispatchAddRoute
+    1 |   244 |       244 |      0 |          0 |     0 |       0 |       0 |           0 | 2016-12-12 14:25:06.387 | sp_helprolemember
+    2 |   228 |         4 |      0 |          0 |     0 |       0 |       0 |           0 | 2016-12-12 14:24:22.590 | SELECT HAS_DBACCESS(name) FROM sys.databases WHERE (name = @P1)
+    3 |   213 |        71 |      0 |          0 |     0 |       0 |       0 |           0 | 2016-12-12 14:25:02.027 | viewerRead
+
+Version of files in the bin folder
+----------------------------------
+api-ms-win-core-console-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-datetime-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-debug-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-errorhandling-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-file-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-file-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-file-l2-1-0.dll 10.0.10586.15
+api-ms-win-core-handle-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-heap-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-interlocked-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-libraryloader-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-localization-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-memory-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-namedpipe-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processenvironment-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processthreads-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processthreads-l1-1-1.dll 10.0.10586.15
+api-ms-win-core-profile-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-rtlsupport-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-string-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-synch-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-synch-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-sysinfo-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-timezone-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-util-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-conio-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-convert-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-environment-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-filesystem-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-heap-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-locale-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-math-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-multibyte-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-private-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-process-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-runtime-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-stdio-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-string-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-time-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-utility-l1-1-0.dll 10.0.10586.15
+CCEIAdminUI.dll             7.50.507.0
+CCEIEngine.dll              7.50.507.0
+CCEIModel.dll               7.50.507.0
+CCFT.exe                    vEL7.50.507
+CCFTAperio.dll              vEL7.50.507
+CCFTAustco.dll              vEL7.50.507
+CCFTBioMatcher.exe          vEL7.50.507
+CCFTBiometric.dll           vEL7.50.507
+CCFTBiometricCommunicator.exe vEL7.50.507
+CCFTBPS.exe                 vEL7.50.507
+CCFTCardNumber.dll          vEL7.50.507
+CCFTClient.dll              7.50.507.0
+CCFTCommonLib.dll           vEL7.50.507
+CCFTConstants.dll           7.50.507.0
+CCFTCtrl.dll                vEL7.50.507
+CCFTData.exe                vEL7.50.507
+CCFTDataManager.exe         vEL7.50.507
+CCFTDBTemplate.exe          vEL7.50.507
+CCFTDump.exe                vEL7.50.507
+CCFTEA.dll                  vEL7.50.507
+CCFTEDIConfiguration.dll    vEL7.50.507
+CCFTEnrolment.dll           vEL7.50.507
+CCFTES.dll                  vEL7.50.507
+CCFTGBusURI.dll             vEL7.50.507
+CCFTGuardTour.dll           vEL7.50.507
+CCFTIntercomSystem.dll      vEL7.50.507
+CCFTInterCtrlMonitoring.dll vEL7.50.507
+CCFTInterop.dll             vEL7.50.507
+CCFTInteropAssist.dll       7.50.507.0
+CCFTItem.dll                vEL7.50.507
+CCFTItemPP.dll              vEL7.50.507
+CCFTModuteq.dll             vEL7.50.507
+CCFTNotifications.dll       7.50.507.0
+CCFTOPCData.dll             vEL7.50.507
+CCFTProxy.dll               vEL7.50.507
+CCFTReport.dll              vEL7.50.507
+CCFTRestore.exe             vEL7.50.507
+CCFTSalto.dll               vEL7.50.507
+CCFTSD.dll                  vEL7.50.507
+CCFTServiceManager.exe      vEL7.50.507
+CCFTSiteItem.dll            vEL7.50.507
+CCFTSiteItemPP.dll          vEL7.50.507
+CCFTSP.dll                  vEL7.50.507
+CCFTStatesman.dll           vEL7.50.507
+CCFTTrophy.dll              vEL7.50.507
+CCFTUpgrade.dll             vEL7.50.507
+CCFTViewers.dll             vEL7.50.507
+CCFTVisitorMgmt.dll         vEL7.50.507
+CCFTWizards.dll             vEL7.50.507
+CCNTBertServ.exe            vEL7.50.507
+CCNTCD.dll                  vEL7.50.507
+CCNTCI.dll                  vEL7.50.507
+CCNTColl.dll                vEL7.50.507
+CCNTMsg.dll                 vEL7.50.507
+CCNTSad.exe                 vEL7.50.507
+CCNTStdW.dll                vEL7.50.507
+CCNTWks.dll                 vEL7.50.507
+CD800Mifare.dll             vEL7.10.1370
+CD800SingleWire.dll         vEL7.50.507
+DataCard.dll                vEL7.10.1370
+dbghelp.dll                 6.12.0002.633
+DCSP55Mifare.dll            vEL7.50.507
+DesfireLib.dll              vEL7.50.507
+DualCardDll.dll             1.0.0.2
+Eltron.dll                  vEL7.10.1370
+EventInputAPI.dll           vEL7.50.507
+Fargo.dll                   vEL7.50.507
+FargoMifare.dll             vEL7.10.1370
+FargoOmnikey.dll            vEL7.50.507
+FargoPrinterSDK.dll         1.5.0.3
+FT DCOM Setup.exe           vEL7.50.507
+FTClientWrapper.dll         7.50.507.0
+ImageCompress.dll           6,2,4,0
+Interlocking.dll            vEL7.50.507
+ISO14443-4NET_I2.dll        1, 0, 0, 1
+Itf32.dll                   0, 0, 0, 0
+jccpdll.dll                 V7.53.0
+KeyDerivation.exe           7.50.507.0
+lfbmp14N.dll                14.5.0.082
+LFCMP14N.DLL                14.5.0.082
+lfgif14N.dll                14.5.0.082
+Lfwmf14n.dll                14.5.0.082
+libeay32.dll                1.0.1p
+LTCLR14n.dll                14.5.0.082
+LTDIS14N.dll                14.5.0.082
+ltefx14N.dll                14.5.0.082
+ltfil14N.DLL                14.5.0.082
+ltimg14N.dll                14.5.0.082
+ltkrn14N.dll                14.5.0.082
+ltocx14N.ocx                14.5.0.082
+LTR14n.dll                  14.5.0.082
+LTRTW14N.DLL                14.5.0.082
+LTRVR14n.dll                14.5.0.082
+lttwn14n.dll                14.5.0.082
+maci-core.dll               6.0.43.0
+maci_dotnet_native.dll      6.0.43.0
+MagicardRio.dll             vEL7.50.507
+MailBee.NET.dll             5.8.2.180
+Morpho.MorphoAccess.dll     6.0.43.0
+Morpho.MorphoAccess.Maci.dll 6.0.43.0
+Morpho.MorphoAcquisition.dll 1.2.1.0
+Morpho.MorphoKit_FVP.dll    5.2.3.0
+MorphoKeyDerivation.dll     1.0.0.0
+MorphoKeyDerivationWrapperDotNet.dll 1.0.0.0
+MorphoKit.dll               5.2.3.0
+MorphoKit_FVP.dll           5.2.3.0
+MORPHO_SDK.dll              6,2,4,0
+MSO100.dll                  6,2,4,0
+MSO_SpUsb.dll               6,2,4,0
+msvcp140.dll                14.00.23506.0
+msvcp71.dll                 7.10.3077.0
+msvcr71.dll                 7.10.3052.4
+Newtonsoft.Json.dll         6.0.8.18111
+NiscaMifare.dll             vEL7.10.1370
+NLog.dll                    1.0.1.506
+nsoftware.IPWorksSSNMP.dll  6.1.2755.0
+nsp.dll                     4, 5, 2, 82
+nspa6.dll                   4, 5, 2, 82
+nspm5.dll                   4, 5, 2, 82
+nspm6.dll                   4, 5, 2, 82
+nspp6.dll                   4, 5, 2, 82
+nsppx.dll                   4, 5, 2, 82
+NumericUpDownLibrary.dll    7.50.507.0
+olch2x8.ocx                 8.0.20061.64
+Opc.Ua.Core.dll             1.02.336.0
+Opc.Ua.Server.dll           1.02.336.0
+OpcAeClient.dll             7.50.507.0
+opccomn_ps.dll              1.10.105.1
+opcproxy.dll                3.00.105.1
+opcSec_PS.dll               1.00.105.1
+OpcUaServer.dll             7.50.507.0
+opc_aeps.dll                1.10.105.1
+OSDPIntegration.dll         vEL7.50.507
+phMfpLibDll.dll             vEL7.50.507
+PhotoID.dll                 vEL7.50.507
+PivCertManager.dll          vEL7.50.507
+PrepayCarParking.dll        vEL7.50.507
+PsgCcDipLibNET_I3.dll       1, 0, 0, 1
+QRCodeEncodeDLL.dll         3, 0, 2, 1
+ReportCommon.dll            7.50.507.0
+Sagem.MorphoKit.dll         5.2.3.0
+SautinSoft.RtfToHtml.dll    4.0.9.26
+SchindlerID.dll             vEL7.50.507
+SchlageIntegration.dll      vEL7.50.507
+SDI010Mifare.dll            vEL7.50.507
+SnmpUiConfig.dll            7.50.507.0
+SR300.dll                   vEL7.50.507
+ssleay32.dll                1.0.1p
+Stimulsoft.Base.dll         2015.1.0.0
+Stimulsoft.Report.dll       2015.1.0.0
+Stimulsoft.Report.Wpf.dll   2015.1.0.0
+symsrv.dll                  6.12.0002.633
+System.Interactive.dll      1.2.5
+System.Net.Http.Formatting.dll 5.2.3-30128 (0e974218e12a67d4
+System.Reactive.Core.dll    2.2.5
+System.Reactive.Interfaces.dll 2.2.5
+System.Reactive.Linq.dll    2.2.5
+System.Reactive.PlatformServices.dll 2.2.5
+System.Web.Http.dll         5.2.3-30128 (0e974218e12a67d4
+System.Web.Http.SelfHost.dll 5.2.3-30128 (0e974218e12a67d4
+TALBarCd.OCX                1, 0, 0, 1
+Talbcmx.dll                 1, 0, 3, 0
+ucrtbase.dll                10.0.10586.15
+Uninstall.exe               vEL7.50.507
+Utils.dll                   7.50.507.0
+vcruntime140.dll            14.00.23506.0
+vspdf8.ocx                  8, 0, 20082, 148
+vsprint8.ocx                8, 0, 20082, 148
+WebServer.dll               7.50.507.0
+WPFToolkit.dll              7.50.507.0
+XID440Mifare.dll            vEL7.10.1370
+XID8300Mifare.dll           vEL7.50.507
+
+Version of files in the Client folder
+----------------------------------
+AddInContract.dll           7.50.507.0
+AdminControls.dll           7.50.507.0
+AlarmList.dll               7.50.507.0
+AlarmList.XmlSerializers.dll 7.10.1370.0
+api-ms-win-core-console-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-datetime-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-debug-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-errorhandling-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-file-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-file-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-file-l2-1-0.dll 10.0.10586.15
+api-ms-win-core-handle-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-heap-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-interlocked-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-libraryloader-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-localization-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-memory-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-namedpipe-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processenvironment-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processthreads-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-processthreads-l1-1-1.dll 10.0.10586.15
+api-ms-win-core-profile-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-rtlsupport-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-string-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-synch-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-synch-l1-2-0.dll 10.0.10586.15
+api-ms-win-core-sysinfo-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-timezone-l1-1-0.dll 10.0.10586.15
+api-ms-win-core-util-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-conio-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-convert-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-environment-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-filesystem-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-heap-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-locale-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-math-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-multibyte-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-private-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-process-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-runtime-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-stdio-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-string-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-time-l1-1-0.dll 10.0.10586.15
+api-ms-win-crt-utility-l1-1-0.dll 10.0.10586.15
+atl100.dll                  10.00.40219.325
+AxInterop.AXVLC.dll         1.0.0.0
+CardholderManagementControls.dll 7.50.507.0
+CardholderManagementControls.XmlSerializers.dll 7.10.1370.0
+CCFTCardNumber.dll          vEL7.50.507
+CCFTCommonLib.dll           vEL7.50.507
+CCFTConstants.dll           7.50.507.0
+CCFTDiagnostic.dll          vEL7.10.1370
+CCFTDump.exe                vEL7.50.507
+CCFTInterop.dll             vEL7.50.507
+CCNTMsg.dll                 vEL7.50.507
+CD800Mifare.dll             vEL7.10.1370
+CD800SingleWire.dll         vEL7.50.507
+ClientBase.dll              7.50.507.0
+ClientBase.XmlSerializers.dll 7.10.1370.0
+ClientConfigControls.dll    7.50.507.0
+ClientConfigControls.XmlSerializers.dll 7.10.1370.0
+ClientControls.dll          7.50.507.0
+ClientControls.XmlSerializers.dll 7.10.1370.0
+ClientDataModel.dll         7.50.507.0
+ClientDataModel.XmlSerializers.dll 7.10.1370.0
+ClientLogon.dll             7.50.507.0
+CommandCentreClient.exe     7.50.507.0
+CommandCentreClient_Audio.exe 7.50.507.0
+CommandCentreClient_DvrHost.exe vEL7.50.507
+CommandCentreClient_Morpho.exe 7.50.507.0
+CommandCentreClient_UrlHost.exe 7.50.507.0
+CommandCentreMorpho.exe     7.10.1370.0
+CrashDialog.exe             7.50.507.0
+DataCard.dll                vEL7.10.1370
+dbghelp.dll                 6.12.0002.633
+DCSP55Mifare.dll            vEL7.50.507
+DesfireLib.dll              vEL7.50.507
+DualCardDll.dll             1.0.0.2
+DVRAddIn.exe                vEL7.10.1370
+Eltron.dll                  vEL7.10.1370
+Fargo.dll                   vEL7.50.507
+FargoMifare.dll             vEL7.10.1370
+FargoOmnikey.dll            vEL7.50.507
+FargoPrinterSDK.dll         1.5.0.3
+ImageCompress.dll           6,2,4,0
+Interfaces.dll              7.50.507.0
+Interop.AXVLC.dll           1.0.0.0
+ISO14443-4NET_I2.dll        1, 0, 0, 1
+Itf32.dll                   0, 0, 0, 0
+JacquesLiveViewer.dll       7.50.507.0
+jccpdll.dll                 V7.53.0
+KeyDerivation.exe           7.50.507.0
+lfbmp14n.dll                14.5.0.082
+lfcmp14n.dll                14.5.0.082
+lfwmf14n.dll                14.5.0.082
+ltdis14n.dll                14.5.0.082
+ltefx14n.dll                14.5.0.082
+ltfil14n.dll                14.5.0.082
+ltimg14n.dll                14.5.0.082
+ltkrn14n.dll                14.5.0.082
+ltocx14n.ocx                14.5.0.082
+MagicardRio.dll             vEL7.50.507
+MappableDataPlugins.dll     7.50.507.0
+Morpho.MorphoAcquisition.dll 1.2.1.0
+Morpho.MorphoKit_FVP.dll    5.2.3.0
+MorphoKeyDerivation.dll     1.0.0.0
+MorphoKeyDerivationWrapperDotNet.dll 1.0.0.0
+MorphoKit.dll               5.2.3.0
+MorphoKit_FVP.dll           5.2.3.0
+MORPHO_SDK.dll              6,2,4,0
+MSO100.dll                  6,2,4,0
+MSO_Sprs232.dll             5,1,3,0
+MSO_SpUsb.dll               6,2,4,0
+msvcp100.dll                10.00.40219.325
+msvcp140.dll                14.00.23506.0
+msvcp71.dll                 7.10.3077.0
+msvcr100.dll                10.00.40219.325
+msvcr71.dll                 7.10.3052.4
+NiscaMifare.dll             vEL7.10.1370
+NLog.dll                    1.0.1.506
+Opc.Ua.Core.dll             1.02.336.0
+OpcUaClient.dll             7.50.507.0
+phMfpLibDll.dll             vEL7.50.507
+PhotoID.dll                 vEL7.50.507
+PSGCCDIPLIBNET_I3.dll       1, 0, 0, 1
+QRCodeEncodeDLL.dll         3, 0, 2, 1
+ReportCommon.dll            7.50.507.0
+ReportControls.dll          7.50.507.0
+Sagem.MorphoKit.dll         5.2.3.0
+SDI010Mifare.dll            vEL7.50.507
+SoundPlayerAddIn.exe        7.10.1370.0
+SR300.dll                   vEL7.50.507
+Stimulsoft.Base.dll         2015.1.0.0
+Stimulsoft.Report.dll       2015.1.0.0
+Stimulsoft.Report.Wpf.dll   2015.1.0.0
+System.Interactive.dll      1.2.5
+System.Reactive.Core.dll    2.2.5
+System.Reactive.dll         1.1.11111.1
+System.Reactive.Interfaces.dll 2.2.5
+System.Reactive.Linq.dll    2.2.5
+System.Reactive.PlatformServices.dll 2.2.5
+System.Reactive.Windows.Threading.dll 2.2.5
+TALBarCd.ocx                1, 0, 0, 1
+talbcmx.dll                 1, 0, 3, 0
+TopLevelControls.dll        7.50.507.0
+TopLevelControls.XmlSerializers.dll 7.10.1370.0
+ucrtbase.dll                10.0.10586.15
+URLAddIn.exe                7.10.1370.0
+Utils.dll                   7.50.507.0
+vcruntime140.dll            14.00.23506.0
+WPFToolkit.dll              7.50.507.0
+XID440Mifare.dll            vEL7.10.1370
+XID8300Mifare.dll           vEL7.50.507
+
+
+Log and Dump File Folders
+----------------------------------
+
+C:\ProgramData\Gallagher\Command Centre
+
+C:\ProgramData\Gallagher\Command Centre\MiniDump
+
+C:\Users\itopr\AppData\Local\Gallagher\Command Centre
+
+
+     PID Thread Count Image Name
+======== ============ ========================================
+       0            4 [System Process]
+       4          113 System
+     232            2 smss.exe
+     348           10 csrss.exe
+     416            9 csrss.exe
+     424            1 wininit.exe
+     452            2 winlogon.exe
+     512            4 services.exe
+     520            9 lsass.exe
+     584           13 svchost.exe
+     620           10 svchost.exe
+     724           10 dwm.exe
+     732           16 svchost.exe
+     756            6 svchost.exe
+     772           52 svchost.exe
+     792           18 svchost.exe
+     868           19 svchost.exe
+     212           19 svchost.exe
+     848           12 spoolsv.exe
+    1064            6 CCFTBPS.exe
+    1100           15 CCNTBertServ.exe
+    1152           16 CCFTData.exe
+    1236           15 HealthService.exe
+    1304           24 klnagent.exe
+    1488           52 sqlservr.exe
+    1572            8 sqlbrowser.exe
+    1596            5 sqlwriter.exe
+    1660           11 svchost.exe
+    1696            8 vmtoolsd.exe
+    1712           12 WmiPrvSE.exe
+    2112           30 CCNTSad.exe
+    2360            5 taskhostex.exe
+    2448           44 explorer.exe
+    2508           15 MonitoringHost.exe
+    1732            9 CCFT.exe
+     412           15 MonitoringHost.exe
+    3700           23 svchost.exe
+    3728            4 svchost.exe
+    3848           15 dllhost.exe
+    4016            5 vmtoolsd.exe
+    4024           12 ServerManager.exe
+    4032           12 msdtc.exe
+    4044           11 WmiPrvSE.exe
+    3712            7 iexplore.exe
+    4484           21 iexplore.exe
+    2856           29 CcmExec.exe
+    2840            8 CmRcService.exe
+    2892            6 WmiPrvSE.exe
+    3860            4 WmiApSrv.exe
+     272            6 WmiPrvSE.exe
+    3584            6 WmiPrvSE.exe
+    4108           16 Up2Date.exe
+    3100            3 CCFTServiceManager.exe
+    2412            8 WmiPrvSE.exe
+    5024            7 WmiPrvSE.exe
+     120            7 policyHost.exe
+    3440            8 WmiPrvSE.exe
+    3132            9 SCNotification.exe
+    4416            2 FTSupportTool1_1_59.exe
+    5028            2 conhost.exe
+    1872            7 cscript.exe
+    4400            2 conhost.exe
+======== ============ ========================================
+      62          859 Total
+
+Begin FT License File
+[Site]
+Name=Doha Bank - IT Department
+SerialNumber=11064
+MultiServerSerialNumber=
+OriginalSerialNumber=
+Edition=Standard Command Centre
+Expiry=2Dec2034
+Version=7.50
+CertTypes=Cardax Standard
+Brand=Gallagher
+MAC Ranges=000000-5FFFFF
+
+[Limit Info]
+{D6A08FA6-D0D6-4237-AF43-68189A36EA44},Event Sources,*,0
+{43BEB12A-04B2-43b7-A2CF-1D9CE5DBED51},Event Sources,Event Sources,0
+{DE9F44B8-5ADD-439D-BFA0-A1DDEC42D96D},Fence Controllers,Fence Controllers,0
+{09AF15F0-EC31-4AB4-9B34-D16E27ACF3DB},Fence Controllers,Fence Controllers,0
+{69A1949A-C0AB-4880-BF6A-C52F42CAD5DA},Fence Controllers,Fence Controllers,0
+{64A1DC77-9E34-4769-84F3-52C69792F575},Fence Controllers,Fence Zones,0
+{F6A9EFA4-2C11-4739-837C-FE5089D04765},Fence Controllers,*,-1
+{83833751-492E-4585-B600-76CD095B4071},Fence Controllers,*,-1
+{DB512AD8-9C46-4745-8802-58A26C530A09},Sagem Fingerprint Readers,Sagem Fingerprint Types,1
+{3D5B95F0-9938-4989-B7C5-5A0F8A4FA846},Sagem Fingerprint Readers,Sagem Fingerprint Readers,0
+{58E76EC8-7CDD-40ea-A616-35D0B5D191A5},Salto Doors,Salto Doors,0
+{949DAFBB-D052-4121-ACF4-8C907950E1B0},Salto Doors,*,-1
+{5924710D-F387-4237-9379-2EDB1D34804B},Salto Doors,*,-1
+{F6FD4B28-12C8-4c2b-89AD-14AFFEBBD8B7},SchindlerID Systems,SchindlerID Systems,0
+{D2D16A55-A5C4-40F1-9093-F5E507F22AC6},VisitorManagement,VisitorManagement,0
+{ED38F703-6ABB-4E25-92BC-5EC8C646A208},VisitorManagement,VisitorManagement,0
+{82AFE1E9-6DD5-4626-920C-628945F0A883},YCS Interface,YCS Interface,0
+{96937392-0451-4383-9810-BD47DA08BD4E},Aperio Doors,Aperio Doors,0
+{CB858A83-B1DF-4ca8-BBB0-4165BA07692E},Guard Tours,Guard Tours,0
+{2566C3B5-F696-48c6-BF91-B6E84CC18E4C},Guard Tours,*,0
+{8476C43A-C046-4761-A314-77EC27101941},Disturbance Sensors,Disturbance Sensors,0
+{0B8BB250-F7C8-4f48-B97E-CA5F3D0CB779},Disturbance Sensors,Disturbance Sensors,0
+{1D69FFD4-13B5-4a20-9A76-5AD2ACCEABEE},Fuel Pumps,Fuel Pumps,0
+{2370DCB7-041C-4a9e-B987-5D5AB167E733},Fuel Pumps,*,0
+{AA62A839-D635-4E77-8E00-44F346A51E3A},Austco Intercom Systems,Austco Intercom Systems,0
+{574D6A19-DEDF-4425-AED3-5F30771A33D1},Austco Intercom,Austco Intercom,0
+{C63CC28E-4983-4C93-9759-7C1D76907313},Car Parks,Car Parks,0
+{A018B8F7-D09C-4AA1-9921-15A7EE9281F3},Car Parks,*,0
+{F67FD522-4460-42FB-912D-F0BE01707322},Bookable Resource,Bookable Resource,0
+{520DA721-0691-4E47-ACAE-B313E87D4888},Fatigue Zones,Fatigue Zones,0
+{7A58156D-C54D-46AA-815F-D70B6944FA0F},Alcolizer,Alcolizer,0
+{3B71A5CF-354E-49F2-90B7-18FE98B4018C},BACnet Devices,BACnet Devices,0
+{2D3E2928-3C19-42D4-9BE0-D4CEA7C04EBF},BACnet Objects,BACnet Objects,0
+{AB4DD6C8-CA26-42A9-B827-77247D2E9859},Regulated Zones,Regulated Zones,0
+
+[Limits]
+Cardholders=100000
+Controller 3000s=250
+Controller 5000s=250
+Workstations=4
+Communication Servers=20
+Divisions=200
+Commanders=60
+Doors=27
+DVR Cameras=10000
+EnrolmentTemplates=99
+HLI Lift Cars=100
+Intercoms=99
+Event Sources=100
+Mobile Clients=1
+
+[Features]
+ImportExport=1
+LogPrinting=1
+ControllerContactID=1
+CCTV=1
+T&AReport=1
+EnableHID=1
+EncryptionOn=0
+Challenge=1
+EnrolmentWizard=1
+IntercomSystem=1
+scheduleimport=1
+Notifications=1
+Guard Tours=1
+EnterpriseDataInterface=1
+Class5=1
+
+[Customisations]
+
+
+[Plugin]
+
+[KeyDevice]
+SerialNumber1=00 90 1D 00 13 A7
+SerialNumber2=00 90 1D 00 1B 73
+
+[Configuration]
+FacilityCode=
+BureauFacilityCode=
+CryptSeed=
+
+[PrivateKeyCardax Standard]
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: RC4,51AECB9FDE903E50
+
+jrkDs7S62kFRcDZph+lNQv15YIbkBXff3syDShCJoo06yDExqfdCJuWz969jzQbd
+KkBxx6ZL4xmFfpBZtHSer4GsZ3HIIZzrI+da0KaDTU1id+MoGLlxlWkJLzCe9oOe
+mr2kkNjDfjGaQJCFgdNekRbKOaPog4pJ3oJxrflztyO/S+w+HbRawNFTskQojkum
++Zy9pzRjNYJJtkOYKoHxHvJEUHO7gN/ZBMvVjOIUb7panwViA9BADpULrOAD3Ng6
+8i7e4Pc4HHtthPrWizsC4OGJe5bwWIxrdoEmmhuYe1vtdgHNEL9waYoBDwpDXM3H
+3qZHSnJLLyX8zE/26G8WPb3nhtWd8Lu4BhlDXr5sOEieg6Il9dT/vPv0L+wGaD4F
+vU7Yy93+6aDr1F8So19ZzLNEr4ug7pCDhrEm5lKYqPEK+OzexqCWhVFIFnHVpnds
+I9unscY49GRZ94bNoBF0e2+Fr3cJkGpvzQl0pCrww+o/y1MrzLbSLy6hUgLfOfDX
+f3vzwaYlOTrHvY4dkpUb1+30XVk4H+rEewjsoyYL0Lk00i3sawc60TI6BBuI3kq4
+kKAfLj5+bQh5/G/iWHsdg+2WIN3FCyaPz5bkp8NEMwJSbG5YMqOWj0ye8wqphmAd
+gOn/gMTf3FZQP7+WU6D4udjJkTgKudCYnZDkPDkx4cxj4iUJ0dO7DUtK6R8iwIxn
+I9T0XuI/86HUcJV8K4Wj91D2+LAf++fiD58uhTq7vJBCrrTAJwZPic5AWsJzundC
+JRIwOOFjp4Kqlpb98VV80Et5WFJxhzlSWdwF92/R8/ZI
+-----END RSA PRIVATE KEY-----
+
+[CertificateCardax Standard]
+-----BEGIN CERTIFICATE-----
+MIID2jCCA0OgAwIBAgIDARBkMA0GCSqGSIb3DQEBBQUAMIGhMQswCQYDVQQGEwJO
+WjEQMA4GA1UECBMHV2Fpa2F0bzERMA8GA1UEBxMISGFtaWx0b24xJDAiBgNVBAoT
+G0NhcmRheCAoSW50ZXJuYXRpb25hbCkgTHRkLjEUMBIGA1UECxMLRGV2ZWxvcG1l
+bnQxDzANBgNVBAMTBkNhcmRheDEgMB4GCSqGSIb3DQEJARYRY2FyZGF4QGNhcmRh
+eC5jb20wHhcNMTYwODA0MjIyOTMwWhcNMzcxMjMxMDAwMDAwWjCBkDELMAkGA1UE
+BhMCTloxEDAOBgNVBAgTB1dhaWthdG8xJDAiBgNVBAoTG0NhcmRheCAoSW50ZXJu
+YXRpb25hbCkgTHRkLjEaMBgGA1UECxMRQ29tbWFuZCBDZW50cmUgRlQxDTALBgNV
+BAMTBEVsbW8xHjAcBgkqhkiG9w0BCQEWD2VsbW9AY2FyZGF4LmNvbTCBnzANBgkq
+hkiG9w0BAQEFAAOBjQAwgYkCgYEAq/YwWKo0M4lBzVtVaiS/IS2rF2iBOFYfB1Gu
+v4UpoUGWqVzmcslfksvu9bVdHcT+iqY0S5IOuhypROIi0VeoKuHLAsA2U9gFORn+
+R8l4CbVjfyXbf9kWG0jMz7wbJhg4/diTMvcPfyx8EZKXDHBwISQ9ZpNPN/18pQmf
+KUbIxwkCAwEAAaOCAS0wggEpMAkGA1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHU9w
+ZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBRA+HdIH+oAoza4
+LLC4ugey6+8REzCBzgYDVR0jBIHGMIHDgBQsPUrCxVW/JzKlOACKUu+j9sxH5KGB
+p6SBpDCBoTELMAkGA1UEBhMCTloxEDAOBgNVBAgTB1dhaWthdG8xETAPBgNVBAcT
+CEhhbWlsdG9uMSQwIgYDVQQKExtDYXJkYXggKEludGVybmF0aW9uYWwpIEx0ZC4x
+FDASBgNVBAsTC0RldmVsb3BtZW50MQ8wDQYDVQQDEwZDYXJkYXgxIDAeBgkqhkiG
+9w0BCQEWEWNhcmRheEBjYXJkYXguY29tggEAMA0GCSqGSIb3DQEBBQUAA4GBAEm8
+/8PIIYWxXJNGIm/1Ytc5AtocWWxlVWsnLVEs/lfYh72eNmk4EiWohgT5WZ6+ek2X
+vf6adCFjoA8uxGsExHZmyAV7/jri2yFwVioCeoIot1sIlwQpGx3uaxskKQ0OgRJS
+EkCVzNa5CzkO1njqRh5xbozHgDruPNH7aHRwm+GR
+-----END CERTIFICATE-----
+
+[MasterCardax Standard]
+-----BEGIN CERTIFICATE-----
+MIIDvTCCAyagAwIBAgIBADANBgkqhkiG9w0BAQUFADCBoTELMAkGA1UEBhMCTlox
+EDAOBgNVBAgTB1dhaWthdG8xETAPBgNVBAcTCEhhbWlsdG9uMSQwIgYDVQQKExtD
+YXJkYXggKEludGVybmF0aW9uYWwpIEx0ZC4xFDASBgNVBAsTC0RldmVsb3BtZW50
+MQ8wDQYDVQQDEwZDYXJkYXgxIDAeBgkqhkiG9w0BCQEWEWNhcmRheEBjYXJkYXgu
+Y29tMB4XDTAwMDcyNjIyMTAyN1oXDTMwMDcxOTIyMTAyN1owgaExCzAJBgNVBAYT
+Ak5aMRAwDgYDVQQIEwdXYWlrYXRvMREwDwYDVQQHEwhIYW1pbHRvbjEkMCIGA1UE
+ChMbQ2FyZGF4IChJbnRlcm5hdGlvbmFsKSBMdGQuMRQwEgYDVQQLEwtEZXZlbG9w
+bWVudDEPMA0GA1UEAxMGQ2FyZGF4MSAwHgYJKoZIhvcNAQkBFhFjYXJkYXhAY2Fy
+ZGF4LmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzJAd6FKpNW7y6orj
+ZK9SGamnz6yKSl/qMFDCKfpc6YEi0M6nmYiyuiEQNHeZliCIPbEr46jpiSKQw84Y
+Ru463Mpzimtc8Vw+eMudoRXIOJPxe//WQZ9+sPfLIPIJafttaj6ontR4WVMwZd2v
+d1LOiDO533DYYZ2pj/+HLUNrJyECAwEAAaOCAQEwgf4wHQYDVR0OBBYEFCw9SsLF
+Vb8nMqU4AIpS76P2zEfkMIHOBgNVHSMEgcYwgcOAFCw9SsLFVb8nMqU4AIpS76P2
+zEfkoYGnpIGkMIGhMQswCQYDVQQGEwJOWjEQMA4GA1UECBMHV2Fpa2F0bzERMA8G
+A1UEBxMISGFtaWx0b24xJDAiBgNVBAoTG0NhcmRheCAoSW50ZXJuYXRpb25hbCkg
+THRkLjEUMBIGA1UECxMLRGV2ZWxvcG1lbnQxDzANBgNVBAMTBkNhcmRheDEgMB4G
+CSqGSIb3DQEJARYRY2FyZGF4QGNhcmRheC5jb22CAQAwDAYDVR0TBAUwAwEB/zAN
+BgkqhkiG9w0BAQUFAAOBgQCt1Ou0IX4DwcNN21VAxU+fiiZOrRpsq7mRELwVZ6u8
+3ScbZQAA+7yG4taWPhZkA2g6sv3FIlpKvsa6kXma6DfKqXYUkm2A2zY5I4LRLWBp
+cxM8UrDvgiTZSyaDSZ5ugMDRVJv4RVQve5RX6NUiFD3EhHXqm9y+ivKt81R1o3L/
+ww==
+-----END CERTIFICATE-----
+
+[Validation]
+nOjSwCxWDAQKkgKpCp0jAKcYHDVIvDQXf9Z3L3aQyQoXY8RmAVcFOyuhTPDjomLRVk/HubLM95xOClMzqL9pRHRu/vc4mcD5rMg6SbTo87GOoTlHHYPz3sg8qALU1bk+qZz2L4O4RfRwNCkEL4DDCL5PI7AAHE73quZwUHbcnNs=
+
+End FT License File
+
+Other information
+-----------------
+
+Host Name:                 QADASAP01
+OS Name:                   Microsoft Windows Server 2012 R2 Standard
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Member Server
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Windows User
+Registered Organization:   
+Product ID:                00252-70000-00000-AA535
+Original Install Date:     26/07/2015, 6:56:45 PM
+System Boot Time:          12/12/2016, 2:22:50 PM
+System Manufacturer:       VMware, Inc.
+System Model:              VMware Virtual Platform
+System Type:               x64-based PC
+Processor(s):              2 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 37 Stepping 1 GenuineIntel ~2660 Mhz
+                           [02]: Intel64 Family 6 Model 37 Stepping 1 GenuineIntel ~2660 Mhz
+BIOS Version:              Phoenix Technologies LTD 6.00, 30/07/2013
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+03:00) Kuwait, Riyadh
+Total Physical Memory:     4,096 MB
+Available Physical Memory: 2,171 MB
+Virtual Memory: Max Size:  4,800 MB
+Virtual Memory: Available: 3,434 MB
+Virtual Memory: In Use:    1,366 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    dohabank.internal
+Logon Server:              \\TWDCPAP02
+Hotfix(s):                 46 Hotfix(s) Installed.
+                           [01]: KB2843630
+                           [02]: KB2862152
+                           [03]: KB2868626
+                           [04]: KB2876331
+                           [05]: KB2883200
+                           [06]: KB2884101
+                           [07]: KB2884846
+                           [08]: KB2887595
+                           [09]: KB2888505
+                           [10]: KB2892074
+                           [11]: KB2893294
+                           [12]: KB2894029
+                           [13]: KB2894179
+                           [14]: KB2898514
+                           [15]: KB2898871
+                           [16]: KB2900986
+                           [17]: KB2901128
+                           [18]: KB2903939
+                           [19]: KB2904266
+                           [20]: KB2911106
+                           [21]: KB2912390
+                           [22]: KB2913152
+                           [23]: KB2913270
+                           [24]: KB2913760
+                           [25]: KB2916036
+                           [26]: KB2917929
+                           [27]: KB2917993
+                           [28]: KB2919394
+                           [29]: KB2922229
+                           [30]: KB2923300
+                           [31]: KB2923528
+                           [32]: KB2923768
+                           [33]: KB2928193
+                           [34]: KB2928680
+                           [35]: KB2930275
+                           [36]: KB2931366
+                           [37]: KB2934520
+                           [38]: KB2939087
+                           [39]: KB2961908
+                           [40]: KB2962123
+                           [41]: KB2962806
+                           [42]: KB2975061
+                           [43]: KB3004545
+                           [44]: KB3021910
+                           [45]: KB3054203
+                           [46]: KB3173424
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) 82574L Gigabit Network Connection
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 10.7.134.37
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+These Windows services are started:
+
+   Application Experience
+   Application Information
+   Background Tasks Infrastructure Service
+   Base Filtering Engine
+   Certificate Propagation
+   CNG Key Isolation
+   COM+ Event System
+   COM+ System Application
+   Configuration Manager Remote Control
+   Cryptographic Services
+   DCOM Server Process Launcher
+   DHCP Client
+   Diagnostic Policy Service
+   Distributed Link Tracking Client
+   Distributed Transaction Coordinator
+   DNS Client
+   FT Bootstrap Protocol Service
+   FT Command Centre Service
+   FT Controller Service
+   FT Import - Export Service
+   Group Policy Client
+   IKE and AuthIP IPsec Keying Modules
+   IP Helper
+   IPsec Policy Agent
+   Kaspersky Security Center 10 Network Agent
+   Local Session Manager
+   Microsoft Monitoring Agent
+   Microsoft Policy Platform Local Authority
+   Netlogon
+   Network List Service
+   Network Location Awareness
+   Network Store Interface Service
+   Plug and Play
+   Power
+   Print Spooler
+   Remote Desktop Configuration
+   Remote Desktop Services
+   Remote Desktop Services UserMode Port Redirector
+   Remote Procedure Call (RPC)
+   Remote Registry
+   RPC Endpoint Mapper
+   Security Accounts Manager
+   Server
+   Shell Hardware Detection
+   SMS Agent Host
+   SQL Server (GALLAGHER)
+   SQL Server Browser
+   SQL Server VSS Writer
+   System Event Notification Service
+   System Events Broker
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   Themes
+   User Access Logging Service
+   User Profile Service
+   VMware Tools
+   Windows Connection Manager
+   Windows Event Log
+   Windows Firewall
+   Windows Font Cache Service
+   Windows Management Instrumentation
+   Windows Modules Installer
+   Windows Remote Management (WS-Management)
+   Windows Time
+   Windows Update
+   WinHTTP Web Proxy Auto-Discovery Service
+   WMI Performance Adapter
+   Workstation
+
+The command completed successfully.
+
+
+Image Name                     PID Session Name        Session#    Mem Usage Status          User Name                                              CPU Time Window Title                                                            
+========================= ======== ================ =========== ============ =============== ================================================== ============ ========================================================================
+System Idle Process              0 Services                   0         24 K Unknown         NT AUTHORITY\SYSTEM                                     0:35:02 N/A                                                                     
+System                           4 Services                   0        348 K Unknown         N/A                                                     0:00:05 N/A                                                                     
+smss.exe                       232 Services                   0      1,124 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+csrss.exe                      348 Services                   0      4,188 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+csrss.exe                      416 Console                    1     18,744 K Running         N/A                                                     0:00:00 N/A                                                                     
+wininit.exe                    424 Services                   0      3,732 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+winlogon.exe                   452 Console                    1      6,112 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+services.exe                   512 Services                   0      7,084 K Unknown         N/A                                                     0:00:01 N/A                                                                     
+lsass.exe                      520 Services                   0     13,272 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+svchost.exe                    584 Services                   0     10,208 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+svchost.exe                    620 Services                   0      7,820 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+dwm.exe                        724 Console                    1     43,268 K Running         N/A                                                     0:00:00 DWM Notification Window                                                 
+svchost.exe                    732 Services                   0     21,176 K Unknown         N/A                                                     0:00:39 N/A                                                                     
+svchost.exe                    756 Services                   0     13,296 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+svchost.exe                    772 Services                   0     76,740 K Unknown         N/A                                                     0:00:09 N/A                                                                     
+svchost.exe                    792 Services                   0     12,184 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+svchost.exe                    868 Services                   0     15,840 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+svchost.exe                    212 Services                   0     10,776 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+spoolsv.exe                    848 Services                   0      9,280 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+CCFTBPS.exe                   1064 Services                   0     10,836 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+CCNTBertServ.exe              1100 Services                   0     14,188 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+CCFTData.exe                  1152 Services                   0     10,236 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+HealthService.exe             1236 Services                   0     15,664 K Unknown         N/A                                                     0:00:05 N/A                                                                     
+klnagent.exe                  1304 Services                   0     27,068 K Unknown         N/A                                                     0:00:01 N/A                                                                     
+sqlservr.exe                  1488 Services                   0    149,788 K Unknown         N/A                                                     0:00:04 N/A                                                                     
+sqlbrowser.exe                1572 Services                   0      4,252 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+sqlwriter.exe                 1596 Services                   0      5,932 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+svchost.exe                   1660 Services                   0      9,640 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+vmtoolsd.exe                  1696 Services                   0     13,284 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+WmiPrvSE.exe                  1712 Services                   0     19,956 K Unknown         N/A                                                     0:00:02 N/A                                                                     
+CCNTSad.exe                   2112 Services                   0     74,216 K Unknown         N/A                                                     0:00:03 N/A                                                                     
+taskhostex.exe                2360 Console                    1      9,768 K Running         DOHABANK\itopr                                          0:00:00 Task Host Window                                                        
+explorer.exe                  2448 Console                    1     68,864 K Running         DOHABANK\itopr                                          0:00:03 N/A                                                                     
+MonitoringHost.exe            2508 Services                   0     85,900 K Unknown         N/A                                                     0:00:06 N/A                                                                     
+CCFT.exe                      1732 Console                    1     29,532 K Running         DOHABANK\itopr                                          0:00:01 Gallagher Configuration Client - Doha Bank - IT Department              
+MonitoringHost.exe             412 Services                   0     98,272 K Unknown         N/A                                                     0:00:02 N/A                                                                     
+svchost.exe                   3700 Services                   0      8,236 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+svchost.exe                   3728 Services                   0      4,496 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+dllhost.exe                   3848 Services                   0     10,408 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+vmtoolsd.exe                  4016 Console                    1     12,756 K Running         DOHABANK\itopr                                          0:00:00 N/A                                                                     
+ServerManager.exe             4024 Console                    1    107,452 K Running         DOHABANK\itopr                                          0:00:03 Server Manager                                                          
+msdtc.exe                     4032 Services                   0      7,144 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+WmiPrvSE.exe                  4044 Services                   0     28,996 K Unknown         N/A                                                     0:00:01 N/A                                                                     
+iexplore.exe                  3712 Console                    1     24,984 K Running         DOHABANK\itopr                                          0:00:00 Gallagher Controller Configuration - Internet Explorer                  
+iexplore.exe                  4484 Console                    1     39,364 K Running         DOHABANK\itopr                                          0:00:01 N/A                                                                     
+CcmExec.exe                   2856 Services                   0     41,120 K Unknown         N/A                                                     0:00:02 N/A                                                                     
+CmRcService.exe               2840 Services                   0      8,352 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+WmiPrvSE.exe                  2892 Services                   0      7,856 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+WmiApSrv.exe                  3860 Services                   0      6,304 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+WmiPrvSE.exe                   272 Services                   0      5,916 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+WmiPrvSE.exe                  3584 Services                   0      8,464 K Unknown         N/A                                                     0:00:17 N/A                                                                     
+Up2Date.exe                   4108 Services                   0     17,668 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+CCFTServiceManager.exe        3100 Console                    1      5,276 K Running         DOHABANK\itopr                                          0:00:00 N/A                                                                     
+WmiPrvSE.exe                  2412 Services                   0      9,524 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+WmiPrvSE.exe                  5024 Services                   0      9,584 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+policyHost.exe                 120 Services                   0      9,368 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+WmiPrvSE.exe                  3440 Services                   0     11,244 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+SCNotification.exe            3132 Console                    1     22,120 K Running         DOHABANK\itopr                                          0:00:00 .NET-BroadcastEventWindow.4.0.0.0.213697a.0                             
+FTSupportTool1_1_59.exe       4416 Console                    1      7,780 K Running         DOHABANK\itopr                                          0:00:00 C:\Users\itopr\Desktop\FTSupportTool1_1_59.exe                          
+conhost.exe                   5028 Console                    1      5,296 K Running         DOHABANK\itopr                                          0:00:00 OleMainThreadWndName                                                    
+cscript.exe                   1872 Services                   0     12,124 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+conhost.exe                   4400 Services                   0      3,020 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+WmiPrvSE.exe                  4820 Services                   0      5,904 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+TrustedInstaller.exe          2148 Services                   0      4,752 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+TiWorker.exe                  4588 Services                   0      6,948 K Unknown         N/A                                                     0:00:00 N/A                                                                     
+cmd.exe                       4196 Console                    1      3,080 K Unknown         DOHABANK\itopr                                          0:00:00 N/A                                                                     
+tasklist.exe                  3972 Console                    1      5,796 K Unknown         DOHABANK\itopr                                          0:00:00 N/A                                                                     
+
+Image Name                     PID Services                                    
+========================= ======== ============================================
+System Idle Process              0 N/A                                         
+System                           4 N/A                                         
+smss.exe                       232 N/A                                         
+csrss.exe                      348 N/A                                         
+csrss.exe                      416 N/A                                         
+wininit.exe                    424 N/A                                         
+winlogon.exe                   452 N/A                                         
+services.exe                   512 N/A                                         
+lsass.exe                      520 KeyIso, Netlogon, SamSs                     
+svchost.exe                    584 BrokerInfrastructure, DcomLaunch, LSM,      
+                                   PlugPlay, Power, SystemEventsBroker         
+svchost.exe                    620 RpcEptMapper, RpcSs                         
+dwm.exe                        724 N/A                                         
+svchost.exe                    732 Dhcp, EventLog, lmhosts, Wcmsvc             
+svchost.exe                    756 gpsvc                                       
+svchost.exe                    772 AeLookupSvc, Appinfo, CertPropSvc, IKEEXT,  
+                                   iphlpsvc, LanmanServer, ProfSvc, Schedule,  
+                                   SENS, SessionEnv, ShellHWDetection, Themes, 
+                                   Winmgmt, wuauserv                           
+svchost.exe                    792 EventSystem, FontCache, netprofm, nsi,      
+                                   RemoteRegistry, W32Time, WinHttpAutoProxySv 
+svchost.exe                    868 CryptSvc, Dnscache, LanmanWorkstation,      
+                                   NlaSvc, WinRM                               
+svchost.exe                    212 BFE, DPS, MpsSvc                            
+spoolsv.exe                    848 Spooler                                     
+CCFTBPS.exe                   1064 FT Bootstrap Protocol Service               
+CCNTBertServ.exe              1100 FT Controller Service                       
+CCFTData.exe                  1152 FT Import - Export Service                  
+HealthService.exe             1236 HealthService                               
+klnagent.exe                  1304 klnagent                                    
+sqlservr.exe                  1488 MSSQL$GALLAGHER                             
+sqlbrowser.exe                1572 SQLBrowser                                  
+sqlwriter.exe                 1596 SQLWriter                                   
+svchost.exe                   1660 TrkWks, UALSVC, UmRdpService                
+vmtoolsd.exe                  1696 VMTools                                     
+WmiPrvSE.exe                  1712 N/A                                         
+CCNTSad.exe                   2112 FT Command Centre Service                   
+taskhostex.exe                2360 N/A                                         
+explorer.exe                  2448 N/A                                         
+MonitoringHost.exe            2508 N/A                                         
+CCFT.exe                      1732 N/A                                         
+MonitoringHost.exe             412 N/A                                         
+svchost.exe                   3700 TermService                                 
+svchost.exe                   3728 PolicyAgent                                 
+dllhost.exe                   3848 COMSysApp                                   
+vmtoolsd.exe                  4016 N/A                                         
+ServerManager.exe             4024 N/A                                         
+msdtc.exe                     4032 MSDTC                                       
+WmiPrvSE.exe                  4044 N/A                                         
+iexplore.exe                  3712 N/A                                         
+iexplore.exe                  4484 N/A                                         
+CcmExec.exe                   2856 CcmExec                                     
+CmRcService.exe               2840 CmRcService                                 
+WmiPrvSE.exe                  2892 N/A                                         
+WmiApSrv.exe                  3860 wmiApSrv                                    
+WmiPrvSE.exe                   272 N/A                                         
+WmiPrvSE.exe                  3584 N/A                                         
+Up2Date.exe                   4108 N/A                                         
+CCFTServiceManager.exe        3100 N/A                                         
+WmiPrvSE.exe                  2412 N/A                                         
+WmiPrvSE.exe                  5024 N/A                                         
+policyHost.exe                 120 lpasvc                                      
+WmiPrvSE.exe                  3440 N/A                                         
+SCNotification.exe            3132 N/A                                         
+FTSupportTool1_1_59.exe       4416 N/A                                         
+conhost.exe                   5028 N/A                                         
+cscript.exe                   1872 N/A                                         
+conhost.exe                   4400 N/A                                         
+WmiPrvSE.exe                  4820 N/A                                         
+TrustedInstaller.exe          2148 TrustedInstaller                            
+TiWorker.exe                  4588 N/A                                         
+cmd.exe                       2976 N/A                                         
+tasklist.exe                  3612 N/A                                         
+INFO: No tasks are running which match the specified criteria.
+
+HKEY_LOCAL_MACHINE\SOFTWARE\CARDAX\Command Centre FT
+    DatabaseServerMachine    REG_SZ    .\GALLAGHER
+    DatabaseName    REG_SZ    CCFTCentral
+    EventDatabaseServer    REG_SZ    .\GALLAGHER
+    EventDatabaseName    REG_SZ    CCFTEvent
+    ServerLocale    REG_DWORD    0x409
+    Serial    REG_DWORD    0xfe194bf4
+    ClientSetupPath    REG_SZ    C:\Program Files (x86)\Gallagher\Command Centre\ClientSetup\CommandCentreSetup
+    ClientSetupShare    REG_SZ    CommandCentreSetup
+    InstallType    REG_DWORD    0x33
+    Version    REG_SZ    vEL7.50.507
+    BarcodeNarrowBarWidth    REG_DWORD    0x19
+    BarcodeNarrowToWideRatio    REG_SZ    2.5
+    BarcodeBarWidthReduction    REG_SZ    0
+    ServerMachine    REG_SZ    QADASAP01
+    Install Path    REG_SZ    C:\Program Files (x86)\Gallagher\Command Centre
+    LogFileSize    REG_DWORD    0x2800
+    LogFileCount    REG_DWORD    0x1
+    DumpCount    REG_DWORD    0xa
+    TraceOn    REG_DWORD    0x1
+    AssertPopupOn    REG_DWORD    0x0
+    AssertDumpOn    REG_DWORD    0x1
+    AssertDumpType    REG_DWORD    0x0
+    AssertCommand    REG_SZ    
+    UHEDumpOn    REG_DWORD    0x1
+    UHEDumpType    REG_DWORD    0x0
+    UHECommand    REG_SZ    
+    StartupTraceOn    REG_DWORD    0x0
+    GeneralOn    REG_DWORD    0x0
+    Enable_UHE_Popups    REG_DWORD    0x0
+    IncludeCommander    REG_DWORD    0x0
+    SimulateRightClickTime    REG_DWORD    0x0
+    RestartOnDBConnectionFailure    REG_DWORD    0x1
+    InstallShortCuts    REG_MULTI_SZ    C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Gallagher\Configuration Client.lnk\0C:\Users\Public\Desktop\Configuration Client.lnk\0C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Gallagher\Command Centre Restore.lnk\0C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Gallagher\Command Centre.lnk\0C:\Users\Public\Desktop\Command Centre.lnk
+    UseSQLServerAuth    REG_DWORD    0x1
+
+
+Connection Name Network Adapter Physical Address    Transport Name                                            
+=============== =============== =================== ==========================================================
+Ethernet        Intel(R) 82574L 00-50-56-9A-54-9B   \Device\Tcpip_{4898A5BA-C3B2-41BD-A6E5-9A30A84C9E34}      
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : qadasap01
+   Primary Dns Suffix  . . . . . . . : dohabank.internal
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : dohabank.internal
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) 82574L Gigabit Network Connection
+   Physical Address. . . . . . . . . : 00-50-56-9A-54-9B
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 10.7.134.37(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.7.134.1
+   DNS Servers . . . . . . . . . . . : 10.7.159.11
+                                       10.7.159.12
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Tunnel adapter isatap.{4898A5BA-C3B2-41BD-A6E5-9A30A84C9E34}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+===========================================================================
+Interface List
+ 12...00 50 56 9a 54 9b ......Intel(R) 82574L Gigabit Network Connection
+  1...........................Software Loopback Interface 1
+ 13...00 00 00 00 00 00 00 e0 Microsoft ISATAP Adapter
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0       10.7.134.1      10.7.134.37    266
+       10.7.134.0    255.255.255.0         On-link       10.7.134.37    266
+      10.7.134.37  255.255.255.255         On-link       10.7.134.37    266
+     10.7.134.255  255.255.255.255         On-link       10.7.134.37    266
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    306
+        224.0.0.0        240.0.0.0         On-link       10.7.134.37    266
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    306
+  255.255.255.255  255.255.255.255         On-link       10.7.134.37    266
+===========================================================================
+Persistent Routes:
+  Network Address          Netmask  Gateway Address  Metric
+         10.7.3.0    255.255.255.0       10.7.133.1       1
+       10.7.134.0    255.255.255.0       10.7.133.1       1
+          0.0.0.0          0.0.0.0       10.7.134.1  Default 
+===========================================================================
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+  1    306 ::1/128                  On-link
+  1    306 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       620
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:1072           0.0.0.0:0              LISTENING       1100
+  TCP    0.0.0.0:2701           0.0.0.0:0              LISTENING       2840
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       3700
+  TCP    0.0.0.0:4840           0.0.0.0:0              LISTENING       2112
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:8901           0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING       4
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING       424
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING       732
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING       772
+  TCP    0.0.0.0:49155          0.0.0.0:0              LISTENING       520
+  TCP    0.0.0.0:49167          0.0.0.0:0              LISTENING       848
+  TCP    0.0.0.0:49173          0.0.0.0:0              LISTENING       520
+  TCP    0.0.0.0:49229          0.0.0.0:0              LISTENING       512
+  TCP    0.0.0.0:49235          0.0.0.0:0              LISTENING       3728
+  TCP    10.7.134.37:139        0.0.0.0:0              LISTENING       4
+  TCP    10.7.134.37:49189      10.7.133.10:5723       ESTABLISHED     1236
+  TCP    10.7.134.37:49223      10.7.134.13:13000      ESTABLISHED     1304
+  TCP    10.7.134.37:49239      10.7.159.12:49155      ESTABLISHED     2508
+  TCP    10.7.134.37:49296      10.7.159.12:135        TIME_WAIT       0
+  TCP    10.7.134.37:49297      10.7.159.12:49155      TIME_WAIT       0
+  TCP    10.7.134.37:49321      10.7.59.52:1072        TIME_WAIT       0
+  TCP    10.7.134.37:49323      10.7.59.51:1072        TIME_WAIT       0
+  TCP    10.7.134.37:49327      10.7.59.52:1072        TIME_WAIT       0
+  TCP    10.7.134.37:49333      10.7.133.198:80        TIME_WAIT       0
+  TCP    10.7.134.37:49336      10.7.59.51:1072        TIME_WAIT       0
+  TCP    10.7.134.37:49337      10.7.133.198:80        TIME_WAIT       0
+  TCP    10.7.134.37:49338      10.7.133.198:8530      TIME_WAIT       0
+  TCP    10.7.134.37:49339      10.7.59.52:1072        TIME_WAIT       0
+  TCP    10.7.134.37:49341      10.7.159.12:135        ESTABLISHED     2448
+  TCP    10.7.134.37:49342      10.7.159.12:135        ESTABLISHED     2448
+  TCP    10.7.134.37:49343      10.7.159.12:49155      ESTABLISHED     2448
+  TCP    10.7.134.37:49344      10.7.159.12:49155      ESTABLISHED     2448
+  TCP    10.7.134.37:49345      10.7.59.51:1072        TIME_WAIT       0
+  TCP    10.7.134.37:49346      10.7.133.198:10123     ESTABLISHED     2856
+  TCP    10.7.134.37:49347      10.7.59.52:1072        TIME_WAIT       0
+  TCP    10.7.134.37:49349      10.7.59.51:1072        TIME_WAIT       0
+  TCP    127.0.0.1:1550         0.0.0.0:0              LISTENING       1304
+  TCP    127.0.0.1:1551         0.0.0.0:0              LISTENING       1304
+  TCP    127.0.0.1:30523        0.0.0.0:0              LISTENING       1304
+  TCP    127.0.0.1:49201        0.0.0.0:0              LISTENING       1304
+  TCP    127.0.0.1:49335        0.0.0.0:0              LISTENING       3132
+  TCP    [::]:135               [::]:0                 LISTENING       620
+  TCP    [::]:445               [::]:0                 LISTENING       4
+  TCP    [::]:1072              [::]:0                 LISTENING       1100
+  TCP    [::]:2701              [::]:0                 LISTENING       2840
+  TCP    [::]:3389              [::]:0                 LISTENING       3700
+  TCP    [::]:4840              [::]:0                 LISTENING       2112
+  TCP    [::]:5985              [::]:0                 LISTENING       4
+  TCP    [::]:8901              [::]:0                 LISTENING       4
+  TCP    [::]:47001             [::]:0                 LISTENING       4
+  TCP    [::]:49152             [::]:0                 LISTENING       424
+  TCP    [::]:49153             [::]:0                 LISTENING       732
+  TCP    [::]:49154             [::]:0                 LISTENING       772
+  TCP    [::]:49155             [::]:0                 LISTENING       520
+  TCP    [::]:49167             [::]:0                 LISTENING       848
+  TCP    [::]:49173             [::]:0                 LISTENING       520
+  TCP    [::]:49229             [::]:0                 LISTENING       512
+  TCP    [::]:49235             [::]:0                 LISTENING       3728
+  TCP    [::1]:30523            [::]:0                 LISTENING       1304
+  TCP    [::1]:49201            [::]:0                 LISTENING       1304
+  UDP    0.0.0.0:67             *:*                                    1064
+  UDP    0.0.0.0:123            *:*                                    792
+  UDP    0.0.0.0:500            *:*                                    772
+  UDP    0.0.0.0:1434           *:*                                    1572
+  UDP    0.0.0.0:3389           *:*                                    3700
+  UDP    0.0.0.0:4500           *:*                                    772
+  UDP    0.0.0.0:5355           *:*                                    868
+  UDP    0.0.0.0:15000          *:*                                    1304
+  UDP    10.7.134.37:137        *:*                                    4
+  UDP    10.7.134.37:138        *:*                                    4
+  UDP    127.0.0.1:49839        *:*                                    2448
+  UDP    127.0.0.1:55347        *:*                                    2856
+  UDP    127.0.0.1:55502        *:*                                    756
+  UDP    127.0.0.1:55504        *:*                                    1236
+  UDP    127.0.0.1:61705        *:*                                    520
+  UDP    127.0.0.1:61706        *:*                                    868
+  UDP    [::]:123               *:*                                    792
+  UDP    [::]:500               *:*                                    772
+  UDP    [::]:1434              *:*                                    1572
+  UDP    [::]:3389              *:*                                    3700
+  UDP    [::]:4500              *:*                                    772
+  UDP    [::]:15000             *:*                                    1304
+Interface Statistics
+
+                           Received            Sent
+
+Bytes                       4008068         2197668
+Unicast packets               11784            7816
+Non-unicast packets               0               0
+Discards                          0               0
+Errors                            0               0
+Unknown protocols                 0
+
+IPv4 Statistics
+
+  Packets Received                   = 3003
+  Received Header Errors             = 0
+  Received Address Errors            = 0
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 30
+  Received Packets Delivered         = 3047
+  Output Requests                    = 1937
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 0
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+IPv6 Statistics
+
+  Packets Received                   = 0
+  Received Header Errors             = 0
+  Received Address Errors            = 0
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 0
+  Received Packets Delivered         = 0
+  Output Requests                    = 1
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 2
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  0           0         
+  Errors                    0           0         
+  Destination Unreachable   0           0         
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Source Quenches           0           0         
+  Redirects                 0           0         
+  Echo Replies              0           0         
+  Echos                     0           0         
+  Timestamps                0           0         
+  Timestamp Replies         0           0         
+  Address Masks             0           0         
+  Address Mask Replies      0           0         
+  Router Solicitations      0           0         
+  Router Advertisements     0           0         
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  0           0         
+  Errors                    0           0         
+  Destination Unreachable   0           0         
+  Packet Too Big            0           0         
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Echos                     0           0         
+  Echo Replies              0           0         
+  MLD Queries               0           0         
+  MLD Reports               0           0         
+  MLD Dones                 0           0         
+  Router Solicitations      0           0         
+  Router Advertisements     0           0         
+  Neighbor Solicitations    0           0         
+  Neighbor Advertisements   0           0         
+  Redirects                 0           0         
+  Router Renumberings       0           0         
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 182
+  Passive Opens                       = 5
+  Failed Connection Attempts          = 0
+  Reset Connections                   = 10
+  Current Connections                 = 8
+  Segments Received                   = 1812
+  Segments Sent                       = 1928
+  Segments Retransmitted              = 8
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 6
+  Passive Opens                       = 6
+  Failed Connection Attempts          = 0
+  Reset Connections                   = 12
+  Current Connections                 = 0
+  Segments Received                   = 1048
+  Segments Sent                       = 1048
+  Segments Retransmitted              = 0
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 825
+  No Ports              = 30
+  Receive Errors        = 0
+  Datagrams Sent        = 143
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 0
+  No Ports              = 0
+  Receive Errors        = 0
+  Datagrams Sent        = 0
+
+Pinging Server
+--------------
+Pinging qadasap01.dohabank.internal [10.7.134.37] with 32 bytes of data:
+Reply from 10.7.134.37: bytes=32 time<1ms TTL=128
+Reply from 10.7.134.37: bytes=32 time<1ms TTL=128
+Reply from 10.7.134.37: bytes=32 time<1ms TTL=128
+Reply from 10.7.134.37: bytes=32 time<1ms TTL=128
+
+Ping statistics for 10.7.134.37:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms

@@ -1,0 +1,6 @@
+OPC Alarms and Events API (Free)
+Gallagher Command Centre Server supports the OPC Alarms and Events standard. The OPC Alarm and Events
+API allows external systems (AE Client) to acknowledge alarms and add comments when acknowledging them. It also allows external systems to request extra ‘attributes’ that a server may make available. 
+
+>> OPC Data Access API - Status and Overrides (It is a licensed feature not for free (part C12200) it is chargeable per project and requirement.
+Gallagher Command Centre allows Status and Overrides to be shared with third party systems. Gallagher Command Centre can provide the status of Gallagher items to third party systems, or allow these systems to perform overrides on Items. This is ideal when a ‘turnkey’ solution involving multiple systems controlled via one Graphical User Interface (GUI) is required. The Gallagher system allows this to occur by way of an API, based on the industry standard OPC (OLE for Process Control) Data Access protocol.

@@ -1,0 +1,9 @@
+<?php
+
+
+//This is the access privilege file
+$is_admin=true;
+
+$user_info=array('user_name'=>'rami_m','is_admin'=>'on','user_password'=>'$1$ra000000$TcubQtoRmHPR/7LGOD9bN1','confirm_password'=>'$1$ra000000$TcubQtoRmHPR/7LGOD9bN1','first_name'=>'Rami','last_name'=>'Mousleh','roleid'=>'H6','email1'=>'rami.mousleh@gallagher-me.com','status'=>'Active','activity_view'=>'This Week','lead_view'=>'Today','hour_format'=>'24','end_hour'=>'','start_hour'=>'08:00','title'=>'Technical Manager','phone_work'=>'','department'=>'Technical Department','phone_mobile'=>'+961 70 910712','reports_to_id'=>'7','phone_other'=>'','email2'=>'','phone_fax'=>'','secondaryemail'=>'','phone_home'=>'','date_format'=>'dd-mm-yyyy','signature'=>'rami_sign.png','description'=>'','address_street'=>'','address_city'=>'Saida','address_state'=>'','address_postalcode'=>'','address_country'=>'Lebanon','accesskey'=>'Y7hCy05SlRghSzu0','time_zone'=>'Asia/Beirut','currency_id'=>'1','currency_grouping_pattern'=>'123,456,789','currency_decimal_separator'=>'.','currency_grouping_separator'=>',','currency_symbol_placement'=>'$1.0','imagename'=>'profile-pic.PNG','internal_mailer'=>'0','theme'=>'bluelagoon','language'=>'en_us','reminder_interval'=>'15 Minutes','no_of_currency_decimals'=>'2','truncate_trailing_zeros'=>'1','dayoftheweek'=>'Monday','callduration'=>'5','othereventduration'=>'5','calendarsharedtype'=>'private','default_record_view'=>'Detail','leftpanelhide'=>'0','rowheight'=>'medium','defaulteventstatus'=>'Planned','defaultactivitytype'=>'Send Email','hidecompletedevents'=>'0','phone_crm_extension'=>'102','is_owner'=>'1','layout'=>'rlayout','defaultcalendarview'=>'MyCalendar','currency_name'=>'USA, Dollars','currency_code'=>'USD','currency_symbol'=>'&#36;','conv_rate'=>'1.00000','record_id'=>'','record_module'=>'','id'=>'8');
+
+?>
