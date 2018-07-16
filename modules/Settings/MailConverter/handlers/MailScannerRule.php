@@ -149,7 +149,6 @@ class Vtiger_MailScannerRule {
      * @returns false if not match is found or else all matching result found
      */
     function applyAll($mailrecord, $includingBody=true) {
-        $this->log("start Applyall");
         $matchresults = Array();
         $matchfound = null;
 
@@ -194,7 +193,7 @@ class Vtiger_MailScannerRule {
      * Apply required condition on the mail record.
      */
     function apply($subrule, $mailrecord) {
-        $this->log("Start subrule");
+        
         $matchfound = false;
             if($this->isvalid) {
                 switch(strtoupper($subrule)) {
@@ -262,7 +261,6 @@ class Vtiger_MailScannerRule {
      * Find if the rule matches based on condition and parameters
      */
     function find($subrule, $condition, $input, $searchfor) {
-        $this->log("Starting Match Rule");
         if (!$input)
             return false;
             $input = trim(preg_replace("/\r/", '', decode_html($input))); 
@@ -320,7 +318,6 @@ class Vtiger_MailScannerRule {
             if (preg_match("/$searchfor/i", $input, $regmatches)) {
                 // Pick the last matching group
                 $matches = $regmatches[count($regmatches) - 1];
-                $this->log($matches);
                 $matchfound = true;
             }
             break;
@@ -447,11 +444,11 @@ class Vtiger_MailScannerRule {
     /**
      * Take action on mail record
      */
-    function takeAction($mailscanner, $mailrecord, $matchresult) {
+    function takeAction($mailscanner, $mailrecord, $matchresult, $folder) {
 		if(empty($this->actions)) return false;
 
         $action = $this->useaction; // Action is limited to One right now
-        return $action->apply($mailscanner, $mailrecord, $this, $matchresult);
+        return $action->apply($mailscanner, $mailrecord, $this, $matchresult, $folder);
     }
 
 }

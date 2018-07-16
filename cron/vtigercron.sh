@@ -7,8 +7,8 @@
 # All Rights Reserved.
 #
 # ********************************************************************************
-
-export VTIGERCRM_ROOTDIR=`dirname "$0"`/..
+#!/bin/bash 
+export VTIGERCRM_ROOTDIR= ..
 export USE_PHP=php
 
 cd $VTIGERCRM_ROOTDIR

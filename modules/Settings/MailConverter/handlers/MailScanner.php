@@ -26,7 +26,7 @@ class Vtiger_MailScanner {
 	var $_generalIgnoreFolders = Array( "INBOX.Trash", "INBOX.Drafts", "[Gmail]/Spam", "[Gmail]/Trash", "[Gmail]/Drafts", "[Gmail]/Important", "[Gmail]/Starred", "[Gmail]/Sent Mail", "[Gmail]/All Mail");
 
 	/** DEBUG functionality. */
-	var $debug = false;
+	var $debug = true;
 	function log($message) {
 		global $log;
 		if($log && $this->debug) { $log->debug($message); }
@@ -165,7 +165,7 @@ class Vtiger_MailScanner {
 		$crmid = false;
 		if($matchresult) {
 			$mailrecord->fetchBody($mailbox->_imap, $messageid);
-			$crmid = $mailscannerrule->takeAction($this, $mailrecord, $matchresult);
+			$crmid = $mailscannerrule->takeAction($this, $mailrecord, $matchresult, $mailbox->_imapfolder);
 		}
 		// Return the CRMID
 		return $crmid;
@@ -459,9 +459,9 @@ class Vtiger_MailScanner {
 			if($this->_cachedTickets[$ticketid]) {
 				$ticket_focus = $this->_cachedTickets[$ticketid];
 				// Check the parentid association if specified.
-				if ($fromemail && !$this->LookupContactOrAccount($fromemail, $ticket_focus->column_fields)) {
-					$ticket_focus = false;
-				}
+				// if ($fromemail && !$this->LookupContactOrAccount($fromemail, $ticket_focus->column_fields)) {
+				// 	$ticket_focus = false;
+				// }
 				if($ticket_focus) {
 					$this->log("Reusing Cached Ticket [" . $ticket_focus->column_fields[ticket_title] ."]");
 				}
@@ -470,9 +470,9 @@ class Vtiger_MailScanner {
 				$ticket_focus->retrieve_entity_info($ticketid, 'HelpDesk');
 				$ticket_focus->id = $ticketid;
 				// Check the parentid association if specified.
-				if ($fromemail && !$this->LookupContactOrAccount($fromemail, $ticket_focus->column_fields)) {
-					$ticket_focus = false;
-				}
+				// if ($fromemail && !$this->LookupContactOrAccount($fromemail, $ticket_focus->column_fields)) {
+				// 	$ticket_focus = false;
+				// }
 				if($ticket_focus) {
 					$this->log("Caching Ticket [" . $ticket_focus->column_fields[ticket_title] . "]");
 					$this->_cachedTickets[$ticketid] = $ticket_focus;

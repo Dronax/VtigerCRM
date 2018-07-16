@@ -40,7 +40,7 @@ class Vtiger_MailScannerAction {
 	var $recordSource = 'MAIL SCANNER';
 
 	/** DEBUG functionality */
-	var $debug		= false;
+	var $debug		= true;
 	function log($message) {
 		global $log;
 		if($log && $this->debug) { $log->debug($message); }
@@ -129,10 +129,9 @@ class Vtiger_MailScannerAction {
 	/**
 	 * Apply the action on the mail record.
 	 */
-	function apply($mailscanner, $mailrecord, $mailscannerrule, $matchresult) {
+	function apply($mailscanner, $mailrecord, $mailscannerrule, $matchresult, $folder) {
 		$returnid = false;
-		$this->log("Action type".$this->actiontype);
-		if($this->actiontype == 'CREATE') {
+		if($this->actiontype == 'CREATE' && strpos($folder, "Sent") == false) {
 			if($this->module == 'HelpDesk') {
 				$returnid = $this->__CreateTicket($mailscanner, $mailrecord,$mailscannerrule);
 			} else if ($this->module == 'Contacts') {
@@ -146,7 +145,7 @@ class Vtiger_MailScannerAction {
 			$returnid = $this->__LinkToRecord($mailscanner, $mailrecord);
 		} else if ($this->actiontype == 'UPDATE') {
 			if ($this->module == 'HelpDesk') {
-				$returnid = $this->__UpdateTicket($mailscanner, $mailrecord, $mailscannerrule->hasRegexMatch($matchresult),$mailscannerrule);
+				$returnid = $this->__UpdateTicket($mailscanner, $mailrecord, $mailscannerrule->hasRegexMatch($matchresult),$mailscannerrule, $folder);
 			}
 		}
 		return $returnid;
@@ -155,10 +154,9 @@ class Vtiger_MailScannerAction {
 	/**
 	 * Update ticket action.
 	 */
-	function __UpdateTicket($mailscanner, $mailrecord, $regexMatchInfo,$mailscannerrule) {
+	function __UpdateTicket($mailscanner, $mailrecord, $regexMatchInfo,$mailscannerrule, $folder) {
 		global $adb;
 		$returnid = false;
-
 		$usesubject = false;
 		if($this->lookup == 'SUBJECT') {
 			// If regex match was performed on subject use the matched group
@@ -168,18 +166,19 @@ class Vtiger_MailScannerAction {
 
 			// Get the ticket record that was created by SENDER earlier
 			$fromemail = $mailrecord->_from[0];
-
 			$linkfocus = $mailscanner->GetTicketRecord($usesubject, $fromemail);
 
-			$commentedBy = $mailscanner->LookupContact($fromemail);
-			if(!$commentedBy) {
-				$commentedBy = $mailscanner->LookupAccount($fromemail);
+			if (strpos($folder, "Sent") == false) {
+				$commentedBy = $mailscanner->LookupContact($fromemail);
+				if(!$commentedBy) {
+					$commentedBy = $mailscanner->LookupAccount($fromemail);
+				}
 			}
 
 			// If matching ticket is found, update comment, attach email
 			if($linkfocus) {
-				$this->log("Ticket Columns");
-				$this->log($linkfocus);
+				$ticketrecord = Vtiger_Record_Model::getInstanceById($linkfocus->id,"HelpDesk");
+				$ticketrecord->set('mode','edit');
 				$commentFocus = new ModComments();
 				$commentFocus->column_fields['commentcontent'] = $mailrecord->getBodyText();
 				$commentFocus->column_fields['related_to'] = $linkfocus->id;
@@ -187,12 +186,15 @@ class Vtiger_MailScannerAction {
 				if($commentedBy) {
 					$commentFocus->column_fields['customer'] = $commentedBy;
 					$commentFocus->column_fields['from_mailconverter'] = 1;
-					$adb->pquery("UPDATE vtiger_troubletickets set status=? WHERE ticketid=?", Array('Received Reply', $linkfocus->id));
+					// $adb->pquery("UPDATE vtiger_troubletickets set status=? WHERE ticketid=?", Array('Received Reply', $linkfocus->id));
+					$ticketrecord->set('ticketstatus', 'Received Reply');
 				} else {
 					// $commentFocus->column_fields['userid'] = $linkfocus->column_fields[''];
 					$commentFocus->column_fields['userid'] = $mailscannerrule->assigned_to;
-					$adb->pquery("UPDATE vtiger_troubletickets set status=? WHERE ticketid=?", Array('Wait For Response', $linkfocus->id));
+					// $adb->pquery("UPDATE vtiger_troubletickets set status=? WHERE ticketid=?", Array('Wait For Response', $linkfocus->id));
+					$ticketrecord->set('ticketstatus', 'Waiting for Response');
 				}
+				$ticketrecord->save();
 				$commentFocus->saveentity('ModComments');
 
 				// Set the ticket status to Open if its Closed
@@ -327,7 +329,7 @@ class Vtiger_MailScannerAction {
 		$ticket = new HelpDesk();
 		$this->setDefaultValue('HelpDesk', $ticket);
 		if(empty($ticket->column_fields['ticketstatus']) || $ticket->column_fields['ticketstatus'] == '?????')
-			$ticket->column_fields['ticketstatus'] = 'Open';
+		$ticket->column_fields['ticketstatus'] = 'Open';
 		$ticket->column_fields['ticket_title'] = $usetitle;
 		$ticket->column_fields['description'] = $description;
 		$ticket->column_fields['assigned_user_id'] = $mailscannerrule->assigned_to;
@@ -422,7 +424,6 @@ class Vtiger_MailScannerAction {
 	 */
 	function __CreateNewEmail($mailrecord, $module, $linkfocus) {
 		global $current_user, $adb;
-		$this->log("HELLOOOO");
 		if(!$current_user) {
 			$current_user = Users::getActiveAdminUser();
 		}
@@ -498,7 +499,7 @@ class Vtiger_MailScannerAction {
 				$document->column_fields['filesize']		= mb_strlen($filecontent, '8bit');
 				$document->column_fields['filestatus']		= 1;
 				$document->column_fields['filelocationtype']= 'I';
-				$document->column_fields['folderid']		= 1; // Default Folder
+				$document->column_fields['folderid']		= 3; // Default Folder
 				$document->column_fields['assigned_user_id']= $userid;
 				$document->column_fields['source']			= $this->recordSource;
 				$document->save('Documents');
